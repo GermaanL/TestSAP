@@ -1,0 +1,471 @@
+[
+    {
+      "pregunta": "¿Qué tipo de arquitectura utiliza SAP Business Workflow? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Monocapa (Single-tier)","Dos capas (Two-tier)","Tres capas (Three-tier)","Cuatro capas (Four-tier)"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuál es el número máximo de pasos posibles en una validación? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["999","566","199","99"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Identifica los campos que no se pueden cambiar al modificar documentos estacionados. Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Moneda","Objetos de imputación (account assignment objects)","Sociedad (company code)","Tipo de documento o número de documento"],
+      "respuestas_correctas": [0,2,3]
+    },
+    {
+      "pregunta": "Cuando creas varios registros maestros de activos similares, ¿cuáles de los siguientes campos permiten hacer entradas separadas para cada activo individual? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Descripción del activo","Número de inventario","Centro de costo","Número de patente"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes pasos forman parte del proceso de configuración del programa de pagos?",
+      "tipo": "multiple",
+      "opciones": ["Configurar las sociedades que pagan","Configurar los métodos de pago para cada sociedad","Configurar el estado del campo de cuenta mayor (G/L) para la entrada de documentos","Configurar los bancos de la casa (house banks)"],
+      "respuestas_correctas": [0,1,3]
+    },
+    {
+      "pregunta": "Identifica algunos campos relacionados con el área de depreciación en el registro maestro del activo. Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Descripción del activo","Valor residual (scrap value)","Vida útil","Inicio de depreciación"],
+      "respuestas_correctas": [1,2,3]
+    },
+    {
+      "pregunta": "¿Cuántos intervalos están definidos para la ejecución de valoración en moneda extranjera (foreign currency valuation run ID) por cliente?",
+      "tipo": "unica",
+      "opciones": ["1","3","0","2"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuál es el primer paso en el proceso de conciliación? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Presentar datos conciliados y no conciliados","Recolectar datos de diferentes compañías","Comunicar diferencias"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes se registran en el programa FAA_DEPRECIATION_POST? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Valores paralelos de APC. (CAP)","Depreciación no planificada o cualquier otra depreciación manualmente planificada","Depreciación ordinaria como depreciación contable o depreciación imputada","Interés imputado"],
+      "respuestas_correctas": [1,2,3]
+    },
+    {
+      "pregunta": "Identifica las razones para archivar datos. Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Reducir el esfuerzo involucrado en la administración de la base de datos.","Usar los datos como respaldo.","Mejorar los tiempos de respuesta y asegurar buenos tiempos de respuesta.","Reducir el tiempo de inactividad del sistema al realizar actualizaciones de software, recuperaciones y respaldos (offline) de la base de datos."],
+      "respuestas_correctas": [0,2,3]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguienteses están incluidas en el Explorador de Activos (Asset Explorer)? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Desglose hacia documentos de Contabilidad Financiera (FI).","Desglose hacia reportes.","Registrar documentos.","Mostrar cálculo de depreciación."],
+      "respuestas_correctas": [0,1,3]
+    },
+    {
+      "pregunta": "Debes ingresar un porcentaje en las condiciones de pago para calcular...",
+      "tipo": "unica",
+      "opciones": ["Descuento por pronto pago","Monto debitado","Descuento en factura","Monto acreditado"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Dónde se crea el documento de facturación? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Gestión de materiales (Materials Management)","Contabilidad financiera (Financial Accounting)","Contabilidad (Accounting)","Ventas y distribución (Sales and Distribution)"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Para cuáles de los siguientes puedes estacionar documentos? Elige las respuestas correctas (2).",
+      "tipo": "multiple",
+      "opciones": ["Factura de ventas","Cuentas de clientes","Cuentas de materiales","Cuentas de libro mayor (General ledger accounts)"],
+      "respuestas_correctas": [1,3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes objetos originales de Controlling (Gestión de Costos) puedes asignar en el registro maestro del activo? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Elemento de costo (Cost element)","Tipo de actividad (Activity type)","Centro de costo.","Orden -> Orden de pedido."],
+      "respuestas_correctas": [1,2,3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes son pasos de la conciliación intercompañías? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Presentación automática de datos conciliados y no conciliados.","Asignación automática de documentos","Conciliación manual y comunicación","Selección de documentos y almacenamiento de datos"],
+      "respuestas_correctas": [1,2,3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes procedimientos están disponibles para verificar el saldo de cuentas por cobrar y pagar en confirmaciones de saldo? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Ajuste de saldo","Notificación de saldo","Solicitud de saldo","Confirmación de saldo"],
+      "respuestas_correctas": [1,2,3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes parámetros son controlados por el diseño de pantalla (screen layout)? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Nivel de mantenimiento (Nivel de Actualización)","Selección de campos","Referencia","Intervalo de número"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes objetos son relevantes para la configuración del programa de requerimiento de pago (dunning program)? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Gastos o cargos","Niveles de dunning","Montos mínimos","Selección de banco"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "¿Cuál es el formato de la clave de sociedad (company code)? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Alfanumérico de ocho dígitos","Alfanumérico de dos dígitos","Alfanumérico de cuatro dígitos","Alfanumérico de seis dígitos"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes actividades realiza el sistema durante la ejecución del pago? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["El sistema registra asientos en el libro mayor (G/L) y en subledger de cuentas por pagar/cobrar.","El sistema compensa partidas abiertas.","El sistema provee los datos necesarios a los programas de impresión.","El sistema exporta una lista de documentos a pagar."],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "Los anticipos recibidos reducen el total de cuál de las siguientes entidades?",
+      "tipo": "unica",
+      "opciones": ["Saldo bancario","Cuentas por cobrar","Inventario","Cuentas por pagar"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál es el primer paso en el principio de variantes? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Definir variante","Crear múltiples variantes","Asignar la variante a los objetos","Determinar valores para la variante"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Un documento tiene varias partidas, con diferentes códigos de motivo ingresados. Para el pago automático, ¿qué tipo de correspondencia elige el sistema?",
+      "tipo": "unica",
+      "opciones": ["La del ítem con el mayor importe","La asignada al grupo de tolerancia","La del primer ítem","El sistema solicita que el usuario asigne uno"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del libro mayor principal que SAP proporciona con el sistema estándar?",
+      "tipo": "unica",
+      "opciones": ["3L","0L","IL","2L"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes procesos logísticos están involucrados en la adquisición de activos con Gestión de Materiales (MM)? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Entrada de mercancías (Goods receipt)","Recepción de inventario","Orden de compra (Crear Pedido)","Requisición de compra (Crear Solicitud de Pedido)"],
+      "respuestas_correctas": [0,2,3]
+    },
+    {
+      "pregunta": "¿Para cuál de las siguientes transacciones puedes usar partidas anotadas (noted items)? (Partidas anotadas = APUNTES ESTADÍSTICOS)",
+      "tipo": "unica",
+      "opciones": ["Pago a proveedor","Solicitud de anticipo","Pago tardío","Pago de cliente"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes datos de control son llevados por las clases de activo? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Determinación de cuentas","Intervalo de numeración","Diseño de pantalla","Tipo de seguro"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes afirmaciones son correctas? Elige las respuestas correctas (2).",
+      "tipo": "multiple",
+      "opciones": ["Una tarea sólo puede asignarse a un único posible procesador (Personas).","Una sociedad puede asignarse a varias variantes de workflow.","La misma variante de workflow puede asignarse a varias sociedades.","Es posible diseñar secuencias de workflow multinivel."],
+      "respuestas_correctas": [2,3]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes puedes usar para múltiples programas con variantes que deben procesarse automáticamente?",
+      "tipo": "unica",
+      "opciones": ["Transacciones en línea (Online transactions)","Plantilla de lista de tareas (Task list template)","Definición de flujo (Flow definition)","Tareas remotas (Remote tasks)"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes campos pueden cambiarse en el encabezado del documento? Elige las respuestas correctas.",
+      "tipo": "multiple",
+      "opciones": ["Número de referencia","Fecha del documento","Texto del encabezado del documento","Tipo de cambio de moneda"],
+      "respuestas_correctas": [0,2]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes segmentos contiene los datos generales de un cliente o proveedor a los que se puede acceder en toda la organización?",
+      "tipo": "unica",
+      "opciones": ["Nivel de cuenta","Nivel de cliente","Sociedad (company code)","Nivel organizativo"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de asiento compensatorio automático?",
+      "tipo": "unica",
+      "opciones": ["Registro de garantía de pago","Solicitud de anticipo","Asiento bancario de anticipo recibido"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuántos períodos de descuento por pronto pago se pueden ingresar en las condiciones de pago?",
+      "tipo": "unica",
+      "opciones": ["2","5","3","8"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Identifica algunas de las verificaciones para archivar cuentas de libro mayor (datos maestros). Elige las respuestas correctas.",
+      "tipo": "multiple",
+      "opciones": ["¿Existen (todavía) cifras de transacción (por ejemplo, ya se han archivado)?","¿Está cerrado el ejercicio fiscal?","¿Existen (todavía) documentos?","¿Se ha establecido un indicador de eliminación?"],
+      "respuestas_correctas": [0,2,3]
+    },
+    {
+      "pregunta": "¿Qué dos reportes deberías usar para crear correspondencia hacia y desde clientes y proveedores para poder verificar el saldo de cuentas por cobrar y pagar? Elige las respuestas correctas.",
+      "tipo": "multiple",
+      "opciones": ["SAPF130D","SAPF130K","SAPF130L","SAPF130E"],
+      "respuestas_correctas": [0,1]
+    },
+    {
+      "pregunta": "¿Cuál estado de campo tiene la prioridad más baja (cuentas de libro mayor)?",
+      "tipo": "unica",
+      "opciones": ["Entrada obligatoria","Visualización","Entradaal","Ocultar"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Para cuál de las siguientes transacciones especiales de libro mayor la aplicación SAP S/4HANA no actualiza las cifras de transacción?",
+      "tipo": "unica",
+      "opciones": ["Partidas anotadas (noted items)","Cuenta de cliente","Cuenta especial de libro mayor","Cuenta de proveedor"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Con el programa de compensación automática, un usuario puede compensar partidas abiertas para cuáles de los siguientes? Elige las respuestas correctas (2).",
+      "tipo": "multiple",
+      "opciones": ["Moneda","Cuentas auxiliares (subledger accounts)","Libro mayor (general ledger)","Indicador especial de libro mayor (special general ledger indicator) (apuntes estadisticos)"],
+      "respuestas_correctas": [1,2]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes grupos de tolerancia debe tener siempre cada sociedad?",
+      "tipo": "unica",
+      "opciones": ["Nombrado","Definido","Especial","En blanco"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes son posibles razones por las que una factura no se pagaría? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["El monto del pago es menor al monto mínimo especificado para un pago.","Se seleccionó un banco de casa inválido.","La factura tiene saldo debitado. (Saldo a favor)","El período de descuento ha expirado."],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "El principio de variantes se usa en SAP S/4HANA para asignar propiedades particulares a uno o más objetos. ¿Cuántos pasos tiene el principio de variantes? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["1","3","5","4"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles son los diferentes grupos de hojas de historial que puede contener cada versión de hojas de historial de activos? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Adquisiciones","Reclasificación (reposting)","Valores contables al final del ejercicio fiscal","Interés imputado"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes métodos definen la clave de depreciación? Elige las respuestas correctas (3).",
+      "tipo": "multiple",
+      "opciones": ["Método multinivel","Método de control del período","Método base","Método de valoración en hoja de activos"],
+      "respuestas_correctas": [0,1,2]
+    },
+    {
+      "pregunta": "Cuando se registran transacciones de adquisiciones, ¿cuál de los siguientes pasos se realiza exclusivamente en Gestión de Materiales? Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Entrada de mercancías (Goods receipt) -> También generan documentos FI","Creación de orden de compra","Recepción de factura -> También generan documentos FI"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál afirmación es correcta para la asignación de número externo (registro manual)?",
+      "tipo": "unica",
+      "opciones": ["El número es ingresado por el usuario.","El número es el último número de documento.","El número se asigna automáticamente.","El número debe asignarse en secuencia."],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Si el programa de eliminación no se ejecuta automáticamente por la configuración en la personalización específica del objeto de archivado, el trabajo de eliminación se inicia cada vez que se crea un archivo de archivado.",
+      "tipo": "unica",
+      "opciones": ["Verdadero", "Falso"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "El SAP Business Workflow tiene _ dimensiones de proceso. Elige la respuesta correcta.",
+      "tipo": "unica",
+      "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes tipos de tareas están disponibles en la aplicación Financial Closing Cockpit?",
+      "tipo": "multiple",
+      "opciones": ["Definición de flujo", "Transacciones en línea", "Tareas remotas", "Plantilla de lista de tareas"],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "Puedes comparar patrones de texto en tus estados usando la palabra clave LIKE.",
+      "tipo": "unica",
+      "opciones": ["Verdadero", "Falso"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Identifica los puntos de llamada que se han proporcionado para Contabilidad Financiera (FI). Elige las respuestas correctas.",
+      "tipo": "multiple",
+      "opciones": ["Área de control", "Unidad organizativa", "Cabecera del documento", "Línea del documento"],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Cuál de los siguientes debe crearse y asignarse a una estructura organizativa antes de que se pueda usar Financial Closing Cockpit?",
+      "tipo": "unica",
+      "opciones": ["Plantilla de lista de tareas", "Definiciones de flujo", "Programas", "Subcarpetas"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "El uso de cuál de los siguientes tipos de depreciación se puede activar por área de depreciación?",
+      "tipo": "multiple",
+      "opciones": ["Depreciación especial", "Depreciación no planificada", "Depreciación ordinaria", "Depreciación programada"],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "Si no hay entrada o si un valor de tiempo de ejecución está vacío, el sistema usa un tiempo de ejecución mínimo de 999 días.",
+      "tipo": "unica",
+      "opciones": ["Verdadero", "Falso"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "En cuál de los siguientes segmentos del maestro de cliente o proveedor se pueden ingresar las condiciones de pago?",
+      "tipo": "multiple",
+      "opciones": ["Segmento de código de empresa", "Segmento de organización de compras", "Segmento de área de ventas", "Segmento a nivel cliente"],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "Identifica los pasos que se realizan durante las operaciones de cierre del libro mayor para el año fiscal.",
+      "tipo": "multiple",
+      "opciones": ["Se valoran los documentos en moneda extranjera", "Se ejecuta el programa de traslado de saldos", "Se contabilizan facturas de proveedores", "Se realizan provisiones"],
+      "respuestas_correctas": [0, 1, 3]
+    },
+    {
+      "pregunta": "Para qué tipo de cuenta generalmente está activa la visualización de partidas individuales?",
+      "tipo": "unica",
+      "opciones": ["Cuenta de conciliación", "Cuenta de cliente", "Cuenta especial del libro mayor", "Cuenta de proveedor"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Los documentos compensados contienen cuál de la siguiente información?",
+      "tipo": "multiple",
+      "opciones": ["Fecha de compensación", "Número de documento de compensación", "Información de archivo", "Fecha de vencimiento"],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "En la valoración de stock, ¿cuáles de los siguientes grupos de existencias se valoran?",
+      "tipo": "multiple",
+      "opciones": ["Mercancías facturadas", "Productos terminados", "Trabajo en proceso", "Materias primas, suministros y consumibles"],
+      "respuestas_correctas": [1, 2, 3]
+    },
+    {
+      "pregunta": "Qué tipos de libro mayor especial existen?",
+      "tipo": "multiple",
+      "opciones": ["Partidas notificadas", "Asientos compensatorios automáticos", "Asientos compensatorios libres", "Pagos finales", "Otros tipos"],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "Cuál es el primer paso en el procedimiento para realizar anticipos en el área de clientes?",
+      "tipo": "unica",
+      "opciones": ["Factura al cliente", "Solicitud de anticipo", "Anticipo recibido", "Compensación"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Cuáles de las siguientes son actividades de cierre de fin de mes para fines externos?",
+      "tipo": "multiple",
+      "opciones": ["Crear informes externos e internos", "Contabilizar salidas de mercancías para entregas a clientes", "Realizar valoraciones en moneda extranjera", "Cerrar el período anterior"],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "Identifica los tres tipos de tolerancias en contabilidad.",
+      "tipo": "multiple",
+      "opciones": ["Grupos de tolerancia para empleados", "Grupos de tolerancia para cuentas especiales", "Grupos de tolerancia para cuentas del libro mayor", "Grupos de tolerancia para clientes/proveedores"],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "En un método de valoración, ¿cuál de los siguientes no es un enfoque de valoración para la valoración en moneda extranjera?",
+      "tipo": "unica",
+      "opciones": ["Principio del valor más bajo", "Solo revalorizar", "Estricto principio del valor más bajo", "Principio de alta tasa de interés"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Cuáles de las siguientes características están incluidas en los informes de desglose del libro mayor?",
+      "tipo": "multiple",
+      "opciones": ["Área de negocio", "Saldo total deudor", "Segmento", "Código de empresa"],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "Cuáles son las dos fases de Activos en Construcción (AuC) que son relevantes para la Contabilidad de Activos?",
+      "tipo": "multiple",
+      "opciones": ["Fase en construcción", "Fase de transferencia de activos", "Fase de vida útil", "Fase contable"],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Qué programa se usa para ingresar provisiones y diferimientos regularmente?",
+      "tipo": "unica",
+      "opciones": ["Programa de diseño", "Agrupación de libros", "Programa de entrada periódica", "Diario compacto de documentos"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Qué opciones puedes usar para cambiar datos maestros de cuentas del libro mayor mediante procesamiento colectivo?",
+      "tipo": "multiple",
+      "opciones": ["Cambiar datos de código de empresa", "Cambiar datos a nivel cliente", "Cambiar descripciones de cuentas", "Cambiar datos del plan de cuentas"],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "Qué verificaciones realiza el programa de cierre de fin de año (RAJABSOO)?",
+      "tipo": "multiple",
+      "opciones": ["Se han revisado las listas de depreciación y la hoja de historial de activos", "Los activos están completos y sin errores", "Las depreciaciones y saldos de activos están contabilizados en su totalidad", "Se ha actualizado el último año fiscal"],
+      "respuestas_correctas": [1, 2]
+    },
+    {
+      "pregunta": "Los clientes que usan la Contabilidad General Clásica pueden usar RFBILAOO para crear un estado financiero en qué niveles organizativos?",
+      "tipo": "multiple",
+      "opciones": ["Nivel segmento", "Nivel área de negocio", "Nivel cliente", "Nivel área de empresa"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Identifica los campos que no pueden cambiarse al modificar documentos aparcados.",
+      "tipo": "multiple",
+      "opciones": ["Código de empresa", "Tipo o número de documento", "Moneda", "Objetos de imputación"],
+      "respuestas_correctas": [1, 2]
+    },
+    {
+      "pregunta": "Para reducir la carga en el sistema, ¿qué se debe hacer con los documentos antiguos que existen en la base de datos?",
+      "tipo": "unica",
+      "opciones": ["Archivar y borrar", "Respaldar y borrar", "Extraer y borrar", "Borrar"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Cuál es el nivel máximo de dunning que se puede asignar a un procedimiento de dunning?",
+      "tipo": "unica",
+      "opciones": ["11", "9", "7", "1"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Qué programa de valoración de moneda extranjera es reemplazado por FAGL_FCV?",
+      "tipo": "unica",
+      "opciones": ["SAPF130K", "FAGL_FC_VALUATION", "SAPF100", "FAGL_VALUATION"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Cuáles de los siguientes métodos se pueden usar para transferir datos heredados de Contabilidad de Activos (FI-AA)?",
+      "tipo": "multiple",
+      "opciones": ["Para grandes cantidades de datos heredados, usar el procedimiento de entrada por lotes", "Para grandes a muy grandes cantidades de datos heredados, usar la transferencia de datos heredados mediante interfaz BAPI", "Para cantidades muy grandes de datos heredados, usar el procedimiento de entrada directa", "Para cantidades manejables de datos heredados, usar la transacción manual AS91 y ABLDT", "Para pequeñas cantidades de datos heredados, usar AS100"],
+      "respuestas_correctas": [1, 4]
+    },
+    {
+      "pregunta": "Qué información se ingresa en el segmento del plan de cuentas de una cuenta del libro mayor?",
+      "tipo": "multiple",
+      "opciones": ["Campos de consolidación", "Campos de control", "Número de cuenta", "Campos de moneda"],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "Identifica los criterios que generalmente diferencian las reglas de cambio de documentos.",
+      "tipo": "multiple",
+      "opciones": ["Tipo de cuenta", "Código de empresa", "Clase de activo", "Partidas abiertas"],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "Cuáles de los siguientes parámetros pueden cambiarse de forma dependiente del tiempo?",
+      "tipo": "multiple",
+      "opciones": ["Clave de depreciación", "Vida útil (año o período)", "Porción variable de depreciación", "Fecha de inicio de depreciación"],
+      "respuestas_correctas": [0, 1, 2]
+    }
+  ]
+  
