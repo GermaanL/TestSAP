@@ -1419,8 +1419,288 @@
         "Solo contabilización de apertura"
       ],
       "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Quieres crear una sustitución en contabilidad financiera. ¿Qué partes debes definir para cada paso de la sustitución? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Chequeo",
+        "Prerrequisito",
+        "Mensaje",
+        "Reemplazo"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Cuál es el orden de configuración dentro del SAP Financial Closing Cockpit?",
+      "tipo": "unica",
+      "opciones": [
+        "Crear una plantilla, crear tareas, definir dependencias, crear una lista de tareas, liberar una lista de tareas",
+        "Definir dependencias, crear plantillas, crear tareas, crear una lista de tareas, liberar una lista de tareas",
+        "Crear lista de tareas, liberar lista de tareas, definir dependencias, crear plantillas, crear tareas",
+        "Crear una plantilla, crear una lista de tareas, crear tareas, definir dependencias, liberar una lista de tareas"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuál es el propósito del plan de depreciación?",
+      "tipo": "unica",
+      "opciones": [
+        "El plan de depreciación define las clases de activos para las cuales puedes crear activos fijos.",
+        "El plan de depreciación sustituye el plan de cuentas operativo en contabilizaciones relacionadas con activos.",
+        "El plan de depreciación es una herramienta de reporte que estructura tus activos para reportes jerárquicos.",
+        "El plan de depreciación facilita la valoración legal específica por país de activos fijos."
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes pasos realizas típicamente al ejecutar la corrida de pagos con el programa automático de pagos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Definir montos máximos a pagar por proveedor",
+        "Revisar la lista de excepciones de la propuesta de pago",
+        "Mantener parámetros de selección de partidas abiertas",
+        "Clasificar cuentas bancarias para el pago"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Estás contabilizando un pago entrante contra una factura. ¿Qué valores del documento controla el grupo de tolerancia del usuario? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "El monto de pago permitido para cada partida abierta del cliente",
+        "El monto total (suma de todas las partidas) permitido para contabilizar",
+        "El monto absoluto del descuento por pronto pago permitido para una partida",
+        "El porcentaje de descuento por pronto pago permitido para el documento completo"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes afirmaciones son válidas para los rangos de números de documentos financieros? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "El mismo rango de números puede asignarse a varios tipos de documentos",
+        "Todos los rangos de números pueden contener números y/o letras",
+        "Los rangos de números deben definirse para el año en que se utilizan",
+        "Los rangos de números definidos a nivel cliente NO deben superponerse",
+        "Los rangos de números se definen a nivel código de empresa"
+      ],
+      "respuestas_correctas": [0, 3, 4]
+    },
+    {
+      "pregunta": "¿Cuáles afirmaciones describen mejor los libros auxiliares (extension ledgers) en SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los libros auxiliares pueden tener monedas diferentes al libro subyacente",
+        "Los libros auxiliares pueden asignarse a su propia variante de período de contabilización",
+        "Múltiples libros auxiliares pueden apuntar al mismo libro subyacente",
+        "Los libros auxiliares pueden asignarse a su propia variante de año fiscal"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Defines el tipo de moneda personalizada Z1 para tu código de empresa. ¿Qué tipos de moneda deben almacenarse en la vista de entrada de datos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Moneda del código de empresa",
+        "Tipo de moneda personalizada",
+        "Moneda objeto",
+        "Moneda del documento"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué edición de SAP S/4HANA presentó la revista Universal?",
+      "tipo": "unica",
+      "opciones": [
+        "SAP Business Suite impulsada por SAP HANA",
+        "SAP S/4HANA 1511",
+        "SAP S/4HANA Cloud",
+        "SAP S/4HANA Finance 1503"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuáles son algunas de las opciones de personalización disponibles para los usuarios en el entorno SAP Fiori Launchpad? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los usuarios pueden eliminar dispositivos que NO usan",
+        "Los usuarios pueden agregar aplicaciones para resultados filtrados de reportes",
+        "Los usuarios pueden agregar aplicaciones del catálogo asignado",
+        "Los usuarios pueden agregar nuevos dispositivos del catálogo asignado",
+        "Los usuarios pueden eliminar aplicaciones que NO usan"
+      ],
+      "respuestas_correctas": [1, 2, 4]
+    },
+    {
+      "pregunta": "Estás creando un registro maestro de activo copiando otro activo y notas que se copia el número de inventario. ¿Qué configuración haces para asegurarte que el número de inventario NO se copie al crear un nuevo activo por copia?",
+      "tipo": "unica",
+      "opciones": [
+        "Quitar el indicador de referencia en el mantenimiento del diseño de pantalla",
+        "Quitar el indicador de activo principal en el mantenimiento del diseño de pantalla",
+        "Quitar el indicador de clase de activo en el mantenimiento del diseño de pantalla",
+        "Quitar el indicador de subnúmero en el mantenimiento del diseño de pantalla"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué pasos son necesarios para crear una sustitución en contabilidad financiera? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Asignar la regla de sustitución al área de control",
+        "Seleccionar el punto de llamada correcto",
+        "Elegir el área de aplicación GL",
+        "Activar la regla de sustitución",
+        "Definir la regla de sustitución con sus diferentes pasos usando el editor de fórmulas"
+      ],
+      "respuestas_correctas": [2, 3, 4]
+    },
+    {
+      "pregunta": "¿Qué campos de un documento de contabilidad financiera influyen en el programa automático de pagos? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Tipo de pago",
+        "Aviso de pago",
+        "Método de pago",
+        "Condiciones de pago",
+        "Bloqueo de pago"
+      ],
+      "respuestas_correctas": [2, 3, 4]
+    },
+    {
+      "pregunta": "Actualmente realizas pagos manuales salientes y quieres usar el programa automático de pagos. ¿Qué configuraciones debes mantener como parte de la configuración del programa automático de pagos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Determinación bancaria",
+        "Indicadores especiales G/L",
+        "Condiciones de pago",
+        "Códigos de empresa que pagan"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "Quieres configurar los procedimientos de cálculo de impuestos. ¿Cuáles son los elementos principales que debes definir? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Código de impuesto",
+        "Tipo de condición",
+        "Cuenta o clave de transacción",
+        "Secuencia de pasos",
+        "Clave de país"
+      ],
+      "respuestas_correctas": [1, 2, 3]
+    },
+    {
+      "pregunta": "¿Cuál es la unidad organizativa recomendada para la contabilidad de costo de ventas?",
+      "tipo": "unica",
+      "opciones": [
+        "Área de negocio",
+        "Área de ventas",
+        "Área de control",
+        "Área funcional"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuál es el propósito de la reorganización de segmentos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Permitir reasignaciones de segmentos",
+        "Permitir la derivación de segmentos",
+        "Permitir la fusión de segmentos",
+        "Permitir la eliminación de segmentos"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Cuáles son los niveles de mantenimiento de una regla de diseño de pantalla para clases de activos?",
+      "tipo": "unica",
+      "opciones": [
+        "Clase de activo, área de depreciación, número principal de activo, grupo de activos",
+        "Área de depreciación, clase de activo, número principal de activo, subnúmero",
+        "Clase de activo, número principal de activo, subnúmero",
+        "Número principal de activo, subnúmero, área de depreciación"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Qué campo puedes cambiar en una factura ya contabilizada?",
+      "tipo": "unica",
+      "opciones": [
+        "Código de impuesto",
+        "Indicador especial G/L",
+        "Centro de costos",
+        "Condiciones de pago"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Quieres definir una validación para la combinación de cuenta mayor y centro de costos. ¿En qué punto de llamada se define esta validación?",
+      "tipo": "unica",
+      "opciones": [
+        "Línea de documento",
+        "Contabilidad de costo de ventas",
+        "Cabecera del documento",
+        "Documento completo"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué debes hacer para configurar un nuevo tipo de tipo de cambio en SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Mantener los tipos de cambio diariamente",
+        "Especificar un propósito para el tipo de cambio",
+        "Configurar la relación entre monedas usando tipos de conversión",
+        "Especificar la cotización directa o indirecta"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué afirmación describe mejor la funcionalidad de anulaciones normales?",
+      "tipo": "unica",
+      "opciones": [
+        "Ejecuta la contabilización inversa aumentando las cifras de la transacción",
+        "Ejecuta la contabilización inversa de un documento compensado antes de restablecerlo",
+        "Ejecuta una contabilización inversa restableciendo las cifras de la transacción",
+        "Ejecuta una contabilización de traspaso restableciendo las cifras de la transacción"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Quieres editar una propuesta de gestión de morosidad. ¿Qué acciones puedes realizar para editarla? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Reducir el nivel de gestión de morosidad de un ítem",
+        "Cambiar los datos de gestión de morosidad de una cuenta",
+        "Bloquear una cuenta",
+        "Bloquear una partida",
+        "Cambiar un documento"
+      ],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "Estás comenzando el proceso de cierre de ejercicio fiscal en Contabilidad de Activos en SAP S/4HANA. ¿Cuáles son las verificaciones del programa de cierre de ejercicio para Contabilidad de Activos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los activos están completos y sin errores",
+        "Los cambios del año fiscal para activos fijos están completos",
+        "La depreciación está contabilizada en su totalidad",
+        "El libro mayor y los sublibros están cerrados"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Para qué indicador especial G/L se especifica un indicador especial de destino G/L?",
+      "tipo": "unica",
+      "opciones": [
+        "Garantía otorgada",
+        "Anticipo de cliente",
+        "Solicitud de anticipo de proveedor",
+        "Letra de cambio"
+      ],
+      "respuestas_correctas": [2]
     }
-    
        
   ]
   

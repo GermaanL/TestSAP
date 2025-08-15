@@ -12,6 +12,7 @@ async function cargarPreguntas() {
     preguntas = await res.json();
 
     const total = preguntas.length;
+    console.log(total)
 
     document.getElementById("infoPreguntas").textContent = `Total de preguntas: ${total}`
 }
