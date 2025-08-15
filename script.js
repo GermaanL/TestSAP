@@ -75,8 +75,15 @@ function enviarRespuesta() {
         respuestasCorrectas++;
         document.getElementById("feedback").innerHTML = '<span class="text-success">✅ Correcto</span>';
     } else {
-        const correctas = p.respuestas_correctas.map(i => p.opciones[i]).join(', ');
-        document.getElementById("feedback").innerHTML = `<span class="text-danger">❌ Incorrecto</span> <br> Respuesta(s) correcta(s): ${correctas}`;
+        const correctas = p.respuestas_correctas
+            .map(i => p.opciones[i])
+            .map(r => `• ${r}`)
+            .join('<br>');
+            document.getElementById("feedback").innerHTML = `
+            <span class="text-danger">❌ Incorrecto</span> 
+            <br>Respuesta(s) correcta(s):<br>
+            ${correctas}
+        `;
     }
 
     document.getElementById("btnEnviar").disabled = true;
