@@ -444,10 +444,10 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "Cuáles de los siguientes métodos se pueden usar para transferir datos heredados de Contabilidad de Activos (FI-AA)? (2 respuestas correctas)",
+    "pregunta": "Cuáles de los siguientes métodos se pueden usar para transferir datos heredados de Contabilidad de Activos (FI-AA)? (3 respuestas correctas)",
     "tipo": "multiple",
     "opciones": ["Para grandes cantidades de datos heredados, usar el procedimiento de entrada por lotes", "Para grandes a muy grandes cantidades de datos heredados, usar la transferencia de datos heredados mediante interfaz BAPI", "Para cantidades muy grandes de datos heredados, usar el procedimiento de entrada directa", "Para cantidades manejables de datos heredados, usar la transacción manual AS91 y ABLDT", "Para pequeñas cantidades de datos heredados, usar AS100"],
-    "respuestas_correctas": [1, 4]
+    "respuestas_correctas": [1, 3, 4]
   },
   {
     "pregunta": "Qué información se ingresa en el segmento del plan de cuentas de una cuenta del libro mayor? (3 respuestas correctas)",
