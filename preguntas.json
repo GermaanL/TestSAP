@@ -906,7 +906,521 @@
         "Claves de contabilización"
       ],
       "respuestas_correctas": [0, 3]
-    }  
+    },
     
+    {
+      "pregunta": "¿Qué información verifica el sistema antes de archivar una cuenta de mayor?",
+      "tipo": "unica",
+      "opciones": [
+        "El indicador de gestión de partidas abiertas está activado en los datos maestros",
+        "El indicador de marcar para borrado está activado en los datos maestros",
+        "El indicador de bloqueo para contabilización está activado en los datos maestros",
+        "La cuenta grupo asignada ya está archivada"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Quieres abrir rápidamente el balance para el código de compañía del que eres responsable desde SAP Fiori Launchpad. ¿Qué puedes crear para lograr esto?",
+      "tipo": "unica",
+      "opciones": [
+        "Área funcional",
+        "Segmento",
+        "Centro de costo",
+        "Área de negocio"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Quieres contabilizar asientos en un período especial. ¿Qué condiciones deben cumplirse? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "El período especial debe estar abierto para contabilización en el control de períodos.",
+        "Debes tener autorización específica para contabilizar en períodos especiales.",
+        "El traslado del saldo al nuevo año fiscal debe haberse realizado.",
+        "Debes ingresar una fecha de contabilización en el último período de contabilización."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Cómo puedes realizar transferencias de activos entre códigos de empresa con diferentes planes de depreciación?",
+      "tipo": "unica",
+      "opciones": [
+        "Configurar áreas de depreciación entre empresas en la personalización.",
+        "Corregir la asignación de área de depreciación en la ficha de activo después de contabilizar.",
+        "Asignar el plan de depreciación grupal a los activos fijos relevantes.",
+        "Ingresar el mapeo de áreas de depreciación durante la contabilización de transferencia entre empresas."
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Eres responsable de implementar Contabilidad de Activos. Te proporcionan datos heredados de varios activos y su agrupación basada en categoría, vida y términos de depreciación. ¿Qué paso de configuración iniciarías para mantener estas categorías en SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": [
+        "Definir cuentas de mayor para cada categoría de activo heredado.",
+        "Configurar claves de depreciación y claves de cálculo.",
+        "Definir clases de activo y mantener sus atributos.",
+        "Copiar el plan de depreciación y mantener áreas de depreciación."
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "El gobierno anuncia un cambio en el porcentaje básico de IVA de 20% a 18%. ¿Qué debes hacer en el sistema para cumplir?",
+      "tipo": "unica",
+      "opciones": [
+        "Cambiar el porcentaje de impuesto para códigos de impuestos de entrada y salida al 18%.",
+        "Cambiar el porcentaje de impuesto para los códigos de impuesto de entrada existentes al 18%.",
+        "Crear nuevos códigos de impuesto con 18% para impuestos de entrada.",
+        "Crear nuevos códigos de impuesto con 18% para impuestos de entrada y salida."
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Tu cliente usa una variante de período contable con períodos especiales y necesitas permitir a usuarios específicos contabilizar en esos períodos especiales. ¿Qué asignas en la variante de período contable?",
+      "tipo": "unica",
+      "opciones": [
+        "Un grupo de autorización para los intervalos de período 1 y 2",
+        "Un grupo de autorización para el intervalo de período 2",
+        "Un grupo de autorización para los intervalos de período 2 y 3",
+        "Un grupo de autorización para el intervalo de período 1"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué campo puedes modificar en una factura contabilizada?",
+      "tipo": "unica",
+      "opciones": [
+        "Centro de costo",
+        "Condiciones de pago",
+        "Código de impuesto",
+        "Indicador especial de G/L"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué actividades soporta el programa de reagrupar cuentas por cobrar y por pagar?",
+      "tipo": "multiple",
+      "opciones": [
+        "Reagrupar y compensar partidas abiertas para compañías afiliadas en clientes y proveedores",
+        "Reagrupar cuentas por cobrar y por pagar según su vida restante",
+        "Reagrupar cuentas por cobrar y por pagar a ingresos o gastos devengados",
+        "Reagrupar partidas abiertas basadas en cuentas de compensación cambiadas"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Cuando contabilizas un pago manual entrante, ¿qué parámetros son válidos para todos los documentos de pago? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Cuenta bancaria",
+        "Partida residual",
+        "Grupo de tolerancia",
+        "Tipo de asiento"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes tipos de baja se refiere a chatarreo?",
+      "tipo": "unica",
+      "opciones": [
+        "Baja completa integrada de activo",
+        "Depreciación no planificada del valor restante",
+        "Baja parcial sin ingreso y sin cliente",
+        "Baja completa con ingreso pero sin cliente"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Necesitas hacer obligatorio el campo texto de partidas durante la entrada de documentos. ¿Qué objetos debes analizar para cumplir esta solicitud? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Cuenta mayor",
+        "Grupo de cuentas",
+        "Clave de contabilización",
+        "Tipo de documento"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes líneas de producto usa SAP S/4HANA para la mayoría de las funciones de gestión de recursos humanos?",
+      "tipo": "unica",
+      "opciones": [
+        "SAP Ariba",
+        "Concur",
+        "SAP Hybris",
+        "SAP SuccessFactors"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Qué característica del socio de negocios se asigna a los grupos de cuentas de clientes y proveedores?",
+      "tipo": "unica",
+      "opciones": [
+        "Rol del socio de negocios",
+        "Categoría del socio de negocios",
+        "Tipo de socio de negocios",
+        "Agrupación de socio de negocios"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Quieres crear una sustitución en Finanzas. ¿Qué partes debes definir para cada paso de la sustitución? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Condición (Check)",
+        "Reemplazo",
+        "Mensaje",
+        "Prerrequisito"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Cuáles son los pilares del paradigma de experiencia de usuario SAP Fiori? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Responsive (adaptable)",
+        "Basado en el usuario",
+        "Simple",
+        "Basado en roles",
+        "Vibrante"
+      ],
+      "respuestas_correctas": [1, 2, 3]
+    },
+    {
+      "pregunta": "¿A qué nivel se asigna el programa de impresión al tipo de correspondencia?",
+      "tipo": "unica",
+      "opciones": [
+        "Solo a nivel de código de empresa",
+        "A nivel de cliente o código de empresa",
+        "A nivel de sistema",
+        "Solo a nivel de cliente"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "Te preparas para contabilizar tu primer documento simple en el ambiente de prueba usando la app SAP Fiori para contabilización. ¿Qué elementos de configuración necesitas preparar? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Debe crearse y asignarse una variante de período contable",
+        "Deben mantenerse tipos de impuesto y códigos de impuesto",
+        "Deben mantenerse plantillas de texto de partidas",
+        "Deben mantenerse rangos de números y tipos de documento"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Comienzas el proceso de cierre de año fiscal en Contabilidad de Activos en SAP S/4HANA. ¿Cuáles son las verificaciones del programa de cierre de año para Contabilidad de Activos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los activos están completos y sin errores.",
+        "El cambio de año fiscal para activos fijos está completo.",
+        "La depreciación está contabilizada en su totalidad.",
+        "El libro mayor y sublibros están cerrados."
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Después de recolectar datos en la herramienta de Reconciliación Intercompañías, ¿cuáles son los siguientes pasos del proceso de reconciliación?",
+      "tipo": "unica",
+      "opciones": [
+        "1. Almacenar datos, 2. Presentar datos reconciliados y no reconciliados, 3. Comunicar diferencias, 4. Contabilizar documentos de corrección",
+        "1. Contabilizar documentos de corrección, 2. Almacenar datos, 3. Presentar datos reconciliados y no reconciliados, 4. Comunicar diferencias",
+        "1. Almacenar datos, 2. Presentar datos reconciliados y no reconciliados, 3. Contabilizar documentos de corrección, 4. Comunicar diferencias",
+        "1. Presentar datos reconciliados y no reconciliados, 2. Contabilizar documentos de corrección, 3. Almacenar datos, 4. Comunicar diferencias"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué tipos estándar de moneda deben usarse al configurar la moneda para códigos de empresa? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Moneda del código de empresa",
+        "Moneda del área de control",
+        "Moneda del grupo",
+        "Moneda del documento"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Cuáles son algunos beneficios de SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los datos se agregan al vuelo desde cualquier tabla de partidas.",
+        "Los datos se resumen en niveles superiores de agregados para mejorar el rendimiento del sistema.",
+        "Los datos están disponibles en tiempo real a nivel detalle de partidas.",
+        "Los datos se analizan después de ser extraídos y cargados en el sistema de reportes."
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Eres responsable de configurar el desglose de documentos (document splitting). ¿Cuáles son algunas configuraciones clave? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Variante de estado de campo",
+        "Variante de transacción de negocio",
+        "Rango de número de documento",
+        "Tipo de documento"
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Qué datos relacionados con dunning mantienes en el registro maestro del socio de negocios? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Procedimiento de dunning",
+        "Bloqueo de dunning",
+        "Clave de dunning",
+        "Área de dunning",
+        "Intervalo de dunning"
+      ],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "¿Qué requisitos debes cumplir para usar el envejecimiento de datos (data aging) en Finanzas en SAP S/4HANA? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Activar aging en SAP HANA.",
+        "Definir la ruta lógica de archivos como ruta global para aging de datos.",
+        "Añadir autorizaciones necesarias para aging de datos a tu rol.",
+        "Activar la función de negocio de aging de datos.",
+        "Activar aging de datos para tu código de empresa."
+      ],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "¿Cómo reduce SAP S/4HANA la complejidad del sistema y mejora la eficiencia? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Eliminando el código de aplicación que maneja agregados e índices.",
+        "Proporcionando código de aplicación que maneja agregados e índices.",
+        "Proporcionando vistas de datos en tiempo de ejecución desde las mismas tablas fuente.",
+        "Eliminando vistas de datos en tiempo de ejecución desde las mismas tablas fuente."
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Eres un gerente de caja grupal interesado en el mercado norteamericano. ¿Qué opciones de personalización tienes en SAP Fiori? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Puedes crear una app que te lleve directamente a la posición de caja del mercado norteamericano.",
+        "Puedes crear un grupo de tiles con todas las apps requeridas para tu trabajo diario para acceso fácil.",
+        "Puedes adaptar el tema de color del launchpad según valores predefinidos para el reporte de caja.",
+        "Puedes crear acceso a apps relevantes para el grupo de cuentas por pagar norteamericano que reporta a ti."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Cuáles afirmaciones describen mejor un centro de beneficio? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Es el único objeto del que se pueden derivar segmentos de manera uniforme.",
+        "Debe usarse simultáneamente con segmentos para crear balances y estados de resultados separados.",
+        "Es el único objeto que puede derivarse uniformemente usando segmentos.",
+        "Es un elemento para el que se pueden crear balances y estados de resultados separados."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Cuál es el propósito de la reorganización de segmentos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Permite eliminar segmentos.",
+        "Permite fusionar segmentos.",
+        "Permite la derivación de segmentos.",
+        "Permite la reasignación de segmentos."
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Cuáles son algunas características de SAP HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "SAP HANA permite procesamiento transaccional y analítico en las mismas tablas.",
+        "SAP HANA está optimizado para organizar datos usando almacenes columnar.",
+        "SAP HANA está construido sobre un modelo de datos jerárquico.",
+        "SAP HANA está optimizado para trabajar con tablas de agregados e índices."
+      ],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "Estás configurando áreas de depreciación en Contabilidad de Activos. ¿Cuál de las siguientes configuraciones NO está permitida?",
+      "tipo": "unica",
+      "opciones": [
+        "Área contabiliza solo depreciación",
+        "Área no contabiliza",
+        "Área contabiliza solo revalorización",
+        "Área contabiliza en tiempo real"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Te piden configurar bancos casa (house banks). ¿Qué información necesitas? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Datos maestros del banco",
+        "Cuenta de proveedor",
+        "Método de pago",
+        "Código de empresa",
+        "Cuenta de mayor"
+      ],
+      "respuestas_correctas": [0, 3, 4]
+    },
+    {
+      "pregunta": "¿Qué parámetro indica que una partida solo puede ser objeto de dunning con restricciones?",
+      "tipo": "unica",
+      "opciones": [
+        "Agrupamiento de dunning",
+        "Clave de dunning",
+        "Área de dunning",
+        "Motivo de bloqueo de dunning"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué hace el desglose de documentos?",
+      "tipo": "unica",
+      "opciones": [
+        "Enriquece todas las líneas de cuentas de elemento de costo secundario con características de desglose definidas.",
+        "Enriquece todas las líneas relevantes de cuentas de balance con características de desglose definidas.",
+        "Enriquece todas las líneas de cuentas de ingresos con características de desglose definidas.",
+        "Enriquece todas las líneas de cuentas de pérdidas y ganancias con características de desglose definidas."
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Debes realizar valoración en moneda extranjera para US GAAP e IFRS, que genera valores diferentes para ambos principios contables. ¿Cómo configuras esto?",
+      "tipo": "unica",
+      "opciones": [
+        "Definir dos áreas de valoración y dos principios contables con vínculos relevantes a libros mayores.",
+        "Definir un área de valoración y grupo de libros para dos libros mayores vinculados al área de valoración nueva.",
+        "Definir dos métodos de valoración y asignar los principios contables a esos métodos nuevos.",
+        "Definir un área de valoración y libro de extensión para vincular con el área de valoración nueva."
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Qué defines al configurar clases de activo? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Reglas de diseño de pantalla",
+        "Rangos de números",
+        "Determinación de cuentas",
+        "Claves de contabilización",
+        "Versión de estado financiero"
+      ],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "¿Cuáles son algunas opciones de personalización disponibles para usuarios en su entorno SAP Fiori launchpad? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Los usuarios pueden eliminar aplicaciones que NO usan",
+        "Los usuarios pueden agregar aplicaciones para resultados de reportes filtrados",
+        "Los usuarios pueden agregar aplicaciones del catálogo asignado",
+        "Los usuarios pueden eliminar dispositivos que NO usan",
+        "Los usuarios pueden agregar nuevos dispositivos del catálogo asignado"
+      ],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "¿Cuál es el orden de configuración dentro del SAP Financial Closing Cockpit?",
+      "tipo": "unica",
+      "opciones": [
+        "Crear plantilla, crear lista de tareas, crear tareas, definir dependencias, liberar lista de tareas",
+        "Definir dependencias, crear plantilla, crear tareas, crear lista de tareas, liberar lista de tareas",
+        "Crear lista de tareas, liberar lista de tareas, definir dependencias, crear plantilla, crear tareas",
+        "Crear plantilla, crear tareas, definir dependencias, crear lista de tareas, liberar lista de tareas"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuál es el propósito del intervalo de período 3 cuando defines períodos abiertos y cerrados?",
+      "tipo": "unica",
+      "opciones": [
+        "Se usa para bloqueo de período en libro especial",
+        "Se usa para contabilización de CO a FI",
+        "Se usa para contabilización en períodos especiales",
+        "Se usa para el objeto de autorización para períodos contables"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor cómo se desarrollan los Core Data Services (CDS)?",
+      "tipo": "unica",
+      "opciones": [
+        "Se desarrollan en la capa ABAP del sistema SAP S/4HANA por el usuario final de analítica.",
+        "Se desarrollan en la capa de base de datos SAP HANA por el usuario IT.",
+        "Se desarrollan en la capa de base de datos SAP HANA por el usuario clave de analítica.",
+        "Se desarrollan en la capa ABAP del sistema SAP S/4HANA por el usuario IT."
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cómo se manejan las áreas de depreciación en SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Asignar un grupo de libros a cada área de depreciación.",
+        "Asegurar que cada principio contable esté asignado a un área de depreciación.",
+        "Asignar el área de depreciación 01 al libro líder.",
+        "Asegurar que las áreas de depreciación siempre contabilicen al libro mayor."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué actividades de cierre se usan en reportes externos según las mejores prácticas de SAP? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Realizar valoraciones de partidas abiertas en moneda extranjera.",
+        "Ejecutar el ciclo de evaluación de centros de costo planificados.",
+        "Reclasificar cuentas por cobrar y por pagar.",
+        "Actualizar estimaciones de costos de producto."
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Qué elementos definen la integración de adquisiciones de activos al libro mayor? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Claves de depreciación",
+        "Área de valoración",
+        "Clase de activo",
+        "Área de depreciación"
+      ],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Quieres definir una validación para la combinación cuenta mayor y centro de costo. ¿Para qué punto de llamada está definida esta validación?",
+      "tipo": "unica",
+      "opciones": [
+        "Documento completo",
+        "Línea del documento",
+        "Contabilidad de costos de ventas",
+        "Cabecera del documento"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles son receptores válidos para liquidar un activo en construcción en base inicial? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Centro de costo",
+        "Centro de beneficio",
+        "Área funcional",
+        "Activo fijo"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "Configuras tipos de devengos para el motor de devengos. ¿Para qué contabilizaciones se requiere la determinación de cuentas? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Solo contabilización de cierre",
+        "Solo periódicos",
+        "Solo contabilizaciones de apertura y cierre",
+        "Solo contabilización de apertura"
+      ],
+      "respuestas_correctas": [1, 3]
+    }
+    
+       
   ]
   

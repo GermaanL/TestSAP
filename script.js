@@ -10,6 +10,10 @@ let tiempoInicioExamen = 0;
 async function cargarPreguntas() {
     const res = await fetch('preguntas.json');
     preguntas = await res.json();
+
+    const total = preguntas.length;
+
+    document.getElementById("infoPreguntas").textContent = `Total de preguntas: ${total}`
 }
 
 function iniciarExamen() {
