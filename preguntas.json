@@ -266,7 +266,7 @@
     {
       "pregunta": "Cuando se registran transacciones de adquisiciones, ¿cuál de los siguientes pasos se realiza exclusivamente en Gestión de Materiales? Elige la respuesta correcta.",
       "tipo": "unica",
-      "opciones": ["Entrada de mercancías (Goods receipt) -> También generan documentos FI","Creación de orden de compra","Recepción de factura -> También generan documentos FI"],
+      "opciones": ["Entrada de mercancías (Goods receipt)","Creación de orden de compra","Recepción de factura"],
       "respuestas_correctas": [1]
     },
     {
@@ -466,6 +466,90 @@
       "tipo": "multiple",
       "opciones": ["Clave de depreciación", "Vida útil (año o período)", "Porción variable de depreciación", "Fecha de inicio de depreciación"],
       "respuestas_correctas": [0, 1, 2]
-    }
+    },
+    {
+      "pregunta": "¿Qué requisitos debes cumplir para usar el envejecimiento de datos (data aging) en Finanzas en SAP S/4HANA?",
+      "tipo": "multiple",
+      "opciones": ["Activar aging en SAP HANA", "Definir la ruta lógica de archivos como ruta global para aging de datos", "Añadir autorizaciones necesarias para aging de datos a tu rol", "Activar la función de negocio de aging de datos", "Activar aging de datos para tu código de empresa"],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "¿En qué base determina el sistema el período para la baja del activo?",
+      "tipo": "unica",
+      "opciones": ["Valor neto contable", "Fecha de valoración del activo (fecha de baja del activo)"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes afirmaciones aplican a los tipos de libro mayor especial de ítems anotados?",
+      "tipo": "multiple",
+      "opciones": ["No se pueden crear indicadores propios de libro mayor especial de este tipo", "No se realizan contabilizaciones en una cuenta compensatoria", "La cuenta para la contabilización compensatoria se selecciona automáticamente", "Los ítems anotados se contabilizan en una cuenta de compensación alternativa", "No se realiza verificación de saldo cero en el sistema"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Qué debe verificar si el saldo de la cuenta GR/IR no es cero a nivel del ítem de la orden de compra en la fecha clave del balance?",
+      "tipo": "multiple",
+      "opciones": ["Verifique si las mercancías fueron entregadas para la fecha clave, pero aún no han sido facturadas", "Verifique si las mercancías fueron producidas para la fecha clave, pero no han sido facturadas", "Verifique si las mercancías fueron ordenadas para la fecha clave, pero no han sido recibidas", "Verifique si las mercancías fueron facturadas para la fecha clave, pero aún no han sido entregadas"],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué funciones permiten guardar temporalmente los datos ingresados?",
+      "tipo": "multiple",
+      "opciones": ["Función de estacionamiento (parking)", "Función de retención (hold)", "Función insertar", "Función guardar (save)"],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "Identifique las áreas de aplicación donde se pueden usar validaciones y sustituciones.",
+      "tipo": "multiple",
+      "opciones": ["SD - Ventas y Distribución", "CO - Controlling", "AA - Contabilidad de Activos", "FI - Contabilidad Financiera"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Su cliente quiere comenzar a usar soluciones SAP S/4HANA line-of-business. ¿Cuáles de estas soluciones ayudan a gestionar procesos de recursos humanos?",
+      "tipo": "multiple",
+      "opciones": ["SAP Hybris", "SAP SuccessFactors", "SAP Concur", "SAP Fieldglass"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Qué secciones de datos forman parte de cada clase de activo?",
+      "tipo": "multiple",
+      "opciones": ["Sección de datos de depreciación", "Sección de datos de área de valoración", "Sección de datos maestros", "Sección de determinación de cuentas"],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Su cliente quiere usar el envejecimiento de datos para el diario universal. ¿Qué criterios puede usar para decidir qué datos se mueven a la partición histórica?",
+      "tipo": "multiple",
+      "opciones": ["Libro mayor", "Tipo de cuenta", "Código de empresa", "Tipo de documento"],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Dónde puede un usuario final de SAP Fiori cambiar el tema de su launchpad?",
+      "tipo": "unica",
+      "opciones": ["En el área de grupos de tiles del diseñador de launchpad", "En el área de catálogo de tiles del diseñador de launchpad", "En el diseñador de temas UI", "En el área “Me” del launchpad"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuáles son los niveles de mantenimiento de una regla de diseño de pantalla para clases de activos?",
+      "tipo": "unica",
+      "opciones": ["Clase de activo, número principal de activo, subnúmero", "Número principal de activo, subnúmero, área de depreciación", "Clase de activo, área de depreciación, número principal de activo, grupo de activo", "Área de depreciación, clase de activo, número principal de activo, subnúmero"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué datos mantiene en las secciones de plan de cuentas de una cuenta del libro mayor?",
+      "tipo": "unica",
+      "opciones": ["Datos de autorización", "Datos de consolidación", "Datos de conciliación", "Datos de usuario"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuándo puede establecer el indicador de gestión de partidas abiertas en una cuenta de libro mayor?",
+      "tipo": "multiple",
+      "opciones": ["Cuando una cuenta requiere ser compensada", "Cuando una cuenta se establece como elemento de coste", "Cuando una cuenta tiene saldo cero", "Cuando una cuenta se usa como cuenta de conciliación"],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "El desglose de documentos está activo en su código de empresa. La característica de desglose es el centro de beneficios. Todas las cuentas están asignadas. Usted contabiliza una factura de proveedor con un solo gasto asignado a diferentes centros de beneficios. El gasto se cambia con un IVA del 10%. ¿Cuántas partidas se crean en la vista de entrada y cuántas en la vista de libro mayor?",
+      "tipo": "unica",
+      "opciones": ["Vista de entrada: 3 Vista de libro mayor: 9", "Vista de entrada: 5 Vista de libro mayor: 7", "Vista de entrada: 3 Vista de libro mayor: 7", "Vista de entrada: 5 Vista de libro mayor: 9"],
+      "respuestas_correctas": [3]
+    }    
   ]
   
