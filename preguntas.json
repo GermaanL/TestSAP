@@ -420,10 +420,10 @@
       "respuestas_correctas": [1, 3]
     },
     {
-      "pregunta": "Identifica los campos que no pueden cambiarse al modificar documentos aparcados.",
+      "pregunta": "Identifica los campos que no pueden cambiarse al modificar documentos aparcados.(3)",
       "tipo": "multiple",
       "opciones": ["Código de empresa", "Tipo o número de documento", "Moneda", "Objetos de imputación"],
-      "respuestas_correctas": [1, 2]
+      "respuestas_correctas": [0,1, 2]
     },
     {
       "pregunta": "Para reducir la carga en el sistema, ¿qué se debe hacer con los documentos antiguos que existen en la base de datos?",
@@ -550,6 +550,363 @@
       "tipo": "unica",
       "opciones": ["Vista de entrada: 3 Vista de libro mayor: 9", "Vista de entrada: 5 Vista de libro mayor: 7", "Vista de entrada: 3 Vista de libro mayor: 7", "Vista de entrada: 5 Vista de libro mayor: 9"],
       "respuestas_correctas": [3]
-    }    
+    },
+    {
+      "pregunta": "¿A qué nivel se almacenan los datos maestros bancarios en SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": [
+        "Nivel de empresa",
+        "Nivel de cliente (client)",
+        "Nivel de área de control",
+        "Nivel de código de empresa"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué parámetros puede especificar al crear un nuevo tipo de correspondencia? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Se requiere número de documento",
+        "Se requiere código de empresa",
+        "Se requiere cuenta",
+        "Se requiere código de motivo",
+        "Se requieren campos de fecha"
+      ],
+      "respuestas_correctas": [0, 2, 3]
+    },
+    {
+      "pregunta": "¿Qué prerrequisitos deben cumplirse para usar contabilizaciones negativas? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "El código de empresa debe permitir contabilizaciones negativas.",
+        "El motivo de reversión debe permitir fechas alternativas de contabilización.",
+        "El motivo de reversión debe permitir contabilizaciones negativas.",
+        "La clave de contabilización debe permitir contabilizaciones negativas."
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "¿Qué hace el programa de cierre de ejercicio en Contabilidad de Activos? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Bloquea todas las contabilizaciones en Contabilidad de Activos para ejercicios cerrados.",
+        "Contabiliza toda la depreciación pendiente y el interés imputado.",
+        "Verifica si la depreciación está contabilizada completamente para el ejercicio fiscal.",
+        "Compensa todos los activos en construcción con valores y reglas de compensación mantenidas.",
+        "Indica si alguno de los registros maestros de activos creados contiene errores o está incompleto."
+      ],
+      "respuestas_correctas": [0, 2, 4]
+    },
+    {
+      "pregunta": "En Contabilidad de Activos, ¿qué objeto se usa para manejar valoraciones separadas para contabilidad paralela?",
+      "tipo": "unica",
+      "opciones": [
+        "Área de valoración",
+        "Plan de depreciación",
+        "Área de depreciación",
+        "Clave de depreciación"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Qué prerrequisitos deben cumplirse para permitir contabilizaciones negativas de asientos contables? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "La clave de contabilización debe permitir contabilizaciones negativas.",
+        "El motivo de reversión debe estar configurado para permitir contabilizaciones negativas.",
+        "El código de empresa debe permitir contabilizaciones negativas.",
+        "Las cuentas de reversión deben estar configuradas para permitir contabilizaciones negativas."
+      ],
+      "respuestas_correctas": [1, 2]
+    },
+    {
+      "pregunta": "¿Qué producto tecnológico SAP proporciona la plataforma requerida para que SAP apoye la transformación digital de una organización?",
+      "tipo": "unica",
+      "opciones": [
+        "SAP HANA",
+        "SAP NetWeaver",
+        "SAP CRM",
+        "SAP Fiori"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué información se proporciona al ejecutar la auditoría del balance?",
+      "tipo": "unica",
+      "opciones": [
+        "Lista de cambios en campos sensibles mantenidos en cuentas del libro mayor",
+        "Saldos abiertos de cuentas de clientes y proveedores",
+        "Saldo inicial y cambios anuales en el saldo de una cuenta del libro mayor",
+        "Comparación de saldos de cuentas del libro mayor entre libros"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Su cliente quiere que los valores de un grupo especial de activos se muestren por separado en el libro mayor. ¿Qué objetos crea en la personalización para Contabilidad de Activos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Clase de activo",
+        "Área de depreciación",
+        "Clave de determinación de cuentas",
+        "Versión del estado financiero"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "En el escenario integrado para pagos anticipados, ¿en qué paso del proceso se ingresa la información del pago anticipado?",
+      "tipo": "unica",
+      "opciones": [
+        "Creación de recibo de mercancías",
+        "Creación de orden de compra",
+        "Verificación de factura",
+        "Monitoreo de pagos anticipados"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué opciones de despliegue existen para SAP S/4HANA? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Despliegue ágil",
+        "Despliegue con hub central",
+        "Despliegue en la nube",
+        "Despliegue on-premise",
+        "Despliegue híbrido"
+      ],
+      "respuestas_correctas": [2, 3, 4]
+    },
+    {
+      "pregunta": "¿Qué secuencia de pasos permite una comparación de tres vías en transacciones de aprovisionamiento?",
+      "tipo": "unica",
+      "opciones": [
+        "Solicitud de pedido, recibo de mercancías, recepción de factura",
+        "Solicitud de pedido, orden de compra, recibo de mercancías",
+        "Orden de compra, solicitud de pedido, recepción de factura",
+        "Orden de compra, recepción de factura, recibo de mercancías"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿En qué nivel de unidad organizativa se define un plan de depreciación?",
+      "tipo": "unica",
+      "opciones": [
+        "Clase de activo",
+        "Código de empresa",
+        "Cliente (client)",
+        "Plan de cuentas"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Cuáles son las características del motor de devengamientos en SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Se soporta la variante de año fiscal del libro mayor.",
+        "No se soporta la reversión FI.",
+        "No son posibles contabilizaciones complejas con más de dos partidas.",
+        "Se soportan todas las monedas del libro mayor."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué campos se pueden editar antes de contabilizar un documento estacionado? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Cuenta",
+        "Tipo de documento",
+        "Moneda",
+        "Importe",
+        "Fecha de contabilización"
+      ],
+      "respuestas_correctas": [0, 3, 4]
+    },
+    {
+      "pregunta": "¿Cuál es el orden correcto de pasos cuando se usa el SAP Financial Closing Cockpit?",
+      "tipo": "unica",
+      "opciones": [
+        "Crear tareas > Definir dependencias > Crear plantilla > Crear lista de tareas > Liberar lista de tareas",
+        "Crear tareas > Definir dependencias > Crear lista de tareas > Crear plantilla > Liberar lista de tareas",
+        "Crear plantilla > Crear tareas > Definir dependencias > Crear lista de tareas > Liberar lista de tareas",
+        "Crear plantilla > Crear tareas > Crear lista de tareas > Definir dependencias > Liberar lista de tareas"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Su cliente quiere que los números de documento para dos tipos de documento separados compartan el mismo rango de números. ¿Cómo puede lograrlo?",
+      "tipo": "unica",
+      "opciones": [
+        "Definiendo un área de valoración y un grupo de libros para dos libros vinculados con la nueva área de valoración.",
+        "Definiendo un área de valoración y un libro de extensión para vincular con la nueva área de valoración.",
+        "Definiendo dos métodos de valoración y asignando los principios contables a los nuevos métodos de valoración.",
+        "Definiendo dos áreas de valoración y dos principios contables con enlaces relevantes a libros."
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "SAP HANA hace un uso extensivo de qué tecnología de hardware de alta velocidad para ofrecer mayor rapidez?",
+      "tipo": "unica",
+      "opciones": [
+        "Memoria de solo lectura (ROM)",
+        "Unidades de procesamiento gráfico (GPUs)",
+        "CPUs multinúcleo",
+        "Unidades de estado sólido (SSDs)"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Usted usa el enfoque de libro mayor para contabilidad paralela en Contabilidad de Activos. El área de depreciación 01 está asignada al libro principal para valoración principal y el área de depreciación 32 está asignada al libro no principal para valoración paralela. ¿Qué opción de contabilización debe elegir para el área de depreciación 32?",
+      "tipo": "unica",
+      "opciones": [
+        "El área contabiliza solo depreciación",
+        "El área contabiliza en tiempo real",
+        "El área no contabiliza",
+        "El área contabiliza APC inmediatamente, depreciación periódicamente"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué actividades puede realizar con un asiento contable recurrente? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Determinar el número de contabilizaciones.",
+        "Crear contabilizaciones mensuales en cualquier fecha del mes.",
+        "Establecer reglas para distribuir importes a contabilizar.",
+        "Obtener una visión general de contabilizaciones futuras relacionadas."
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Para qué indicador especial de libro mayor se especifica un indicador especial de libro mayor destino?",
+      "tipo": "unica",
+      "opciones": [
+        "Pago anticipado de cliente",
+        "Letra de cambio",
+        "Garantía otorgada",
+        "Solicitud de pago anticipado a proveedor"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Qué herramientas de reporte están disponibles con SAP S/4HANA embedded analytics? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Apps para modelar KPIs",
+        "SAP Analysis for Microsoft Office",
+        "Navegador de consultas (Query Browser)",
+        "SAP Analytics Cloud"
+      ],
+      "respuestas_correctas": [0, 2]
+    },
+    {
+      "pregunta": "Una cuenta de libro mayor tiene un ajuste de moneda extranjera CAD. La moneda del código de empresa es USD. La moneda del área de control es EUR. ¿A qué monedas puede contabilizar en esta cuenta?",
+      "tipo": "unica",
+      "opciones": [
+        "Solo puede contabilizar en CAD, USD y EUR.",
+        "Solo puede contabilizar en CAD.",
+        "Solo puede contabilizar en CAD y USD.",
+        "Solo puede contabilizar en USD."
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cómo soporta SAP S/4HANA el tratamiento de impuestos? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Realiza ajustes de impuestos por descuentos en efectivo y otras deducciones.",
+        "Realiza ajustes en los códigos de impuestos y actualiza automáticamente el procedimiento.",
+        "Verifica los códigos de impuestos y actualiza automáticamente las tasas basadas en cambios de las autoridades fiscales.",
+        "Contabiliza el importe de impuestos en cuentas de impuestos.",
+        "Verifica el importe de impuestos ingresado y calcula automáticamente el impuesto."
+      ],
+      "respuestas_correctas": [0, 3, 4]
+    },
+    {
+      "pregunta": "Si no hay entrada o si un valor de tiempo de ejecución está vacío, el sistema usa un tiempo mínimo de ejecución de 999 días.",
+      "tipo": "unica",
+      "opciones": [
+        "VERDADERO",
+        "FALSO"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál es la configuración recomendada de estado de campo para los campos en los grupos de cuentas cliente-proveedor en la personalización de Contabilidad Financiera?",
+      "tipo": "unica",
+      "opciones": [
+        "Visualizar",
+        "Opcional",
+        "Obligatorio",
+        "Ocultar"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Identifique los puntos de llamada que se han proporcionado para Contabilidad Financiera (FI). Elija 3 respuestas correctas.",
+      "tipo": "multiple",
+      "opciones": [
+        "Cabecera del documento",
+        "Documento completo",
+        "Área de control",
+        "Unidad organizativa",
+        "Línea del documento"
+      ],
+      "respuestas_correctas": [0, 1, 4]
+    },
+    {
+      "pregunta": "¿Qué requisito debe cumplir la cuenta técnica de compensación para la adquisición integrada de activos?",
+      "tipo": "unica",
+      "opciones": [
+        "La cuenta es una cuenta de conciliación de balance para activos fijos.",
+        "La cuenta está asignada en la determinación de cuentas de activos para cada área de depreciación válida.",
+        "La cuenta se creó para todos los códigos de empresa activos del cliente.",
+        "La cuenta es una cuenta de pérdidas y ganancias que debe ser gestionada por partidas abiertas."
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuáles son los resultados cuando se contabiliza un pago parcial saliente? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Se establece un bloqueo de pago en la factura.",
+        "Se crea un pago con referencia a la factura.",
+        "La factura inicial se compensa.",
+        "La factura inicial permanece abierta."
+      ],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "Los clientes que usan la Contabilidad General clásica pueden usar RFBILA00 para crear un estado financiero en qué niveles organizativos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Qué tipos de cuenta están permitidos para contabilizaciones",
+        "Si se permite la diferencia de tipo de cambio",
+        "Qué claves de contabilización están permitidas para contabilizaciones",
+        "Si se permiten contabilizaciones negativas"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "Te piden explicar la funcionalidad de activos en construcción en SAP S/4HANA. ¿Qué debes destacar? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Es posible contabilizar depreciación especial fiscal y apoyo a la inversión para activos en construcción.",
+        "Es imposible usar activos en construcción con Gestión de Inversiones.",
+        "Es posible calcular y contabilizar depreciación en el área de depreciación de balance para activos en construcción.",
+        "Es posible contabilizar notas de crédito, incluso después de que los activos en construcción están completamente capitalizados."
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué configuras para permitir transacciones entre códigos de empresa? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Cuentas de compensación",
+        "Tipos de cuenta",
+        "Indicador especial de G/L",
+        "Claves de contabilización"
+      ],
+      "respuestas_correctas": [0, 3]
+    }  
+    
   ]
   
