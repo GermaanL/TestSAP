@@ -1700,7 +1700,377 @@
         "Letra de cambio"
       ],
       "respuestas_correctas": [2]
-    }
-       
+    },
+    {
+      "pregunta": "Estás operando un negocio internacional y quieres establecer entidades legales separadas para ejecutar operaciones y realizar actividades contables. ¿Qué unidad organizativa debes crear para cada entidad legal?",
+      "tipo": "unica",
+      "opciones": ["Área de control", "Código de empresa", "Segmento", "Sociedad"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "SAP S/4HANA es el núcleo digital de la empresa inteligente. ¿Qué aplicaciones del portafolio SAP están integradas con SAP S/4HANA para ayudarte a gestionar recursos humanos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["SAP Ariba", "SAP C/4HANA", "SAP SuccessFactors", "SAP Fieldglass"],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Quieres configurar la fecha base predeterminada para las condiciones de pago de una factura entrante. ¿De qué fechas puedes derivar la fecha base? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Fecha de recepción de mercancías", "Fecha de valor", "Fecha de contabilización", "Fecha del documento", "Fecha de entrada"],
+      "respuestas_correctas": [2, 3, 4]
+    },
+    {
+      "pregunta": "¿Qué partidas NO son compensadas por el programa automático de compensación? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Contabilizaciones estadísticas", "Partidas con retención de impuestos", "Partidas anotadas", "Partidas con impuesto al valor agregado", "Partidas con impuesto sobre ventas y uso"],
+      "respuestas_correctas": [0, 1, 2]
+    },
+    {
+      "pregunta": "¿Cuáles son las características de una sociedad en SAP S/4HANA? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Es responsable de costos e ingresos dentro de una organización", "Representa áreas separadas de operación dentro de una organización", "Es considerada para consolidación", "Puede asignarse a un código de empresa"],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Olvidaste agregar una nueva cuenta del libro mayor en la versión del estado financiero. ¿Qué impacto tiene esto en la utilidad neta y la pérdida neta?",
+      "tipo": "unica",
+      "opciones": ["El saldo de la nueva cuenta se añade a la sección no asignada y se excluye del cálculo", "El saldo de la nueva cuenta se añade a las notas en la sección de ítems del estado financiero y se excluye del cálculo", "El saldo de la nueva cuenta se añade a la sección no asignada y se incluye en el cálculo", "El saldo de la nueva cuenta se añade a las notas en la sección de ítems del estado financiero y se incluye en el cálculo"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿A qué nivel se almacena la información maestra bancaria en SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": ["A nivel de área de control", "A nivel de cliente", "A nivel de sociedad", "A nivel de código de empresa"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Necesitas definir un nuevo tipo de documento con un rango específico de números para contabilizar facturas de clientes vía interfaz desde un sistema no SAP. ¿Cómo definirías el rango de números del documento?",
+      "tipo": "unica",
+      "opciones": ["Debes usar asignación de números externa", "Debes usar asignación de números interna", "Debes usar asignación de números continua", "Puedes usar asignación interna, externa o continua"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes afirmaciones describen mejor una partida anotada? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Actualiza el sublibro y el libro mayor", "Puede ser accedida por el programa de pagos", "Tiene una contabilización automática estadística compensatoria", "Puede usarse para recordar al usuario sobre pagos pendientes"],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "Tu sistema SAP S/4HANA está integrado con controlling. Realizas contabilidad de costo de ventas y reportas pérdidas y ganancias por centro de beneficio. Al contabilizar una factura de proveedor a una cuenta primaria de costos, ¿qué campo es obligatorio según procedimientos estándar?",
+      "tipo": "unica",
+      "opciones": ["Área de negocio", "Segmento", "Centro de costos", "Área funcional"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "En tu sistema SAP S/4HANA reportas valores financieros para tres principios contables separados. Contabilizas una adquisición para un activo que se capitaliza en un solo principio contable. Si usas la aplicación para contabilizaciones integradas de adquisiciones de activos, ¿cuántos documentos contabilizará el sistema?",
+      "tipo": "unica",
+      "opciones": ["2", "4", "3", "1"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿En qué niveles puedes mantener controles de estado de campo para socios de negocio (BP)? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Categoría de BP", "Código de empresa", "Tipo de BP", "Cliente", "Rol de BP"],
+      "respuestas_correctas": [2, 3, 4]
+    },
+    {
+      "pregunta": "¿Sobre qué base de datos está construido SAP S/4HANA para su ejecución?",
+      "tipo": "unica",
+      "opciones": ["Solo en SAP HANA", "En todas las bases de datos que soportan almacenamiento columnar", "En una lista selecta de bases de datos SAP y de terceros", "En todas las bases de datos modernas a nivel empresarial"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué edición de SAP S/4HANA introdujo el libro mayor universal?",
+      "tipo": "unica",
+      "opciones": ["SAP Business Suite impulsada por SAP HANA", "SAP S/4HANA Finance 1503", "SAP S/4HANA Cloud", "SAP S/4HANA 1511"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre el enfoque de libro mayor y el enfoque de cuentas para la valoración paralela en Contabilidad de Activos?",
+      "tipo": "unica",
+      "opciones": ["En el enfoque de cuentas, asignas un conjunto completamente separado de cuentas para cada principio contable, a diferencia del enfoque de libro mayor", "En el enfoque de libro mayor, mantienes áreas adicionales de depreciación para contabilizar la valoración delta de cada principio contable, a diferencia del enfoque de cuentas", "En el enfoque de cuentas, defines una cuenta técnica de compensación para adquisiciones integradas de activos, a diferencia del enfoque de libro mayor", "En el enfoque de libro mayor, asignas un grupo de libros mayores a cada área de depreciación, a diferencia del enfoque de cuentas"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Cuál es la unidad organizativa recomendada para la contabilidad de costo de ventas?",
+      "tipo": "unica",
+      "opciones": ["Área de negocio", "Área de control", "Área de ventas", "Área funcional"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Estás operando un negocio internacional y quieres establecer entidades legales separadas para ejecutar operaciones y realizar actividades contables. ¿Qué unidad organizativa necesitas crear para cada entidad legal?",
+      "tipo": "unica",
+      "opciones": ["Área de control", "Sociedad", "Código de empresa", "Segmento"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Qué atributos debes considerar al definir rangos de números de activos? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Los rangos de números de activos se definen a nivel del plan de depreciación", "Los rangos de números de activos se definen para clases de activos y son específicos por código de empresa", "Cada clase de activo puede tener un rango de números interno o externo", "Cada rango de números de activos debe asignarse a una clase de activo única"],
+      "respuestas_correctas": [1, 2]
+    },
+    {
+      "pregunta": "¿Cuáles son algunos de los principios de diseño de SAP Fiori? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Racional", "Rutina", "Basado en roles", "Responsivo"],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Para propósitos de reporte, tu cliente desea presentar información sobre contabilizaciones de clientes que NO se reflejan en el libro mayor. ¿Qué tipo especial G/L recomiendas?",
+      "tipo": "unica",
+      "opciones": ["Contabilizaciones libres compensatorias", "Contabilizaciones estadísticas", "Partidas anotadas", "Letra de cambio"],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "Cualquier persona con un nombre de usuario y contraseña apropiados puede acceder al SAP Fiori Launchpad a través de un navegador web.",
+      "tipo": "unica",
+      "opciones": ["FALSO", "VERDADERO"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "Cuando contabilizas un pago para una factura, ¿cómo deriva el sistema las características de división?",
+      "tipo": "unica",
+      "opciones": ["Herencia", "División pasiva del documento", "División activa del documento", "Asignación por defecto"],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Qué modelo de datos usa SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": ["Procesamiento transaccional en línea (OLTP) y procesamiento analítico en línea (OLAP) ejecutándose ambos en un único sistema", "OLTP para implementaciones on-premise y OLAP para implementaciones en la nube", "OLTP y OLAP usando datos de tablas separadas", "OLAP basado en tablas agregadas e índices"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cuántos intervalos de período de contabilización en SAP S/4HANA se usan para las contabilizaciones de Contabilidad Financiera (FI) y Control de Gestión (CO)?",
+      "tipo": "unica",
+      "opciones": ["16", "12", "2", "3"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Qué opción de despliegue recomiendas a los clientes que quieren estar siempre en la última versión de SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": ["SAP S/4HANA Cloud", "SAP S/4HANA on-premise", "SAP S/4HANA con Central Finance", "SAP S/4HANA Finance"],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Cómo se comporta el sistema cuando se procesa una factura como pago residual?",
+      "tipo": "unica",
+      "opciones": ["La diferencia de pago se contabiliza en una cuenta diferente", "Todos los documentos permanecen en la cuenta como partidas abiertas", "La diferencia de pago se da de baja (se cancela)", "El documento original y el pago se compensan"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Tu cliente realiza actividades de pre-cierre el último día del mes. ¿Cuáles actividades se ejecutan típicamente durante el pre-cierre? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Realizar valoración en moneda extranjera para cuentas a pagar", "Crear la hoja de historial de activos para contabilidad de activos", "Contabilizar partidas recurrentes para el libro mayor", "Procesar gastos por incobrables para cuentas por cobrar"],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "¿Qué tipos de cuenta puedes usar para clasificar cuentas del libro mayor en SAP S/4HANA? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Costos secundarios", "Cuentas de compensación", "Gastos o ingresos no operativos", "Grupo de estatus de campo", "Balance"],
+      "respuestas_correctas": [0, 2, 4]
+    },
+    {
+      "pregunta": "¿Cómo mejora la arquitectura SAP HANA el rendimiento del sistema SAP S/4HANA?",
+      "tipo": "unica",
+      "opciones": ["SAP HANA organiza datos en tablas de partidas individuales y puede agregar datos de estas tablas en tiempo de ejecución.", "SAP HANA usa un modelo de datos jerárquico estructurado con múltiples tablas agregadas preconstruidas para escribir código eficiente.", "SAP HANA permite construir tablas agregadas sobre agregados y versiones especiales de tablas para soportar aplicaciones especiales.", "SAP HANA hace uso extensivo de índices de base de datos que proveen accesos comunes a datos para mejorar la velocidad de acceso."],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Para qué actividades puedes usar un libro auxiliar de extensión? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Configuración de campos personalizados para estados financieros", "Simulación de valoración en moneda extranjera", "Valoración paralela de áreas de depreciación", "Ajustes para fines de consolidación"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Qué defines cuando creas un nuevo tipo de documento? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Razones para reversión", "Rango de números para el tipo de documento", "Claves de contabilización para el tipo de documento", "Tipos de cuentas permitidos para contabilización"],
+      "respuestas_correctas": [1, 3]
+    },
+    {
+      "pregunta": "¿Cuáles tareas son etapas de la ejecución de gestión de morosidad? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": ["Programar la corrida de gestión de morosidad", "Mantener los parámetros de gestión de morosidad", "Mantener los niveles de gestión de morosidad", "Programar los intervalos de gestión de morosidad"],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "Un proveedor también es cliente. El programa de pagos debe compensar las partidas abiertas. ¿Qué configuración debe mantenerse para el socio de negocio?",
+      "tipo": "unica",
+      "opciones": ["Pagador y beneficiario alternativo", "Mismos datos bancarios", "Mismo método de pago", "Enlace de cuenta"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "¿Cuál es la solución SAP S/4HANA Cloud más flexible para los clientes?",
+      "tipo": "unica",
+      "opciones": ["Opción comunidad", "Opción pública", "Opción híbrida", "Opción privada"],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Actualmente haces pagos salientes manuales y quieres usar el programa automático de pagos. ¿Qué configuraciones debes mantener como parte de la configuración del programa automático de pagos?",
+      "tipo": "multiple",
+      "opciones": [
+        "Determinación bancaria",
+        "Indicadores especiales G/L",
+        "Condiciones de pago",
+        "Códigos de empresa que pagan"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿En qué paso de la configuración del SAP Financial Closing Cockpit defines parámetros para variables de variantes de programa?",
+      "tipo": "unica",
+      "opciones": [
+        "Creación de plantilla",
+        "Definición de dependencias",
+        "Creación de lista de tareas",
+        "Liberación de lista de tareas"
+      ],
+      "respuestas_correctas": [2]
+    },
+    {
+      "pregunta": "¿Qué tipos de datos se mantienen para un banco casa? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Cuenta del libro mayor",
+        "Límite de sobregiro",
+        "Firmantes de pago",
+        "Detalles para intercambio de medios de datos (DME)"
+      ],
+      "respuestas_correctas": [0, 3]
+    },
+    {
+      "pregunta": "¿Qué defines en Customizing para el programa de pagos? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Formularios para medios de pago",
+        "Determinación bancaria",
+        "Tipo de cambio",
+        "ID de corrida de pago",
+        "Monedas permitidas"
+      ],
+      "respuestas_correctas": [0, 1, 4]
+    },
+    {
+      "pregunta": "¿Qué sucede con las cifras de la transacción cuando contabilizas una reversión normal?",
+      "tipo": "unica",
+      "opciones": [
+        "Se incrementan",
+        "Se compensan",
+        "Se reinician",
+        "Se eliminan"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "¿Qué objetos pueden ser contabilizados por más de un código de empresa? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Clave de depreciación",
+        "Vida útil (años o períodos)",
+        "Fecha de inicio de depreciación",
+        "Porción variable de depreciación"
+      ],
+      "respuestas_correctas": [0, 1, 3]
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes tipos de moneda puedes configurar en la actividad de Customizing \"definir ajustes para libros y tipos de moneda\"? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Moneda grupo",
+        "Moneda local",
+        "Moneda del libro material",
+        "Moneda transaccional"
+      ],
+      "respuestas_correctas": [0, 1]
+    },
+    {
+      "pregunta": "La corrida de gestión de morosidad está compuesta por tres pasos principales que ocurren en secuencia. ¿Cuál es la secuencia correcta?",
+      "tipo": "unica",
+      "opciones": [
+        "Selección de cuenta",
+        "Cuenta morosa",
+        "Partidas morosas",
+        "V"
+      ],
+      "respuestas_correctas": [0]
+    },
+    {
+      "pregunta": "La base de datos SAP HANA se basa en cuáles de las siguientes tecnologías para almacenar datos? (3 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Agregación",
+        "Compresión",
+        "En memoria",
+        "Indexación",
+        "Almacenamiento columnar"
+      ],
+      "respuestas_correctas": [1, 2, 4]
+    },
+    {
+      "pregunta": "Configuraste Contabilidad de Activos para tu código de empresa con tres áreas de depreciación que contabilizan en tiempo real y áreas correspondientes para seguir valores en moneda grupo. Cuando contabilizas una adquisición externa, ¿cuántos documentos se crean?",
+      "tipo": "unica",
+      "opciones": [
+        "3",
+        "6",
+        "1",
+        "4"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Quieres hacer obligatorio el ingreso del campo Número de documento de referencia. ¿Qué objeto controla esta configuración?",
+      "tipo": "unica",
+      "opciones": [
+        "Estatus de campo del documento",
+        "Clave de contabilización del documento",
+        "Clave de referencia del documento",
+        "Tipo de documento"
+      ],
+      "respuestas_correctas": [3]
+    },
+    {
+      "pregunta": "Durante qué acciones el sistema asigna el número de documento para Contabilidad Financiera? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Simular",
+        "Retener",
+        "Registrar en espera",
+        "Contabilizar"
+      ],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "Es común que las empresas reciban facturas del ejercicio fiscal anterior al comienzo del nuevo ejercicio. ¿Qué fechas deben tener el mismo ejercicio fiscal en la entrada del documento?",
+      "tipo": "unica",
+      "opciones": [
+        "Fecha de documento y fecha de contabilización",
+        "Fecha de contabilización y fecha valor activo",
+        "Fecha de contabilización y fecha de entrada",
+        "Fecha de documento y fecha valor activo"
+      ],
+      "respuestas_correctas": [1]
+    },
+    {
+      "pregunta": "¿Cuáles son los beneficios de las implementaciones de SAP S/4HANA en nube pública? (2 respuestas correctas)",
+      "tipo": "multiple",
+      "opciones": [
+        "Inversión única en licencias",
+        "Mayor flexibilidad en personalización",
+        "Ahorro en costos de TI",
+        "Siempre actualizado"
+      ],
+      "respuestas_correctas": [2, 3]
+    },
+    {
+      "pregunta": "¿En qué nivel se crean las clases de activos?",
+      "tipo": "unica",
+      "opciones": [
+        "Plan de depreciación",
+        "Código de empresa",
+        "Cliente",
+        "Área de depreciación"
+      ],
+      "respuestas_correctas": [2]
+    }    
   ]
   
