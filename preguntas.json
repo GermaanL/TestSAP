@@ -480,10 +480,15 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "¿Cuáles de las siguientes afirmaciones aplican a los tipos de libro mayor especial de ítems anotados? (2 respuestas correctas)",
+    "pregunta": "¿Cuáles de las siguientes afirmaciones aplican a los tipos de libro mayor especial de ítems anotados? (3 respuestas correctas)",
     "tipo": "multiple",
-    "opciones": ["No se pueden crear indicadores propios de libro mayor especial de este tipo", "No se realizan contabilizaciones en una cuenta compensatoria", "La cuenta para la contabilización compensatoria se selecciona automáticamente", "Los ítems anotados se contabilizan en una cuenta de compensación alternativa", "No se realiza verificación de saldo cero en el sistema"],
-    "respuestas_correctas": [1, 3]
+    "opciones": [
+      "No se pueden crear indicadores propios de libro mayor especial de este tipo", 
+      "No se realizan contabilizaciones en una cuenta compensatoria", 
+      "La cuenta para la contabilización compensatoria se selecciona automáticamente", 
+      "Los ítems anotados se contabilizan en una cuenta de compensación alternativa", 
+      "No se realiza verificación de saldo cero en el sistema"],
+    "respuestas_correctas": [1, 3,4]
   },
   {
     "pregunta": "¿Qué debe verificar si el saldo de la cuenta GR/IR no es cero a nivel del ítem de la orden de compra en la fecha clave del balance? (2 respuestas correctas)",
@@ -732,17 +737,6 @@
     "respuestas_correctas": [2]
   },
   {
-    "pregunta": "Su cliente quiere que los números de documento para dos tipos de documento separados compartan el mismo rango de números. ¿Cómo puede lograrlo?",
-    "tipo": "unica",
-    "opciones": [
-      "Definiendo un área de valoración y un grupo de libros para dos libros vinculados con la nueva área de valoración.",
-      "Definiendo un área de valoración y un libro de extensión para vincular con la nueva área de valoración.",
-      "Definiendo dos métodos de valoración y asignando los principios contables a los nuevos métodos de valoración.",
-      "Definiendo dos áreas de valoración y dos principios contables con enlaces relevantes a libros."
-    ],
-    "respuestas_correctas": [3]
-  },
-  {
     "pregunta": "SAP HANA hace un uso extensivo de qué tecnología de hardware de alta velocidad para ofrecer mayor rapidez?",
     "tipo": "unica",
     "opciones": [
@@ -909,17 +903,6 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "Quieres abrir rápidamente el balance para el código de compañía del que eres responsable desde SAP Fiori Launchpad. ¿Qué puedes crear para lograr esto?",
-    "tipo": "unica",
-    "opciones": [
-      "Área funcional",
-      "Segmento",
-      "Centro de costo",
-      "Área de negocio"
-    ],
-    "respuestas_correctas": [2]
-  },
-  {
     "pregunta": "Quieres contabilizar asientos en un período especial. ¿Qué condiciones deben cumplirse? (2 respuestas correctas)",
     "tipo": "multiple",
     "opciones": [
@@ -1072,7 +1055,7 @@
       "Basado en roles",
       "Vibrante"
     ],
-    "respuestas_correctas": [1, 2, 3]
+    "respuestas_correctas": [0, 2, 3]
   },
   {
     "pregunta": "¿A qué nivel se asigna el programa de impresión al tipo de correspondencia?",
@@ -1094,7 +1077,7 @@
       "Deben mantenerse plantillas de texto de partidas",
       "Deben mantenerse rangos de números y tipos de documento"
     ],
-    "respuestas_correctas": [0, 2]
+    "respuestas_correctas": [0, 3]
   },
   {
     "pregunta": "Comienzas el proceso de cierre de año fiscal en Contabilidad de Activos en SAP S/4HANA. ¿Cuáles son las verificaciones del programa de cierre de año para Contabilidad de Activos? (2 respuestas correctas)",
@@ -1485,7 +1468,7 @@
       "Múltiples libros auxiliares pueden apuntar al mismo libro subyacente",
       "Los libros auxiliares pueden asignarse a su propia variante de año fiscal"
     ],
-    "respuestas_correctas": [1, 3]
+    "respuestas_correctas": [1, 2]
   },
   {
     "pregunta": "Defines el tipo de moneda personalizada Z1 para tu código de empresa. ¿Qué tipos de moneda deben almacenarse en la vista de entrada de datos? (2 respuestas correctas)",
@@ -1613,17 +1596,6 @@
     "respuestas_correctas": [2]
   },
   {
-    "pregunta": "¿Qué campo puedes cambiar en una factura ya contabilizada?",
-    "tipo": "unica",
-    "opciones": [
-      "Código de impuesto",
-      "Indicador especial G/L",
-      "Centro de costos",
-      "Condiciones de pago"
-    ],
-    "respuestas_correctas": [0]
-  },
-  {
     "pregunta": "Quieres definir una validación para la combinación de cuenta mayor y centro de costos. ¿En qué punto de llamada se define esta validación?",
     "tipo": "unica",
     "opciones": [
@@ -1736,7 +1708,7 @@
     "pregunta": "Necesitas definir un nuevo tipo de documento con un rango específico de números para contabilizar facturas de clientes vía interfaz desde un sistema no SAP. ¿Cómo definirías el rango de números del documento?",
     "tipo": "unica",
     "opciones": ["Debes usar asignación de números externa", "Debes usar asignación de números interna", "Debes usar asignación de números continua", "Puedes usar asignación interna, externa o continua"],
-    "respuestas_correctas": [3]
+    "respuestas_correctas": [0]
   },
   {
     "pregunta": "¿Cuáles de las siguientes afirmaciones describen mejor una partida anotada? (2 respuestas correctas)",
@@ -1850,7 +1822,7 @@
     "pregunta": "Tu cliente realiza actividades de pre-cierre el último día del mes. ¿Cuáles actividades se ejecutan típicamente durante el pre-cierre? (3 respuestas correctas)",
     "tipo": "multiple",
     "opciones": ["Realizar valoración en moneda extranjera para cuentas a pagar", "Crear la hoja de historial de activos para contabilidad de activos", "Contabilizar partidas recurrentes para el libro mayor", "Procesar gastos por incobrables para cuentas por cobrar"],
-    "respuestas_correctas": [2, 3]
+    "respuestas_correctas": [0, 2, 3]
   },
   {
     "pregunta": "¿Qué tipos de cuenta puedes usar para clasificar cuentas del libro mayor en SAP S/4HANA? (3 respuestas correctas)",
@@ -2425,7 +2397,7 @@
       "Para atribuir un porcentaje de cargo por cobro sin asignar un importe fijo",
       "Asignar un importe fijo con la asignación de un porcentaje de cargo por cobranza"
     ],
-    "respuestas_correctas": [1, 3]
+    "respuestas_correctas": [1, 2]
   },
   {
     "pregunta": "¿De qué fechas se puede derivar la fecha base para las condiciones de pago de una factura entrante? (3 respuestas correctas)",
@@ -2508,7 +2480,7 @@
     "respuestas_correctas": [3]
   },
   {
-    "pregunta": "Está implementando el Cockpit en su organización. ¿Cuáles son las ventajas de definir grupos de tareas? (2 respuestas correctas)",
+    "pregunta": "Está implementando el Cockpit en su organización. ¿Cuáles son las ventajas de definir grupos de tareas? CHEQUEAR (2 respuestas correctas)",
     "tipo": "multiple",
     "opciones": [
       "Cubre múltiples empresas con tareas iguales o similares",
