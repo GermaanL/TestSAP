@@ -2577,6 +2577,243 @@
       "Fecha del documento y fecha de publicación"
     ],
     "respuestas_correctas": [0]
-  }
+  },
+  {
+    "pregunta": "Para reducir la carga del sistema, ¿qué debería hacer con los documentos antiguos de la base de datos?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Copia de seguridad y eliminación",
+      "Borrar",
+      "Extraer y eliminar",
+      "Archivar y eliminar"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Qué secciones de datos forman parte de cada clase de activo?(2 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Sección de datos maestros",
+      "Sección de datos de depreciación",
+      "Sección de datos de determinación de cuentas",
+      "Sección de datos del área de valoración"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor cómo se desarrollan los servicios de datos básicos (CDS)?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Se desarrollan en la capa ABAP del sistema SAP S/4HANA por el usuario final de Analytics",
+      "Son desarrollados en la capa de base de datos SAP HANA por el usuario de TI",
+      "Son desarrollados en la capa ABAP del sistema SAP S/4HANA por el usuario de TI",
+      "Se desarrollan en la capa de base de datos de SAP HANA por el usuario clave de Analytics"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes campos se pueden modificar en el encabezado del documento?(2 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Tipo de cambio de moneda",
+      "Texto del encabezado del documento",
+      "Número de referencia",
+      "Fecha del documento"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes procedimientos están disponibles para verificar el saldo de cuentas por cobrar y por pagar en las confirmaciones de saldo?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Confirmación de saldo",
+      "Notificación de saldo",
+      "Ajuste de equilibrio",
+      "Solicitud de saldo"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "Al crear una cuenta contable y existen estados de campo conflictivos, ¿cuál tiene mayor prioridad?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Requerido",
+      "Reprimir",
+      "Opcional",
+      "Mostrar"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Cuántos periodos de descuento por pronto pago se pueden incluir en las condiciones de pago?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuáles son las configuraciones necesarias en SAP S/4HANA para migrar los valores de las cuentas de un cliente que realiza la transición desde el libro mayor clásico?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Principios de contabilidad",
+      "Áreas de valoración",
+      "Libros de contabilidad estándar",
+      "Tipos de documentos",
+      "Grupos de contabilidad"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "Su cliente desea que los números de documento de dos tipos distintos compartan el mismo rango. ¿Cómo puede lograrlo?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Cree dos rangos de números externos con el mismo rango y asigne uno a cada uno de los tipos de documentos relevantes",
+      "Cree dos rangos de números internos con el mismo rango y asigne uno a cada tipo de documento relevante",
+      "Introduzca el mismo rango de números de documento en la definición de personalización de ambos tipos de documento",
+      "Cree una regla de sustitución que actualice el número de documento según el rango que asigne en la definición de la regla"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿De qué fechas se puede derivar la fecha base para las condiciones de pago de una factura entrante?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Fecha de entrada",
+      "Fecha del documento",
+      "Fecha de recepción de mercancías",
+      "Fecha de publicación",
+      "Fecha de valor"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "¿Cómo se puede establecer un valor predeterminado para el centro de coste en toda la clase de activo de los edificios?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Cambiando el diseño de la pestaña asignada",
+      "Ingresándolo en las asignaciones de cuentas predeterminadas para la cuenta del libro mayor",
+      "Mediante el uso de subnúmeros de activos",
+      "Cambiando el diseño de pantalla asignado"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "Identifique algunos de los campos relacionados con el área de depreciación en el registro maestro de activos.(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Inicio de la depreciación",
+      "Descripción del activo",
+      "Vida útil",
+      "Valor de desecho"
+    ],
+    "respuestas_correctas": [0, 2, 3]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes parámetros se pueden definir en un procedimiento de reclamación?(2 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Número de niveles de reclamación",
+      "Período de gracia de la partida individual",
+      "Período total de la partida",
+      "Código de la empresa"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes listas respalda la labor del funcionario de cobranza?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "La lista del historial de cobros",
+      "La lista de cuentas bloqueadas",
+      "La lista de cobros",
+      "La lista de saldos de proveedores en moneda local"
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "¿Qué datos de reclamación se mantienen en el registro maestro del interlocutor comercial?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Procedimiento de cobro",
+      "Área de Dunning",
+      "Intervalo de cobro",
+      "Bloque de Dunning",
+      "Clave de cobro"
+    ],
+    "respuestas_correctas": [0, 3, 4]
+  },
+  {
+    "pregunta": "Un documento tiene varias partidas con diferentes códigos de motivo introducidos. Para el pago automático, ¿qué tipo de correspondencia selecciona el sistema?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "El asignado al grupo de tolerancia",
+      "El que está en la primera línea del artículo",
+      "El que se encuentra en la línea de pedido con el mayor importe",
+      "El sistema solicita al usuario que asigne uno"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Qué informes se utilizan para generar correspondencia y verificar saldos con clientes y proveedores?(2 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "SAPF130E",
+      "SAPF130D",
+      "SAPF130K",
+      "SAPF130L"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "¿Cuáles son las razones para reagrupar las cuentas por cobrar y por pagar?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Para simplificar y acelerar el proceso de selección de cobros",
+      "Para agrupar cuentas por pagar y por cobrar según las fechas de vencimiento",
+      "Para mostrar cuentas por cobrar y por pagar por separado",
+      "Para alinear los importes de las cuentas con las cuentas de conciliación modificadas",
+      "Para priorizar la impresión de confirmación de saldo por código postal"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Cuándo se puede configurar el indicador de gestión de partidas abiertas en una cuenta contable?(2 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuando se requiere una cuenta para la compensación",
+      "Cuando una cuenta se utiliza como cuenta de conciliación",
+      "Cuando una cuenta se configura como un elemento de coste",
+      "Cuando una cuenta tiene saldo cero"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué opciones de implementación existen para SAP S/4HANA?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Implementación ágil",
+      "Despliegue del concentrador central",
+      "Implementación híbrida",
+      "Implementación local",
+      "Implementación en la nube"
+    ],
+    "respuestas_correctas": [2, 3, 4]
+  },
+  {
+    "pregunta": "¿Cuáles son los requisitos para habilitar el envejecimiento de datos para Finanzas en SAP S/4HANA?(3 respuesta/s)",
+    "tipo": "multiple",
+    "opciones": [
+      "Active la función empresarial de envejecimiento de datos",
+      "Define la ruta del archivo lógico como una ruta global para el envejecimiento de los datos",
+      "Agregue las autorizaciones necesarias para el envejecimiento de datos a su rol",
+      "Activa el envejecimiento de datos para el código de tu empresa",
+      "Activar el envejecimiento en SAP HANA"
+    ],
+    "respuestas_correctas": [0, 2, 4]
+  }  
 ]
   
