@@ -1675,12 +1675,6 @@
     "respuestas_correctas": [2, 3]
   },
   {
-    "pregunta": "Quieres configurar la fecha base predeterminada para las condiciones de pago de una factura entrante. ¿De qué fechas puedes derivar la fecha base? (3 respuestas correctas)",
-    "tipo": "multiple",
-    "opciones": ["Fecha de recepción de mercancías", "Fecha de valor", "Fecha de contabilización", "Fecha del documento", "Fecha de entrada"],
-    "respuestas_correctas": [2, 3, 4]
-  },
-  {
     "pregunta": "¿Qué partidas NO son compensadas por el programa automático de compensación? (3 respuestas correctas)",
     "tipo": "multiple",
     "opciones": ["Contabilizaciones estadísticas", "Partidas con retención de impuestos", "Partidas anotadas", "Partidas con impuesto al valor agregado", "Partidas con impuesto sobre ventas y uso"],
@@ -1729,10 +1723,10 @@
     "respuestas_correctas": [0]
   },
   {
-    "pregunta": "¿En qué niveles puedes mantener controles de estado de campo para socios de negocio (BP)? (3 respuestas correctas)",
+    "pregunta": "¿En qué niveles puedes mantener controles de estado de campo para socios de negocio (BP)? (2 respuestas correctas)",
     "tipo": "multiple",
     "opciones": ["Categoría de BP", "Código de empresa", "Tipo de BP", "Cliente", "Rol de BP"],
-    "respuestas_correctas": [2, 3, 4]
+    "respuestas_correctas": [2, 4]
   },
   {
     "pregunta": "¿Sobre qué base de datos está construido SAP S/4HANA para su ejecución?",
@@ -2398,18 +2392,6 @@
       "Asignar un importe fijo con la asignación de un porcentaje de cargo por cobranza"
     ],
     "respuestas_correctas": [1, 2]
-  },
-  {
-    "pregunta": "¿De qué fechas se puede derivar la fecha base para las condiciones de pago de una factura entrante? (3 respuestas correctas)",
-    "tipo": "multiple",
-    "opciones": [
-      "Fecha de entrada",
-      "Fecha del documento",
-      "Fecha de recepción de mercancías",
-      "Fecha de publicación",
-      "Fecha de valor"
-    ],
-    "respuestas_correctas": [0, 1, 4]
   },
   {
     "pregunta": "Quiere iniciar rápidamente el balance de la sociedad de su responsabilidad desde la plataforma de lanzamiento de SAP Fiori. ¿Qué puede crear para lograrlo?",
