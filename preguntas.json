@@ -3170,18 +3170,6 @@
     "respuestas_correctas": [0]
   },
   {
-    "pregunta": "¿Cuáles son las razones para reagrupar las cuentas por cobrar y por pagar?(3 respuesta/s)",
-    "tipo": "multiple",
-    "opciones": [
-      "Para mostrar cuentas por cobrar y por pagar por separado",
-      "Para priorizar la impresión de confirmación de saldo por código postal",
-      "Para agrupar cuentas por pagar y por cobrar según las fechas de vencimiento",
-      "Para alinear los importes de las cuentas con las cuentas de conciliación modificadas",
-      "Para simplificar y acelerar el proceso de selección de cobros"
-    ],
-    "respuestas_correctas": [0, 2, 3]
-  },
-  {
     "pregunta": "¿Qué se puede introducir en el encabezado de la aplicación \"Contabilizar pagos salientes\"?(3 respuesta/s)",
     "tipo": "multiple",
     "opciones": [
@@ -4350,17 +4338,6 @@
     "respuestas_correctas": [1, 3]
   },
   {
-    "pregunta": "¿Cuáles de las siguientes opciones se publican en el programa FAA DEPRECIATION POST? (3 respuestas)",
-    "tipo": "multiple",
-    "opciones": [
-      "Interes imputado",
-      "Valores APC paralelos",
-      "Depreciacion no planificada u otra depreciacion planificada manualmente",
-      "Depreciacion ordinaria como la depreciacion contable o la depreciacion imputada"
-    ],
-    "respuestas_correctas": [0, 2, 3]
-  },
-  {
     "pregunta": "Desea registrar una reversion para un documento contabilizado en un periodo contable cerrado. ¿Qué objeto configura para permitirle registrar la reversion con una fecha distinta a la del documento original? (1 respuesta)",
     "tipo": "unica",
     "opciones": [
@@ -4406,17 +4383,6 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "Al contabilizar un pago recibido manualmente ¿qué parámetros son válidos para todos los documentos de pago? (2 respuestas)",
-    "tipo": "multiple",
-    "opciones": [
-      "Articulo residual",
-      "Cuenta bancaria",
-      "Tipo de entrada de diario",
-      "Grupo de tolerancia"
-    ],
-    "respuestas_correctas": [1, 2]
-  },
-  {
     "pregunta": "Se le ha solicitado que cree bancos propios como parte de la implementación ¿qué información necesita? (3 respuestas)",
     "tipo": "multiple",
     "opciones": [
@@ -4439,18 +4405,6 @@
       "Costos primarios resultantes de una distribucion"
     ],
     "respuestas_correctas": [0, 2, 4]
-  },
-  {
-    "pregunta": "¿Cuáles son las razones para reagrupar las cuentas por cobrar y por pagar? (3 respuestas)",
-    "tipo": "multiple",
-    "opciones": [
-      "Para alinear los importes de las cuentas con las cuentas de conciliación modificadas",
-      "Para priorizar la impresión de confirmación de saldo por código postal",
-      "Para agrupar cuentas por pagar y por cobrar según las fechas de vencimiento",
-      "Para mostrar cuentas por cobrar y por pagar por separado",
-      "Para simplificar y acelerar el proceso de selección de cobros"
-    ],
-    "respuestas_correctas": [0, 2, 3]
   },
   {
     "pregunta": "¿Qué estado de campo tiene la prioridad más baja (cuentas de mayor)? (1 respuesta)",
@@ -4484,17 +4438,6 @@
       "Cuenta de mayor de ajuste para moneda extranjera"
     ],
     "respuestas_correctas": [3]
-  },
-  {
-    "pregunta": "¿Cuáles son los niveles de mantenimiento de una regla de diseño de pantalla para las clases de activos? (1 respuesta)",
-    "tipo": "unica",
-    "opciones": [
-      "Clase de activo, número de activo principal, subnúmero",
-      "Clase de activo, área de depreciación, número de activo principal, activo del grupo",
-      "Área de depreciación, clase de activo, número de activo principal, subnúmero",
-      "Número de activo principal, subnúmero, área de depreciación"
-    ],
-    "respuestas_correctas": [0]
-  }  
+  } 
 ]
   
