@@ -135,31 +135,31 @@ function finalizarExamen() {
     `;
 
     // Feedback detallado
-    let feedbackHTML = `<h4>Detalle de Respuestas</h4>`;
+    let feedbackHTML = `<h4 class="mt-4">Detalle de Respuestas</h4>`;
     historialRespuestas.forEach((item, idx) => {
-        feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
+    feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
 
 
-        feedbackHTML += `<ul>`;
-        item.opciones.forEach((opcion, i) => {
-            let icono = "";
+    feedbackHTML += `<ul class="list-unstyled">`;
+    item.opciones.forEach((opcion, i) => {
+        let icono = "<span style='visibility:hidden'>⬜</span>";
 
-            if (item.seleccionados.includes(i)) {
-                if (item.correctas.includes(i)) {
-                    icono = "✅"; // seleccionada y correcta
-                } else {
-                    icono = "❌"; // seleccionada e incorrecta
-                }
-            } else if (item.correctas.includes(i)) {
-                icono = "☑️"; // correcta pero no seleccionada
+        if (item.seleccionados.includes(i)) {
+            if (item.correctas.includes(i)) {
+                icono = "✅"; // seleccionada y correcta
+            } else {
+                icono = "❌"; // seleccionada e incorrecta
             }
+        } else if (item.correctas.includes(i)) {
+            icono = "☑️"; // correcta pero no seleccionada
+        } 
 
-            feedbackHTML += `<li>${icono} ${opcion}</li>`;
-        });
-        feedbackHTML += `</ul>`;
+        feedbackHTML += `<li>${icono} ${opcion}</li>`;
+    });
+    feedbackHTML += `</ul>`;
 
 
-        feedbackHTML += `</div><hr>`;
+    feedbackHTML += `</div><hr>`;
     });
 
     document.getElementById("feedbackFinal").innerHTML = feedbackHTML;

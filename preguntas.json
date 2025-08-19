@@ -577,7 +577,7 @@
       "Se requiere código de motivo",
       "Se requieren campos de fecha"
     ],
-    "respuestas_correctas": [0, 2, 3]
+    "respuestas_correctas": [0, 2, 4]
   },
   {
     "pregunta": "¿Qué prerrequisitos deben cumplirse para usar contabilizaciones negativas? (2 respuestas correctas)",
@@ -1944,8 +1944,7 @@
     "opciones": [
       "Selección de cuenta",
       "Cuenta morosa",
-      "Partidas morosas",
-      "V"
+      "Partidas morosas"
     ],
     "respuestas_correctas": [0]
   },
@@ -3737,6 +3736,272 @@
       "Enriquece todas las líneas de la cuenta de pérdidas y ganancias con las características de división definidas"
     ],
     "respuestas_correctas": [0]
-  }  
+  },
+  {
+    "pregunta": "Intenta asignar una cuenta alternativa a una cuenta de mayor, pero recibe un mensaje de error. ¿Cuál puede ser el motivo?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "No se ha creado la cuenta alternativa para el código de empresa",
+      "No ha asignado el plan de cuentas alternativo a su plan de cuentas operativo",
+      "La cuenta alternativa ya está asignada a otra cuenta de mayor para el código de empresa",
+      "No ha asignado el plan de cuentas alternativo a su empresa"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor cómo se integran los anticipos de los clientes con Ventas y Distribución (SD)?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Una solicitud de anticipo se crea como un pedido de venta SD, que se registra automáticamente en FI como un artículo anotado",
+      "Una solicitud de pago inicial se crea como un elemento anotado en FI, lo que genera automáticamente un documento de facturación de SD",
+      "Una solicitud de anticipo se crea como un documento de facturación SD, que se registra automáticamente en FI como un elemento anotado",
+      "Una solicitud de anticipo se crea como un artículo anotado en FI, lo que genera automáticamente una orden de venta en SD"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Su código de empresa está asignado a un libro mayor principal, dos libros mayores normales adicionales y un libro mayor de extensión. ¿Cuántos arrastres deben ejecutarse?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "1",
+      "8",
+      "4",
+      "3"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la reorganización de segmentos? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Permite reasignaciones de segmentos",
+      "Permite la eliminación de segmentos",
+      "Permite la fusión de segmentos",
+      "Permite la derivación de segmentos"
+    ],
+    "respuestas_correctas": [0, 2]
+  },
+  {
+    "pregunta": "Ha acordado condiciones de pago con un socio comercial que es cliente y proveedor. Las mismas condiciones se aplican en ambos sentidos (entrante y saliente). Ha definido una nueva clave de términos de pago, pero cuando intenta actualizar el rol de socio comercial proveedor, no encuentra el término de pago disponible para seleccionar. ¿Qué debes hacer? (1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Introduzca el plazo de pago manualmente durante la facturación",
+      "Cree un nuevo término de pago para el rol de socio comercial proveedor",
+      "Cambie el estado del campo del rol de socio comercial para que las condiciones de pago sean un campo opcional",
+      "Mantener el tipo de cuenta en las condiciones de pago"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad del número de cuenta de grupo en el mantenimiento de datos maestros de la cuenta de contabilidad general?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Se utiliza para informes entre códigos de empresas si los códigos de empresas utilizan diferentes planes de cuentas",
+      "Se establece de forma predeterminada el intervalo de números que se aplica para el número de cuenta de mayor en el código de la empresa",
+      "Actúa como clave para identificar el balance general y las cuentas de pérdidas y ganancias en la versión del estado financiero",
+      "Determina los campos en la pantalla de entrada cuando se crea o actualiza un registro maestro en la empresa"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿En qué cuenta se puede realizar la compensación de cuentas en SAP S/4HANA?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Para cualquier cuenta del balance general gestionada sobre la base de partidas individuales",
+      "Para cualquier cuenta que pueda contabilizarse en moneda extranjera",
+      "Para cualquier cuenta de mayor definida como cuenta de conciliación",
+      "Para cualquier cuenta que se gestione sobre la base de partidas abiertas"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Qué defines en términos de pago? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Especificación de la fecha de vencimiento",
+      "Días de tolerancia",
+      "Clave de publicación",
+      "Descuento por pronto pago"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "Tiene un saldo deudor de 50 y un haber de 80 en una cuenta. Esta cuenta se asigna al activo en un estado financiero, con el indicador de débito y el de haber. ¿Cómo se refleja esto en el balance general?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "En el lado del pasivo se muestra 50 y en el lado del activo 80",
+      "En el lado del activo se muestra 0 y en el lado del pasivo se muestra 30",
+      "El saldo se muestra en el lado del pasivo",
+      "El saldo se muestra en el lado del activo"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Qué afirmaciones describen mejor un centro de beneficios? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Es un elemento para el cual se pueden crear balances generales y estados de pérdidas y ganancias separados",
+      "Es el único objeto del cual se pueden derivar segmentos uniformemente",
+      "Es el único objeto que puede derivarse uniformemente utilizando segmentos",
+      "Debe utilizarse simultáneamente con segmentos para crear balances generales y estados de pérdidas y ganancias separados"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "Utiliza la búsqueda en su plataforma de lanzamiento de SAP Fiori para buscar información sobre un centro de costos. ¿Qué tipo de aplicación se utiliza para la información que se muestra en los resultados de búsqueda?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Analítico",
+      "Hoja informativa",
+      "Transaccional",
+      "Lista"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Qué campos se mantienen en el plan de cuentas de una cuenta de mayor? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Grupo de estado de campo",
+      "Número de cuenta de grupo",
+      "Número de cuenta alternativo",
+      "Grupo de cuentas",
+      "Texto corto"
+    ],
+    "respuestas_correctas": [1, 3, 4]
+  },
+  {
+    "pregunta": "En la valoración de acciones, ¿cuáles de los siguientes grupos de acciones se valoran? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Productos terminados",
+      "Mercancías facturadas",
+      "Materias primas, suministros y consumibles",
+      "Trabajo en proceso"
+    ],
+    "respuestas_correctas": [0, 2, 3]
+  },
+  {
+    "pregunta": "¿Cómo se asignan las páginas a los usuarios en SAP Fiori Launchpad?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "A través de secciones asignadas a roles de negocio que se asignan a los usuarios",
+      "Directamente a los roles comerciales que se asignan a los usuarios",
+      "A través de espacios asignados a roles de negocio que se asignan a los usuarios",
+      "A través de grupos asignados a roles de negocio que se asignan a los usuarios"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuál es la principal motivación para crear reglas de sustituciones y validaciones?",
+    "tipo": "unica",
+    "opciones": [
+      "Campos adicionales disponibles",
+      "Reutilización en múltiples pasos",
+      "No limitado por la lógica booleana",
+      "Herramientas de definición más sencillas"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Qué transacciones conducen directamente a la capitalización de activos en SAP S/4HANA? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Orden de compra en compras",
+      "Recibo de mercancías no valoradas",
+      "Liquidación de activos en construcción",
+      "Recibo de mercancías valoradas",
+      "Transferencia intraempresarial"
+    ],
+    "respuestas_correctas": [2, 3, 4]
+  },
+  {
+    "pregunta": "Su cliente no quiere implementar un análisis de rentabilidad, ni siquiera contable, porque la empresa no comprende su valor. ¿Qué argumento usaría para convencerlo?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "La integración del pago inicial se puede realizar con ventas y distribución",
+      "Los balances se pueden analizar según las características específicas de las ventas",
+      "Los estados de ganancias y pérdidas se pueden analizar según las características específicas de las ventas",
+      "Los pedidos de venta se pueden pronosticar como elementos de liquidez en los informes de flujo de caja"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes son tipos de campos de usuario en SAP S/4HANA? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Activos del grupo",
+      "Grupo de evaluación",
+      "Número de serie",
+      "Número de Super Activo"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿En qué momento se crea la solicitud de anticipo en el proceso de anticipo integrado con la compra?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "Verificación de facturas",
+      "Orden de compra",
+      "Recibo de mercancías",
+      "Solicitud de compra"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes tipos de API recomienda SAP para lograr integraciones de núcleo limpias? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "OData",
+      "BRFC",
+      "IDoc",
+      "JABÓN"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿En qué escenarios se contabiliza la cuenta de compensación técnica? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Liquidación de una orden de inversión a un activo en construcción",
+      "Contabilización directa de adquisición de activos con una factura de proveedor (no vinculada a una orden de compra)",
+      "Contabilización de transferencias de activos entre clases de activos",
+      "Entrada de mercancías valoradas en una orden de compra con un activo como asignación de cuenta"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Cuántos tipos de moneda personalizados se pueden asignar a una combinación de código de empresa y libro mayor?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "10",
+      "6",
+      "12",
+      "8"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Qué campos de la definición de sociedad de una cuenta contable son siempre obligatorios? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Moneda de la cuenta",
+      "Clave de ordenación",
+      "Grupo de estado de campo",
+      "Cuenta de grupo"
+    ],
+    "respuestas_correctas": [0, 2]
+  },
+  {
+    "pregunta": "¿Qué requisito debe cumplir la cuenta de compensación técnica para la adquisición integrada de activos?(1 respuesta/s)",
+    "tipo": "unica",
+    "opciones": [
+      "La cuenta se asigna en la determinación de la cuenta de activos para cada área de depreciación válida",
+      "La cuenta es una cuenta de pérdidas y ganancias que debe gestionarse mediante partidas abiertas",
+      "La cuenta se crea para todos los códigos de empresa activos del cliente",
+      "La cuenta es una cuenta de balance de conciliación de activos fijos"
+    ],
+    "respuestas_correctas": [3]
+  }
 ]
   
