@@ -5,6 +5,7 @@ let respuestasCorrectas = 0;
 let tiempoRestante = 3 * 60 * 60;
 let temporizadorInterval;
 let tiempoInicioExamen = 0;
+let historialRespuestas = [];
 
 // Cargar preguntas desde JSON
 async function cargarPreguntas() {
@@ -84,16 +85,26 @@ function enviarRespuesta() {
             .map(i => p.opciones[i])
             .map(r => `• ${r}`)
             .join('<br>');
-            document.getElementById("feedback").innerHTML = `
+        document.getElementById("feedback").innerHTML = `
             <span class="text-danger">❌ Incorrecto</span> 
             <br>Respuesta(s) correcta(s):<br>
             ${correctas}
         `;
     }
 
+    // 🔹 Guardar historial
+    historialRespuestas.push({
+        pregunta: p.pregunta,
+        opciones: p.opciones,
+        seleccionados: seleccionados,
+        correctas: p.respuestas_correctas,
+        esCorrecto: esCorrecto
+    });
+
     document.getElementById("btnEnviar").disabled = true;
     document.getElementById("btnSiguiente").disabled = false;
 }
+
 
 function siguientePregunta() {
     preguntaActual++;
@@ -113,20 +124,58 @@ function finalizarExamen() {
     const minutos = Math.floor(tiempoTotalSeg / 60);
     const segundos = tiempoTotalSeg % 60;
 
-    const preguntasRespondidas = preguntaActual + 1; // hasta la última mostrada
+    const preguntasRespondidas = preguntaActual + 1;
     const porcentaje = ((respuestasCorrectas / preguntasRespondidas) * 100).toFixed(2);
 
+    // Resumen global
     document.getElementById("resultadoFinal").innerHTML = `
         Tiempo total: ${minutos} min ${segundos} seg<br>
         Preguntas respondidas: ${preguntasRespondidas}<br>
         Porcentaje de aciertos: ${porcentaje}%
     `;
+
+    // Feedback detallado
+    let feedbackHTML = `<h4>Detalle de Respuestas</h4>`;
+    historialRespuestas.forEach((item, idx) => {
+        feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
+
+        // Mostrar todas las opciones
+        feedbackHTML += `<ul>`;
+        item.opciones.forEach((opcion, i) => {
+            let clase = "";
+            if (item.seleccionados.includes(i)) clase = "fw-bold"; // bold la seleccionada
+            feedbackHTML += `<li class="${clase}">${opcion}</li>`;
+        });
+        feedbackHTML += `</ul>`;
+
+        // Feedback correcto/incorrecto
+        if (item.esCorrecto) {
+            feedbackHTML += `<span class="text-success">✅ Correcto</span>`;
+        } else {
+            feedbackHTML += `<span class="text-danger">❌ Incorrecto</span>`;
+
+            // Mostrar lista de respuestas correctas
+            feedbackHTML += `<br><p>Respuesta(s) correcta(s):</p><ul>`;
+            item.correctas.forEach(i => {
+                feedbackHTML += `<li>${item.opciones[i]}</li>`;
+            });
+            feedbackHTML += `</ul>`;
+        }
+
+        feedbackHTML += `</div><hr>`;
+    });
+
+    document.getElementById("feedbackFinal").innerHTML = feedbackHTML;
 }
 
+
 function reiniciarExamen() {
+    historialRespuestas = []; // limpiar historial
     document.getElementById("final").classList.add("d-none");
     document.getElementById("inicio").classList.remove("d-none");
 }
+
+
 
 // Eventos
 document.getElementById("btnIniciar").addEventListener("click", iniciarExamen);
