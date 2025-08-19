@@ -139,28 +139,25 @@ function finalizarExamen() {
     historialRespuestas.forEach((item, idx) => {
         feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
 
-        // Mostrar todas las opciones
+
         feedbackHTML += `<ul>`;
         item.opciones.forEach((opcion, i) => {
-            let clase = "";
-            if (item.seleccionados.includes(i)) clase = "fw-bold"; // bold la seleccionada
-            feedbackHTML += `<li class="${clase}">${opcion}</li>`;
+            let icono = "";
+
+            if (item.seleccionados.includes(i)) {
+                if (item.correctas.includes(i)) {
+                    icono = "✅"; // seleccionada y correcta
+                } else {
+                    icono = "❌"; // seleccionada e incorrecta
+                }
+            } else if (item.correctas.includes(i)) {
+                icono = "☑️"; // correcta pero no seleccionada
+            }
+
+            feedbackHTML += `<li>${icono} ${opcion}</li>`;
         });
         feedbackHTML += `</ul>`;
 
-        // Feedback correcto/incorrecto
-        if (item.esCorrecto) {
-            feedbackHTML += `<span class="text-success">✅ Correcto</span>`;
-        } else {
-            feedbackHTML += `<span class="text-danger">❌ Incorrecto</span>`;
-
-            // Mostrar lista de respuestas correctas
-            feedbackHTML += `<br><p>Respuesta(s) correcta(s):</p><ul>`;
-            item.correctas.forEach(i => {
-                feedbackHTML += `<li>${item.opciones[i]}</li>`;
-            });
-            feedbackHTML += `</ul>`;
-        }
 
         feedbackHTML += `</div><hr>`;
     });
