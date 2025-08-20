@@ -4438,6 +4438,299 @@
       "Cuenta de mayor de ajuste para moneda extranjera"
     ],
     "respuestas_correctas": [3]
-  } 
+  },
+  {
+    "pregunta": "¿Cuáles de las siguientes afirmaciones se aplican a los tipos especiales de partidas anotadas del libro mayor? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Los elementos anotados se contabilizan en una cuenta de conciliación alternativa",
+      "No es posible crear indicadores de contabilidad general especiales propios de este tipo",
+      "No se realiza ninguna comprobación de saldo cero en el sistema",
+      "La cuenta para la entrada de compensación se selecciona automáticamente",
+      "No se realizan contabilizaciones en cuentas de compensación"
+    ],
+    "respuestas_correctas": [0, 2, 4]
+  },
+  {
+    "pregunta": "Desea editar una propuesta de reclamación. ¿Qué acciones puede realizar para hacerlo? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Reducir el nivel de cobro de un artículo",
+      "Bloquear una línea de artículo",
+      "Cambiar un documento",
+      "Bloquear una cuenta",
+      "Cambiar los datos de cobro de una cuenta"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "Los anticipos recibidos reducen el total de ¿cuál de las siguientes entidades? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Cuentas por cobrar",
+      "Cuentas por pagar",
+      "Saldo bancario",
+      "Inventario"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Qué se puede controlar con el grupo de tolerancia? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Importe máximo del impuesto",
+      "Importe máximo por documento",
+      "Importe máximo por partida abierta",
+      "Diferencias de pago máximas permitidas",
+      "Desviación máxima del tipo de cambio"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Qué tipos de moneda de origen se pueden asignar al configurar el tipo de moneda 40 en la sociedad en el libro mayor 0L? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Moneda del documento",
+      "Moneda del código de la empresa",
+      "Moneda del área de control",
+      "Moneda del grupo"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "Su código de empresa está asignado a dos libros mayores estándar y uno de extensión. Registra una factura con una partida de gasto con un IVA del 10 % (ventas). ¿Cuántas partidas se contabilizan en la vista de entrada de documentos (tabla BSEG)? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Qué elementos NO se eliminan con el programa de compensación automática? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Elementos anotados",
+      "Artículos con impuestos sobre ventas y uso",
+      "Artículos con impuesto al valor añadido",
+      "Artículos con retención de impuestos",
+      "Publicaciones estadísticas"
+    ],
+    "respuestas_correctas": [0, 3, 4]
+  },
+  {
+    "pregunta": "¿Qué objetos pueden definir la longitud máxima de una cuenta contable? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Plan de cuentas",
+      "Tipo de cuenta",
+      "Grupo de estado de campo",
+      "Grupo de cuentas"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué parámetro indica que una partida solo se puede reclamar con restricciones? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Motivo del bloqueo de Dunning",
+      "Clave de cobro",
+      "Agrupación de Dunning",
+      "Área de Dunning"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Cuáles son las características del motor de acumulación en SAP S/4HANA? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "NO son posibles contabilizaciones complejas con más de dos líneas de artículo",
+      "La reversión de FI NO es compatible",
+      "Se admite la variante del año fiscal del libro mayor",
+      "Se admiten todas las monedas del libro mayor"
+    ],
+    "respuestas_correctas": [2, 3]
+  },
+  {
+    "pregunta": "¿Por qué se podrían definir opciones para asignar manualmente claves de partida para la versión del estado financiero? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Para poder introducir un texto explicativo para la clave del artículo",
+      "Para poder definir si desea resumir a nivel de artículo",
+      "Para poder asignar la misma clave a dos objetos múltiples",
+      "Poder asignar áreas funcionales a los artículos"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿En qué etapa del proceso de ventas se crean documentos para la gestión de materiales y la contabilidad financiera? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Envío - salida de mercancías",
+      "Facturación",
+      "Creación de órdenes de venta",
+      "Envío - creación de entrega"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Qué objeto se utiliza para apoyar directamente la preparación para la consolidación? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Segmentos/Centros de beneficios",
+      "Libros mayores/Grupos de libros mayores",
+      "Empresa/Socio comercial",
+      "Áreas funcionales"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuáles son las configuraciones clave para la división de documentos en SAP S/4HANA? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Variante de estado de campo",
+      "Tipo de documento",
+      "Rango de números de documento",
+      "Variante de transacción comercial"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Cómo se identifica un activo como activo en construcción? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "El activo pertenece a una clase de activo específica",
+      "La fecha de capitalización del activo está vacía",
+      "El activo no está asignado al área de depreciación",
+      "La fecha de inicio de la depreciación ordinaria está vacía"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Debe ingresar una tasa de porcentaje en los términos de pago para calcular _____ (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Importe del débito",
+      "Descuento en facturas",
+      "Monto del crédito",
+      "Descuento por pronto pago"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes objetos originales de Contabilidad de Gestión se pueden asignar al registro maestro de activos? (3 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Centro de costos",
+      "Elemento de coste",
+      "Tipo de actividad",
+      "Orden"
+    ],
+    "respuestas_correctas": [0, 2, 3]
+  },
+  {
+    "pregunta": "¿Qué fecha define el periodo en el que se puede publicar un documento? Elija la respuesta correcta. (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Fecha del documento",
+      "Fecha de publicación",
+      "Fecha de valoración",
+      "Fecha de entrada"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "En su sistema SAP S/4HANA, desea archivar las cuentas de mayor que no utiliza la empresa en ninguna sociedad. ¿Cuáles son los requisitos para archivar todos los datos de una cuenta de mayor? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La cuenta no se utiliza en ninguna determinación de cuenta automática",
+      "No hay cifras de transacciones para la cuenta",
+      "Establezca la bandera de eliminación en los datos del plan de cuentas de la cuenta de mayor",
+      "Establezca el indicador de eliminación en los datos del código de empresa de la cuenta de mayor",
+      "Las cifras de transacciones son más antiguas que una cantidad personalizable de años"
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre el enfoque contable y el enfoque contable para la valoración paralela en la contabilidad de activos? Seleccione la respuesta correcta. (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "En el enfoque de libro mayor, se mantienen áreas de depreciación adicionales para registrar la valoración delta de cada principio contable, a diferencia del enfoque de cuentas",
+      "En el enfoque contable, se asigna un conjunto de cuentas completamente separado para cada principio contable, a diferencia del enfoque contable",
+      "En el enfoque de cuentas, se define una cuenta de compensación técnica para adquisiciones de activos integrados, a diferencia del enfoque de libro mayor",
+      "En el enfoque de libro mayor, se asigna un grupo de libro mayor a cada área de depreciación, a diferencia del enfoque de cuentas"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes son tipos de correspondencia estándar? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Propuesta de pago",
+      "Aviso de pago",
+      "Estado de cuenta",
+      "Lista de elementos abiertos",
+      "Diário de documentos"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones describe correctamente un elemento destacado? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Tiene una entrada de compensación estadística automática",
+      "Se puede utilizar para recordar al usuario los pagos pendientes",
+      "Actualiza el libro auxiliar y el libro mayor",
+      "Se podrá acceder mediante el programa de pago"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Qué proceso se automatiza con la acumulación de órdenes de compra, en comparación con la acumulación manual con el motor de acumulación? Elija la respuesta correcta. (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Crear objeto de acumulación",
+      "Crear publicación de apertura",
+      "Iniciar ejecución de acumulación",
+      "Desglose del importe acumulado"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿En qué niveles se puede definir la cuenta de compensación técnica para la Adquisición Integrada de Activos en el Customizing? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Determinación de cuenta",
+      "Plan de Cuentas",
+      "Área de depreciación",
+      "Clase de activo"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Qué escenarios empresariales se pueden gestionar con contabilizaciones de devengo y diferimiento? Seleccione la respuesta correcta. (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Pago único para reparar los daños causados por las inundaciones",
+      "Suscripción mensual a un periódico financiero",
+      "Pagos mensuales de alquiler de un edificio de oficinas",
+      "Pago único por un año de servicio de almacenamiento en la nube"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Qué tipos de cuenta se pueden usar para clasificar las cuentas de contabilidad general en SAP S/4HANA? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Grupo de estado de campo",
+      "Gastos o ingresos no operativos",
+      "Balance",
+      "Cuentas de conciliación",
+      "Costos secundarios"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  }  
 ]
   
