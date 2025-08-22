@@ -1717,12 +1717,6 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "En tu sistema SAP S/4HANA reportas valores financieros para tres principios contables separados. Contabilizas una adquisición para un activo que se capitaliza en un solo principio contable. Si usas la aplicación para contabilizaciones integradas de adquisiciones de activos, ¿cuántos documentos contabilizará el sistema?",
-    "tipo": "unica",
-    "opciones": ["2", "4", "3", "1"],
-    "respuestas_correctas": [0]
-  },
-  {
     "pregunta": "¿En qué niveles puedes mantener controles de estado de campo para socios de negocio (BP)? (2 respuestas correctas)",
     "tipo": "multiple",
     "opciones": ["Categoría de BP", "Código de empresa", "Tipo de BP", "Cliente", "Rol de BP"],
@@ -4731,6 +4725,206 @@
       "Costos secundarios"
     ],
     "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "En la configuración del método de pago para la empresa, ¿qué opciones ofrece para optimizar los pagos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Optimización por descuento",
+      "Optimización por grupo bancario",
+      "Optimización por fecha de vencimiento",
+      "Optimización por código postal"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes parámetros se pueden modificar en función del tiempo? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Vida útil (año o periodo)",
+      "Porción de depreciación variable",
+      "Fecha de inicio de la depreciación",
+      "Clave de depreciación"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "¿Cuántos periodos especiales/de valoración se pueden abrir simultáneamente como máximo? Seleccione la respuesta correcta.",
+    "tipo": "unica",
+    "opciones": [
+      "1",
+      "4",
+      "16",
+      "2"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Qué fechas se pueden usar para calcular los impuestos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Fecha del documento",
+      "Fecha de entrada",
+      "Fecha de vencimiento",
+      "Fecha de publicación"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes elementos organizativos pueden ser compartidos por varias sociedades? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Planta",
+      "Segmento",
+      "Centro de beneficios",
+      "Organización de ventas",
+      "Área de negocios"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "¿Qué KPI puedes encontrar en la página de resumen de cuentas por pagar? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Ventas diarias pendientes",
+      "Índice de efectividad de la cobranza",
+      "Utilización del descuento por pronto pago",
+      "Análisis del envejecimiento"
+    ],
+    "respuestas_correctas": [2, 3]
+  },
+  {
+    "pregunta": "¿Qué se puede seleccionar manualmente para copiar al copiar un código de empresa? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Reglas de división de documentos",
+      "Moneda del código de la empresa",
+      "Datos de la cuenta del libro mayor",
+      "Perfiles y roles de usuario",
+      "Asignación de área de control"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes son receptores de liquidación válidos al liquidar un activo en construcción por partida? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Activo fijo",
+      "Área funcional",
+      "Centro de beneficios",
+      "Centro de costos"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué modelo de datos se utiliza para SAP S/4HANA? Seleccione la respuesta correcta.",
+    "tipo": "unica",
+    "opciones": [
+      "El procesamiento transaccional en línea (OLTP) y el procesamiento analítico en línea (OLAP), ambos ejecutándose en un solo sistema.",
+      "Procesamiento transaccional en línea (OLTP) para implementaciones locales y procesamiento analítico en línea (OLAP) para implementaciones en la nube.",
+      "Procesamiento analítico en línea (OLAP) que se basa en tablas e índices agregados.",
+      "El procesamiento transaccional en línea (OLTP) y el procesamiento analítico en línea (OLAP) utilizan datos de tablas separadas."
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Has creado por error a tu socio comercial con la categoría incorrecta. Has guardado los datos, pero no has publicado nada. ¿Qué puedes hacer para corregirlo? Selecciona la respuesta correcta.",
+    "tipo": "unica",
+    "opciones": [
+      "Elimine la asignación del código de empresa para el socio comercial, corrija la categoría y reasigne el código de empresa.",
+      "Cambie la configuración directamente en el registro maestro del socio comercial",
+      "Cree un nuevo socio comercial utilizando la categoría correcta",
+      "Comuníquese con el administrador del sistema para cambiar la entrada de la tabla en el backend."
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una diferencia entre el envejecimiento y el archivado de datos? Elija la respuesta correcta.",
+    "tipo": "unica",
+    "opciones": [
+      "El envejecimiento de datos le permite recuperar datos antiguos para su análisis.",
+      "El envejecimiento de datos libera espacio en la memoria.",
+      "El archivado de datos tiene capacidades de registro avanzadas.",
+      "El archivado de datos elimina datos de la base de datos."
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿En qué niveles se elige entre cita directa e indirecta? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Tipo de tipo de cambio",
+      "País",
+      "Cliente",
+      "Código de la empresa"
+    ],
+    "respuestas_correctas": [0, 2]
+  },
+  {
+    "pregunta": "Desea implementar la acumulación de órdenes de compra en SAP S/4HANA. ¿Cuáles de los siguientes casos de uso son relevantes? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Compra de servicios",
+      "Compra de activos fijos (utilizando el método de capitalización directa)",
+      "Compra de materias primas para inventario",
+      "Compra de materiales consumibles"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "Está contabilizando un pago recibido contra una factura. ¿Qué valores de documento controla el grupo de tolerancia del usuario? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "El importe total (suma de todos los artículos de línea) que se permite contabilizar",
+      "El importe del descuento por pronto pago (valor absoluto) permitido para una línea de artículo",
+      "El porcentaje de descuento por pronto pago permitido para el documento completo",
+      "El importe de pago permitido para cada artículo abierto del cliente"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes parámetros se controlan mediante el diseño de la pantalla? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Nivel de mantenimiento",
+      "Referencia",
+      "Rango de números",
+      "Selección de campo"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "¿En qué partidas de un estado financiero se pueden encontrar valores relacionados con las deducciones de ventas y los gastos de material? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Deducciones de ventas en partida de pérdidas / Gastos de material en partida de pérdidas",
+      "Deducciones de ventas en el rubro de activos / Gastos de materiales en el rubro de pérdidas",
+      "Deducciones de ventas en el rubro de pasivos / Gastos de material en el rubro de pérdidas",
+      "Deducciones de ventas en el rubro de pérdidas / Gastos de materiales en el rubro de pasivos"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Además de la moneda local y global en el diario universal, ¿cuántas monedas libremente definidas se pueden asignar por sociedad y libro mayor?",
+    "tipo": "unica",
+    "opciones": [
+      "5",
+      "10",
+      "8",
+      "3"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Qué actividades respalda el programa de reagrupación de cuentas por cobrar y por pagar? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Reagrupación y liquidación de partidas abiertas para empresas afiliadas en clientes y proveedores",
+      "Agrupación de cuentas por cobrar y pagar según su vida restante",
+      "Reagrupación de cuentas por cobrar y por pagar a ganancias o gastos devengados",
+      "Reagrupación de partidas abiertas en función de las cuentas de conciliación modificadas"
+    ],
+    "respuestas_correctas": [1, 3]
   }  
 ]
   
