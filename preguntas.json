@@ -3192,7 +3192,7 @@
     "opciones": [
       "Suite de integración de SAP",
       "Marco de interfaz de aplicaciones de SAP",
-      "Centro acelerador de negocios de SAP"
+      "Centro acelerador de negocios de SAP (Business Acelerator Hub)"
     ],
     "respuestas_correctas": [2]
   },
@@ -3564,17 +3564,6 @@
     "respuestas_correctas": [1]
   },
   {
-    "pregunta": "¿Cuál de los siguientes tipos de API recomienda SAP para lograr integraciones de núcleo limpias? (2 respuestas correctas)",
-    "tipo": "multiple",
-    "opciones": [
-      "OData",
-      "BRFC",
-      "IDoc",
-      "JABÓN"
-    ],
-    "respuestas_correctas": [0, 3]
-  },
-  {
     "pregunta": "¿En qué escenarios se contabiliza la cuenta de compensación técnica? (2 respuestas correctas)",
     "tipo": "multiple",
     "opciones": [
@@ -3937,7 +3926,7 @@
       "OData",
       "BRFC",
       "IDoc",
-      "JABÓN"
+      "SOAP"
     ],
     "respuestas_correctas": [0, 3]
   },
@@ -4925,6 +4914,621 @@
       "Reagrupación de partidas abiertas en función de las cuentas de conciliación modificadas"
     ],
     "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Cómo se puede diferenciar el proceso de estacionamiento de documentos a nivel de socio comercial? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Asignar diferentes grupos de liberación de flujo de trabajo",
+      "Asignar diferentes unidades organizativas responsables",
+      "Asignar diferentes grupos de socios comerciales",
+      "Asignar diferentes métodos de pago"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Cuál es la principal diferencia entre contabilizar un documento de devengo manual y otras transacciones manuales? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Campo de referencia",
+      "Tipo de transacción",
+      "Tipo de documento",
+      "Motivo de la reversión"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "EXAMEN ¿Qué componente de la Empresa Inteligente permite a los clientes descubrir e implementar soluciones verticales de SAP y sus socios? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Suite inteligente",
+      "Nube industrial",
+      "Gestión de la experiencia",
+      "Red de negocios"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿En qué paso de la configuración de SAP Financial Closing Cockpit se definen los parámetros para las variables de las variantes del programa? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Creación de lista de tareas",
+      "Creación de plantillas",
+      "Publicación de la lista de tareas",
+      "Definición de dependencia"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Para qué objetos de socio comercial se pueden definir estados de campo? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Tipo",
+      "Cliente",
+      "Role",
+      "Grupo de cuentas"
+    ],
+    "respuestas_correctas": [0, 2]
+  },
+  {
+    "pregunta": "¿En qué escenarios se contabiliza la cuenta de compensación técnica? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Contabilización de transferencias de activos entre clases de activos",
+      "Contabilización directa de adquisición de activos con una factura de proveedor (no vinculada a una orden de compra)",
+      "Entrada de mercancías valoradas en una orden de compra con un activo como asignación de cuenta",
+      "Liquidación de una orden de inversión a un activo en construcción"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "¿Qué información se actualiza en la factura al contabilizar un pago completo? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Número de documento de compensación",
+      "Código de motivo de borrado",
+      "Banco de compensación",
+      "Fecha de compensación"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué campos de un documento contable financiero influyen en el programa de pagos automáticos? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Asesoramiento de pago",
+      "Plazo de pago",
+      "Método de pago",
+      "Bloqueo de pago",
+      "Tipo de pago"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una actividad técnica de cierre de ejercicio en SAP S/4HANA? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Los ajustes del balance general deben contabilizarse",
+      "La valoración de moneda extranjera debe ser contabilizada",
+      "Las acumulaciones deben contabilizarse",
+      "Los saldos contables deben trasladarse al ejercicio siguiente"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿Para qué se utiliza la cuenta de contabilidad general de costos secundarios? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Para contabilizar las asignaciones de costos internos en la contabilidad de gestión",
+      "Publicar actividades que no sean de los negocios principales de la empresa",
+      "Para contabilizar estadísticamente las asignaciones de cuentas de control de costes para cuentas de activos fijos y materiales",
+      "Para contabilizar en dos asignaciones de cuentas de control de costes al mismo tiempo"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Cuando los artículos no se asignan automáticamente para la conciliación intercompañía (ICR), ¿cómo se realiza la conciliación? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Exportar informes de líneas de pedido para cada afiliado",
+      "Hacer coincidir elementos manualmente",
+      "Utilice una regla de asignación automatizada",
+      "Utilice algoritmos de aprendizaje automático de SAP Leonardo"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "Utiliza el método de valoración de menor valor con lógica delta activa. Su partida abierta se contabilizó por 200 unidades de moneda extranjera, que originalmente se tradujeron a 100 unidades de moneda local, y en el período anterior era de 98 unidades. En la anterior ejecución de valoración de moneda extranjera, el programa contabilizó un valor de -1 unidad monetaria. ¿Cuál era el valor en moneda local al momento de la valoración? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "97",
+      "101",
+      "99",
+      "98"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Además de usar el centro de beneficio, ¿qué opciones ofrece la Contabilidad General con división de documentos para asignar un segmento a la línea contable? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Definición de reglas de validación",
+      "Implementación de BAdI (FAGL_DERIVE_SEGMENT)",
+      "Asignación de cuenta estándar mediante constantes",
+      "Asignación de segmentos predeterminados a cuentas de mayor"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "¿En qué niveles se mantienen los datos de una cuenta de cliente integrada? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Segmento de rentabilidad",
+      "Área de ventas",
+      "Código de la empresa",
+      "Datos generales a nivel de cliente",
+      "Organización de compras"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "Su sistema SAP S/4HANA está integrado con el control. Usted gestiona la contabilidad del coste de ventas y reporta sus ganancias y pérdidas por centro de beneficio. Al contabilizar una factura de proveedor en una cuenta de costes principal, ¿qué campo es obligatorio según los procedimientos estándar? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Centro de costos",
+      "Segmento",
+      "Área funcional",
+      "Área de Negocios"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "Se registra una orden de compra. ¿Para qué gastos calcula el sistema las provisiones? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Compras de materia prima",
+      "Primas de seguros",
+      "Compras de activos fijos",
+      "Servicios de consultoría"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "EXAMEN ¿Qué aplicaciones de SAP Fiori se pueden ejecutar en cualquier base de datos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Realizar transferencias bancarias",
+      "Documento contable del cliente",
+      "Descripción general de cuentas por pagar",
+      "Administrar el plan de cuentas"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "EXAMEN Intenta asignar una cuenta alternativa a una cuenta de mayor, pero recibe un mensaje de error. ¿Cuál puede ser el motivo? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "No se ha creado la cuenta alternativa para el código de empresa",
+      "No ha asignado el plan de cuentas alternativo a su empresa",
+      "No ha asignado el plan de cuentas alternativo a su plan de cuentas operativo",
+      "La cuenta alternativa ya está asignada a otra cuenta de mayor para el código de empresa"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "Su cliente opera con 20 sociedades en 10 países y tres continentes. ¿Cuál es el número mínimo de clientes que debe configurar en el sistema SAP S/4HANA para representar este escenario? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "3",
+      "10",
+      "20",
+      "1"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "¿En qué niveles se puede activar la división de documentos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Nivel de libro mayor",
+      "Nivel de cliente",
+      "Nivel de código de empresa",
+      "Nivel de tipo de documento"
+    ],
+    "respuestas_correctas": [1, 2]
+  },
+  {
+    "pregunta": "¿Para qué tipo de activo se rellena siempre el texto principal? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Activos del grupo",
+      "Activos creados en masa",
+      "Subnúmeros de activos",
+      "Números de superactivos"
+    ],
+    "respuestas_correctas": [2]
+  }, 
+  {
+    "pregunta": "¿Cómo se crea un activo en construcción? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Automáticamente, al liquidar los costos de capital desde una orden interna",
+      "Manualmente (transacción ASO1), utilizando una clase de activo específica",
+      "Automáticamente, al crear una medida de inversión",
+      "Automáticamente, al liquidar los costos de capital de un elemento WBS"
+    ],
+    "respuestas_correctas": [2, 3]
+  },
+  {
+    "pregunta": "¿Cómo se configuran las áreas de amortización en SAP S/4HANA? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Asegúrese de que cada principio contable esté asignado a un área de depreciación.",
+      "Asignar un grupo contable a cada área de depreciación.",
+      "Asignar el área de depreciación 01 al libro mayor principal.",
+      "Asegúrese de que las áreas de depreciación siempre se registren en el libro mayor."
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Qué datos se pueden editar en la propuesta de pago? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Bloqueo de pago",
+      "Descuento por pronto pago",
+      "Tenedor",
+      "Importe de la factura",
+      "Banco de la casa"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "EXAMEN Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Qué se configura para permitir transacciones entre sociedades? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Indicador especial de libro mayor",
+      "Publicación de claves",
+      "Tipos de cuenta",
+      "Cuentas de compensación"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Cómo se pueden contabilizar las acumulaciones? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Utilice el programa de entradas recurrentes.",
+      "Ejecutar la ejecución de acumulación periódica.",
+      "Reclasificar las cuentas por cobrar y por pagar.",
+      "Publicar manualmente al final de un período, trimestre o año.",
+      "Ejecute el programa de depreciación."
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "Está configurando contabilizaciones relacionadas con activos de áreas de depreciación en Contabilidad de activos para un código de empresa que utiliza el enfoque de libro mayor para la valoración paralela. ¿Cuál de las siguientes configuraciones provocaría un error? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "El área publica APC inmediatamente, depreciación periódica",
+      "El área no publica",
+      "El área registra únicamente la depreciación",
+      "Publicaciones de área en tiempo real"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "EXAMEN Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Restablecer el documento de compensación",
+      "Restablecer y revertir el documento de compensación",
+      "Revertir el documento de compensación",
+      "Volver a publicar el documento de compensación"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿A cuántos activos está limitada una prueba en línea de depreciación? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Sin límite",
+      "100",
+      "1000",
+      "10.000"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Qué tipos de comprobaciones automatizadas están disponibles para la versión de los estados financieros? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Verificar cuentas asignadas a un solo lado",
+      "Comprobar si hay claves de artículos duplicadas",
+      "Consulte las notas de los estados financieros para ver si hay cuentas de partidas no anotadas",
+      "Comprobar si hay cuentas asignadas incorrectamente"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué se requiere para habilitar el proceso de aprobación de pagos en operaciones de efectivo? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Crear una regla para requerir firma",
+      "Definir métodos de firma para aprobaciones",
+      "Crear escenario sin aprobación",
+      "Defina un método de agrupación para la regla que definió.",
+      "Crear una regla para aprobaciones"
+    ],
+    "respuestas_correctas": [1, 3, 4]
+  },
+  {
+    "pregunta": "¿Qué tipos de acciones se adaptan mejor a una valoración de precio medio móvil (MAP)? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Tercero",
+      "Materias primas",
+      "Productos terminados",
+      "Trabajo en proceso (WIP)"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿De qué fechas se puede derivar la fecha base para las condiciones de pago de una factura entrante? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Fecha del documento",
+      "Fecha de entrada",
+      "Fecha de recepción de mercancías",
+      "Fecha de valor",
+      "Fecha de publicación"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "Su cliente utiliza el enfoque de contabilidad para la valoración múltiple. Durante la conversión a SAP S/4HANA, ¿qué configuraciones serán necesarias? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Convertir cuentas de valoraciones paralelas en cuentas de conciliación de activos.",
+      "Configurar las áreas de depreciación delta para que ya no se registren en el libro mayor.",
+      "Asignar principios contables a todas las áreas de depreciación real y derivada.",
+      "Defina el tipo de documento para los documentos específicos del principio contable."
+    ],
+    "respuestas_correctas": [0, 2]
+  },
+  {
+    "pregunta": "¿Qué parámetros se pueden especificar al crear un nuevo tipo de correspondencia? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Se requiere código de motivo",
+      "Se requiere cuenta",
+      "Número de campos de fecha obligatorios",
+      "Número de documento requerido",
+      "Se requiere código de empresa"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Qué controla el tipo de documento? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Si se permiten publicaciones negativas",
+      "¿Qué tipos de cuentas están permitidos para realizar publicaciones?",
+      "Si se permite la diferencia de tipo de cambio",
+      "¿Qué claves de publicación están permitidas para las publicaciones?"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "Se le ha solicitado que cree bancos propios como parte de la implementación. ¿Qué información necesita? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Código de la empresa",
+      "Cuenta del libro mayor",
+      "Método de pago",
+      "Datos maestros bancarios",
+      "Cuenta de proveedor"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "EXAMEN ¿Cuáles son las características del área de depreciación 01? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Debe definirse como un tipo de área de valoración de contabilidad de costes.",
+      "No puede asumir valores de otros",
+      "Siempre debe publicarse en tiempo real.",
+      "Debe estar vinculado al libro mayor principal 0L"
+    ],
+    "respuestas_correctas": [2, 3]
+  },
+  {
+    "pregunta": "EXAMEN Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "EXAMEN Está ingresando una nota de crédito en Contabilidad Financiera y se pregunta por qué se ignoran las condiciones de pago ingresadas. ¿Cuáles son los motivos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La fecha de vencimiento determinada en función de las condiciones de pago introducidas es cosa del pasado.",
+      "La nota de crédito se creó sin referencia a una factura.",
+      "El campo “Referencia” de la nota de crédito está en blanco.",
+      "La nota de crédito se ingresó en Contabilidad Financiera."
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "EXAMEN ¿Dónde puede ver los resultados de la herramienta de conciliación intercompañía? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "En la tabla Segmento de documento contable (BSEG)",
+      "En la tabla Diario de Consolidación (ACDOCU)",
+      "En una tabla específica de la aplicación (ICADOCM)",
+      "En la tabla del Diario Universal (ACDOCA)"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Qué defines como código tributario? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuentas relevantes para impuestos",
+      "Tipos de impuestos válidos",
+      "Importe fijo del impuesto",
+      "Tasas porcentuales de impuestos"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué regulan las condiciones de pago? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuenta por descuento en efectivo recibido",
+      "Determinación de la fecha de referencia",
+      "Tipo de cuenta permitido",
+      "Método de pago predeterminado",
+      "Configuración para el procedimiento de red"
+    ],
+    "respuestas_correctas": [1, 2, 3]
+  },
+  {
+    "pregunta": "¿Cómo se configuran las áreas de amortización en SAP S/4HANA? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Asignar un grupo contable a cada área de depreciación.",
+      "Asegúrese de que cada principio contable esté asignado a un área de depreciación.",
+      "Asignar el área de depreciación 01 al libro mayor principal.",
+      "Asegúrese de que las áreas de depreciación siempre se registren en el libro mayor."
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "EXAMEN La conciliación triple es el procedimiento estándar para contabilizar transacciones de compras en SAP S/4HANA. ¿Cómo funciona? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "El recibo de mercancías debe crearse con referencia a la orden de compra.",
+      "La orden de compra debe crearse con referencia a una solicitud de compra.",
+      "La factura debe crearse con referencia al recibo de mercancías.",
+      "Los tres pasos logísticos generan cada uno documentos financieros."
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Cuáles de los siguientes campos se pueden configurar como modificables en el encabezado de un documento? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Fecha del documento",
+      "Tipo de documento",
+      "Referencia del documento",
+      "Fecha de publicación"
+    ],
+    "respuestas_correctas": [0, 2, 3]
+  },
+  {
+    "pregunta": "EXAMEN ¿Cuándo es posible configurar el indicador de gestión de partidas abiertas en una cuenta contable? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuando una cuenta tiene saldo cero",
+      "Cuando una cuenta se configura como cuenta de conciliación",
+      "Cuando una cuenta se configura como un elemento de coste secundario",
+      "Cuando una cuenta se configura como cuenta de balance"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "¿Qué tipo de arquitectura utiliza SAP Business Workflow? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Tres niveles",
+      "Cuatro niveles",
+      "De un solo nivel",
+      "Dos niveles"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Qué elementos definen la integración de las adquisiciones de activos en el libro mayor? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Área de valoración",
+      "Área de depreciación",
+      "Claves de depreciación",
+      "Clase de activo"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "¿Qué tecnología aprovechó SAP para eliminar las tablas agregadas del sistema SAP S/4HANA, manteniendo la compatibilidad con numerosos programas heredados? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Índices",
+      "Tienda de columnas",
+      "Vistas de compatibilidad",
+      "Envejecimiento de datos"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "EXAMEN ¿Dónde se asigna el plan de cuentas del grupo?",
+    "tipo": "unica",
+    "opciones": [
+      "Código de la empresa",
+      "Plan de cuentas operativo",
+      "Compañía",
+      "Cuenta del libro mayor"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Tiene una factura por gastos de transporte de sus activos en construcción. Estos gastos pueden capitalizarse según las NIIF, pero no según los PCGA locales. ¿Cuál es la mejor manera de gestionar esto? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Registrar la factura en una cuenta de compensación y compensarla por grupo contable (capitalizar para las NIIF, gasto para los PCGA locales)",
+      "Contabilizar la factura en activos en construcción y, después de la liquidación, contabilizar un desguace parcial para el área de depreciación local",
+      "Registrar la factura dos veces: una vez como gasto en el grupo de contabilidad local y otra vez en NIIF",
+      "Contabilizar la factura en los activos en construcción y gestionar la liquidación por área de depreciación"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "Al crear un banco como socio comercial, ¿qué roles se le asignan por defecto? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cliente",
+      "General",
+      "Banco",
+      "Proveedor",
+      "Servicios financieros"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "Desea desarrollar una mejora sustancial para el proceso de compra a pago en su sistema SAP S/4HANA. ¿Dónde recomienda SAP implementar esta mejora? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "SAP Leonardo",
+      "SAP Fiori",
+      "Plataforma SAP Cloud",
+      "Núcleo de SAP S/4HANA"
+    ],
+    "respuestas_correctas": [2]
   }  
 ]
   
