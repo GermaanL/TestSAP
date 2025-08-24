@@ -31,10 +31,15 @@ function iniciarExamen() {
     respuestasCorrectas = 0;
     tiempoRestante = 3 * 60 * 60;
     tiempoInicioExamen = Date.now();
+    historialRespuestas = [];
+
 
     document.getElementById("inicio").classList.add("d-none");
     document.getElementById("final").classList.add("d-none");
     document.getElementById("examen").classList.remove("d-none");
+   
+
+
 
     mostrarPregunta();
     iniciarTemporizador();
@@ -81,6 +86,7 @@ function enviarRespuesta() {
     const seleccionados = Array.from(document.querySelectorAll('input[name="opcion"]:checked')).map(el => parseInt(el.value));
     const esCorrecto = JSON.stringify(seleccionados.sort()) === JSON.stringify(p.respuestas_correctas.sort());
 
+    preguntaActual++;
     if (esCorrecto) {
         respuestasCorrectas++;
         document.getElementById("feedback").innerHTML = '<span class="text-success">✅ Correcto</span>';
@@ -111,7 +117,6 @@ function enviarRespuesta() {
 
 
 function siguientePregunta() {
-    preguntaActual++;
     if (preguntaActual < seleccionadas.length) {
         mostrarPregunta();
     } else {
@@ -129,9 +134,11 @@ function finalizarExamen() {
     const minutos = Math.floor(tiempoTotalSeg / 60);
     const segundos = tiempoTotalSeg % 60;
 
-    const preguntasRespondidas = preguntaActual + 1;
-    const porcentaje = ((respuestasCorrectas / preguntasRespondidas) * 100).toFixed(2);
-
+    const preguntasRespondidas = preguntaActual ;
+    let porcentaje = 0;
+    if(preguntasRespondidas > 0 ) {
+        porcentaje = ((respuestasCorrectas / preguntasRespondidas) * 100).toFixed(2);
+    } 
     // Resumen global
     document.getElementById("resultadoFinal").innerHTML = `
         Tiempo total: ${minutos} min ${segundos} seg<br>
@@ -140,39 +147,43 @@ function finalizarExamen() {
     `;
 
     // Feedback detallado
-    let feedbackHTML = `<h4 class="mt-4">Detalle de Respuestas</h4>`;
-    historialRespuestas.forEach((item, idx) => {
-    feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
 
+    if(preguntaActual > 0) {
 
-    feedbackHTML += `<ul class="list-unstyled">`;
-    item.opciones.forEach((opcion, i) => {
-        let icono = "<span style='visibility:hidden'>⬜</span>";
-
-        if (item.seleccionados.includes(i)) {
-            if (item.correctas.includes(i)) {
-                icono = "✅"; // seleccionada y correcta
-            } else {
-                icono = "❌"; // seleccionada e incorrecta
-            }
-        } else if (item.correctas.includes(i)) {
-            icono = "☑️"; // correcta pero no seleccionada
-        } 
-
-        feedbackHTML += `<li>${icono} ${opcion}</li>`;
-    });
-    feedbackHTML += `</ul>`;
-
-
-    feedbackHTML += `</div><hr>`;
-    });
-
-    document.getElementById("feedbackFinal").innerHTML = feedbackHTML;
+        let feedbackHTML = `<h4 class="mt-4">Detalle de Respuestas</h4>`;
+        historialRespuestas.forEach((item, idx) => {
+            feedbackHTML += `<div class="mb-3"><strong>Pregunta ${idx + 1}:</strong> ${item.pregunta}<br><br>`;
+    
+    
+            feedbackHTML += `<ul class="list-unstyled">`;
+            item.opciones.forEach((opcion, i) => {
+                let icono = "<span style='visibility:hidden'>⬜</span>";
+    
+                if (item.seleccionados.includes(i)) {
+                    if (item.correctas.includes(i)) {
+                        icono = "✅"; // seleccionada y correcta
+                    } else {
+                        icono = "❌"; // seleccionada e incorrecta
+                    }
+                } else if (item.correctas.includes(i)) {
+                    icono = "☑️"; // correcta pero no seleccionada
+                }
+    
+                feedbackHTML += `<li>${icono} ${opcion}</li>`;
+            });
+            feedbackHTML += `</ul>`;
+    
+            feedbackHTML += `</div><hr>`;
+        });
+    
+        document.getElementById("feedbackFinal").innerHTML = feedbackHTML;
+    }
 }
 
 
 function reiniciarExamen() {
     historialRespuestas = []; // limpiar historial
+    document.getElementById("feedbackFinal").innerHTML = "";
     document.getElementById("final").classList.add("d-none");
     document.getElementById("inicio").classList.remove("d-none");
 }
