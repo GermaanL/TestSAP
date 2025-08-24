@@ -1,0 +1,102 @@
+[
+    {
+        "pregunta": "EXAMEN ¿Qué componente de la Empresa Inteligente permite a los clientes descubrir e implementar soluciones verticales de SAP y sus socios? (1 respuesta)",
+        "tipo": "unica",
+        "opciones": [
+          "Suite inteligente",
+          "Nube industrial",
+          "Gestión de la experiencia",
+          "Red de negocios"
+        ],
+        "respuestas_correctas": [1]
+      },
+      {
+        "pregunta": "EXAMEN Intenta asignar una cuenta alternativa a una cuenta de mayor, pero recibe un mensaje de error. ¿Cuál puede ser el motivo? (1 respuesta)",
+        "tipo": "unica",
+        "opciones": [
+          "No se ha creado la cuenta alternativa para el código de empresa",
+          "No ha asignado el plan de cuentas alternativo a su empresa",
+          "No ha asignado el plan de cuentas alternativo a su plan de cuentas operativo",
+          "La cuenta alternativa ya está asignada a otra cuenta de mayor para el código de empresa"
+        ],
+        "respuestas_correctas": [3]
+      },
+      {
+        "pregunta": "EXAMEN ¿Qué aplicaciones de SAP Fiori se pueden ejecutar en cualquier base de datos? (2 respuestas)",
+        "tipo": "multiple",
+        "opciones": [
+          "Realizar transferencias bancarias",
+          "Documento contable del cliente",
+          "Descripción general de cuentas por pagar",
+          "Administrar el plan de cuentas"
+        ],
+        "respuestas_correctas": [0, 3]
+      },
+      {
+        "pregunta": "EXAMEN Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+        "tipo": "unica",
+        "opciones": [
+          "Un documento por principio contable",
+          "Un documento por principio contable y un documento para todos los principios contables",
+          "Documentos separados para cada principio contable",
+          "Un documento para todos los principios contables"
+        ],
+        "respuestas_correctas": [1]
+      },
+      {
+        "pregunta": "EXAMEN Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas)",
+        "tipo": "multiple",
+        "opciones": [
+          "Restablecer el documento de compensación",
+          "Restablecer y revertir el documento de compensación",
+          "Revertir el documento de compensación",
+          "Volver a publicar el documento de compensación"
+        ],
+        "respuestas_correctas": [0, 1]
+      },
+      {
+        "pregunta": "EXAMEN ¿Cuáles son las características del área de depreciación 01? (2 respuestas)",
+        "tipo": "multiple",
+        "opciones": [
+          "Debe definirse como un tipo de área de valoración de contabilidad de costes.",
+          "No puede asumir valores de otros",
+          "Siempre debe publicarse en tiempo real.",
+          "Debe estar vinculado al libro mayor principal 0L"
+        ],
+        "respuestas_correctas": [2, 3]
+      },
+      {
+        "pregunta": "EXAMEN Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+        "tipo": "unica",
+        "opciones": [
+          "Un documento por principio contable",
+          "Un documento por principio contable y un documento para todos los principios contables",
+          "Documentos separados para cada principio contable",
+          "Un documento para todos los principios contables"
+        ],
+        "respuestas_correctas": [1]
+      },
+      {
+        "pregunta": "EXAMEN Está ingresando una nota de crédito en Contabilidad Financiera y se pregunta por qué se ignoran las condiciones de pago ingresadas. ¿Cuáles son los motivos? (2 respuestas)",
+        "tipo": "multiple",
+        "opciones": [
+          "La fecha de vencimiento determinada en función de las condiciones de pago introducidas es cosa del pasado.",
+          "La nota de crédito se creó sin referencia a una factura.",
+          "El campo “Referencia” de la nota de crédito está en blanco.",
+          "La nota de crédito se ingresó en Contabilidad Financiera."
+        ],
+        "respuestas_correctas": [1, 3]
+      },
+      {
+        "pregunta": "EXAMEN ¿Dónde puede ver los resultados de la herramienta de conciliación intercompañía? (1 respuesta)",
+        "tipo": "unica",
+        "opciones": [
+          "En la tabla Segmento de documento contable (BSEG)",
+          "En la tabla Diario de Consolidación (ACDOCU)",
+          "En una tabla específica de la aplicación (ICADOCM)",
+          "En la tabla del Diario Universal (ACDOCA)"
+        ],
+        "respuestas_correctas": [2]
+      }
+
+]

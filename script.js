@@ -6,16 +6,20 @@ let tiempoRestante = 3 * 60 * 60;
 let temporizadorInterval;
 let tiempoInicioExamen = 0;
 let historialRespuestas = [];
+let archivoPreguntas = "preguntas.json"; // valor por defecto
 
 // Cargar preguntas desde JSON
-async function cargarPreguntas() {
-    const res = await fetch('preguntas.json');
-    preguntas = await res.json();
+async function cargarPreguntas(archivo) {
+    try {
+        const res = await fetch(archivo);
+        preguntas = await res.json();
 
-    const total = preguntas.length;
-    console.log(total)
-
-    document.getElementById("infoPreguntas").textContent = `Total de preguntas: ${total}`
+        const total = preguntas.length;
+        console.log(total)
+    } catch (error) {
+        console.log("ERROR AL CARGAR LAS PREGUNTAS")
+    }
+    //document.getElementById("infoPreguntas").textContent = `Total de preguntas: ${total}`
 }
 
 function iniciarExamen() {
@@ -175,7 +179,19 @@ function reiniciarExamen() {
 
 
 // Eventos
-document.getElementById("btnIniciar").addEventListener("click", iniciarExamen);
+document.getElementById("btnPractica").addEventListener("click", async () => {
+    archivoPreguntas = "preguntas.json";
+    await cargarPreguntas(archivoPreguntas);
+    iniciarExamen();
+});
+
+document.getElementById("btnExamen").addEventListener("click", async () => {
+    archivoPreguntas = "preguntas_examen.json";
+    await cargarPreguntas(archivoPreguntas);
+    iniciarExamen();
+});
+
+
 document.getElementById("btnEnviar").addEventListener("click", enviarRespuesta);
 document.getElementById("btnSiguiente").addEventListener("click", siguientePregunta);
 document.getElementById("btnFinalizar").addEventListener("click", finalizarExamen);
