@@ -5529,6 +5529,74 @@
       "Núcleo de SAP S/4HANA"
     ],
     "respuestas_correctas": [2]
-  }
+  },
+  {
+    "pregunta": "CLEAN CORE - ¿Cuáles son algunos de los principios rectores recomendados por SAP para lograr operaciones centrales limpias? (3 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Establecer una estructura organizacional, base técnica y metodología de transformación para un núcleo limpio.",
+      "Integrar prácticas de núcleo limpio en la cadena de proceso de valor de extremo a extremo.",
+      "Establecer tareas y procedimientos regulares de limpieza.",
+      "Definir roles y responsabilidades como parte de una oficina de transformación de procesos.",
+      "Establecer la gestión de versiones."
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "CLEAN CORE - SAP BUSINESS NETWORK ayuda a los clientes a digitalizar los procesos de negocios interempresariales. ¿En que soluciones se basa la red? (3 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Gestión de capital humano",
+      "Fuerza laboral contingente",
+      "Viajar",
+      "Ventas",
+      "Obtención (compras)"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "DyA - Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Restablecer el documento de compensación",
+      "Restablecer y revertir el documento de compensación",
+      "Revertir el documento de compensación",
+      "Volver a publicar el documento de compensación"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "CLEAN CORE - ¿Cuál de los siguientes tipos de API recomienda SAP para lograr integraciones de núcleo limpias? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "OData",
+      "BRFC",
+      "IDoc",
+      "SOAP"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "INTEGRACION DE PROCESOS - ¿En qué etapa del proceso de ventas se crean documentos para la gestión de materiales y la contabilidad financiera? (1 respuesta).",
+    "tipo": "unica",
+    "opciones": [
+      "Envío - salida/retiro de mercancías",
+      "Facturación",
+      "Creación de órdenes de venta",
+      "Envío - creación de entrega"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Cómo definiría la conciliación y emparejamiento intercompañía (ICMR)? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Es una solución que se puede integrar con Group Reporting",
+      "Es una solución que requiere la implementación paralela de SAP Group Reporting Data Collection",
+      "Es una solución que facilita el cruce de transacciones entre sistemas en Central Finance",
+      "Es una solución integrada en el núcleo de SAP S/4HANA"
+    ],
+    "respuestas_correctas": [0, 3]
+  }  
 ]
   

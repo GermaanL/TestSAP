@@ -13,12 +13,12 @@ async function cargarPreguntas(archivo) {
     try {
         const res = await fetch(archivo);
         preguntas = await res.json();
-
-        const total = preguntas.length;
-        console.log(total)
     } catch (error) {
         console.log("ERROR AL CARGAR LAS PREGUNTAS")
+        console.log(error);
     }
+    //const total = preguntas.length;
+    //console.log(total)
     //document.getElementById("infoPreguntas").textContent = `Total de preguntas: ${total}`
 }
 
@@ -96,7 +96,7 @@ function enviarRespuesta() {
         `;
     }
 
-    // 🔹 Guardar historial
+    //Guardar historial
     historialRespuestas.push({
         pregunta: p.pregunta,
         opciones: p.opciones,
@@ -115,6 +115,7 @@ function siguientePregunta() {
     if (preguntaActual < seleccionadas.length) {
         mostrarPregunta();
     } else {
+        preguntaActual--;
         finalizarExamen();
     }
 }
