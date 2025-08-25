@@ -326,13 +326,180 @@
     "respuestas_correctas": [1, 2, 4]
   },
   {
-    "pregunta": "IMPLEMENTACION - ¿Qué diferencia al libro mayor principal de otros libros mayores estándar paralelos? Elija la respuesta correcta. (1 respuesta)",
+    "pregunta": "IMPLEMENTACION - ¿Qué diferencia al libro mayor principal de otros libros mayores estándar paralelos? (1 respuesta)",
     "tipo": "unica",
     "opciones": [
       "Se utiliza para realizar informes de segmentos.",
       "Se utiliza para representar la valoración del grupo.",
       "Se asigna a todos los códigos de empresa.",
       "No deriva valores de otros libros contables."
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "ACTIVOS FIJOS - ¿En qué niveles se puede definir la cuenta de compensación técnica para la Adquisición Integrada de Activos en el Customizing? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Determinación de cuenta",
+      "Plan de Cuentas",
+      "Área de depreciación",
+      "Clase de activo"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "DyA - Está ingresando una nota de crédito en Contabilidad Financiera y se pregunta por qué se ignoran las condiciones de pago ingresadas. ¿Cuáles son los motivos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La fecha de vencimiento determinada en función de las condiciones de pago introducidas es cosa del pasado.",
+      "La nota de crédito se creó sin referencia a una factura.",
+      "El campo 'Referencia' de la nota de crédito está en blanco.",
+      "La nota de crédito se ingresó en Contabilidad Financiera."
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "CIERRE - ¿Dónde puede ver los resultados de la herramienta de conciliación intercompañía? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "En la tabla Segmento de documento contable (BSEG)",
+      "En la tabla Diario de Consolidación (ACDOCU)",
+      "En una tabla específica de la aplicación (ICADOCM)",
+      "En la tabla del Diario Universal (ACDOCA)"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cuáles son algunas de las características de SAP Business Technology Platform? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Ayuda a los clientes a colaborar para construir cadenas de valor flexibles",
+      "Proporciona gestión y análisis de datos",
+      "Ayuda a los clientes a comprender las necesidades de sus partes interesadas",
+      "Apoya el desarrollo e integración de aplicaciones"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "IMPLEMENTACION - Observa que en la vista de entrada de un documento hay menos elementos que en la vista de contabilidad general ¿a qué se debe? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Se ha activado la división de documentos",
+      "Las cuentas del sub libro mayor se muestran en detalle en la vista del libro mayor",
+      "El impuesto sobre las ventas se registra en detalle en la vista del libro mayor",
+      "Se ha configurado un libro mayor de extensión"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "CONTABILIDAD PRINCIPAL - SAP S4HANA ha introducido el Diario Universal tabla ACDOCA que representa la única fuente de información veraz. ¿Qué partidas se registran en la tabla ACDOCA? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Publicaciones entre empresas",
+      "Costos presupuestados para un centro de costos",
+      "Costos secundarios resultantes de una evaluación",
+      "Importes de depreciación del plan",
+      "Costos primarios resultantes de una distribución"
+    ],
+    "respuestas_correctas": [0, 2, 4]
+  },
+  {
+    "pregunta": "Se define la cuenta de compensación técnica para la Adquisición Integrada de Activos en el Customizing. ¿Qué requisitos previos deben cumplirse? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La cuenta es una cuenta de balance.",
+      "La cuenta se define como una cuenta de conciliación de activos fijos.",
+      "La cuenta se define como partida abierta gestionada.",
+      "La cuenta se define en la determinación de cuenta para cada clase de activo."
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Qué parámetros se pueden configurar en el nivel de reclamación? (2 respuestas correctas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Días de mora",
+      "Fecha límite de pago (Plazo de pago)",
+      "Indicador de interés",
+      "Período de gracia de la partida individual"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "¿Cuál es el papel del método de valoración en la valoración de divisas? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Determinar el tipo de tipo de cambio",
+      "Definir el tipo de documento para la contabilización de valoración",
+      "Determinar las cuentas de mayor para la contabilización de la valoración",
+      "Defina la fecha de contabilización y reversión para la contabilización de valoración",
+      "Definir el procedimiento de valoración"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "CIERRE - ¿En qué nivel se mantiene la relación de conversión monetaria entre dos monedas?",
+    "tipo": "unica",
+    "opciones": [
+      "Tipo de cambio (exchange rate type)",
+      "Tipo de documento",
+      "Tipo de valoración",
+      "Tipo de moneda"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "CONTABILIDAD GENERAL - ¿En qué niveles puedo restringir contabilizaciones con la variante de periodo? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuentas Proveedor",
+      "Cuenta asociadas de Deudor",
+      "Cuentas de activo Fijo",
+      "Cuenta de libro mayor"
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "CIERRE - Se realiza la valoración en moneda extranjera de las partidas abiertas de las cuentas de proveedores. Las valoraciones se utilizarán únicamente para la declaración de fin de período y, posteriormente, deberán revertirse. ¿Qué cuenta utiliza el sistema para contabilizar las diferencias de valoración? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Cuenta de mayor de conciliación alternativa",
+      "Cuentas de proveedores individuales con indicador de libro mayor especial",
+      "Cuenta de mayor de conciliación de proveedores",
+      "Cuenta de mayor de ajuste para moneda extranjera"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "Intenta crear una cuenta de mayor, pero recibe un error porque el número de cuenta no está en el rango aceptado. ¿Qué objeto necesita personalizar para ampliar el rango de números?",
+    "tipo": "unica",
+    "opciones": [
+      "Grupo de tolerancia",
+      "Grupo de cuentas",
+      "Plan de cuentas",
+      "Tipo de cuenta"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "En el proceso de ventas estándar, ¿cuándo se genera la contabilización del COGS en Contabilidad financiera?",
+    "tipo": "unica",
+    "opciones": [
+      "Crear documento de facturación",
+      "Hacer IGP (Post Emisión de Mercancías)",
+      "Emitir factura al cliente",
+      "Crear documento de entrega"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "CIERRE - ¿Dónde se asigna el tipo de moneda?",
+    "tipo": "unica",
+    "opciones": [
+      "Compañía",
+      "Principio de contabilidad",
+      "Libro mayor",
+      "Área de valoración"
     ],
     "respuestas_correctas": [2]
   }  
