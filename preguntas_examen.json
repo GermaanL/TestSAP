@@ -1,313 +1,416 @@
 [
-    {
-        "pregunta": "EXAMEN - ¿Qué componente de la Empresa Inteligente permite a los clientes descubrir e implementar soluciones verticales de SAP y sus socios? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Suite inteligente",
-          "Nube industrial",
-          "Gestión de la experiencia",
-          "Red de negocios"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "EXAMEN - Intenta asignar una cuenta alternativa a una cuenta de mayor, pero recibe un mensaje de error. ¿Cuál puede ser el motivo? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "No se ha creado la cuenta alternativa para el código de empresa",
-          "No ha asignado el plan de cuentas alternativo a su empresa",
-          "No ha asignado el plan de cuentas alternativo a su plan de cuentas operativo",
-          "La cuenta alternativa ya está asignada a otra cuenta de mayor para el código de empresa"
-        ],
-        "respuestas_correctas": [3]
-      },
-      {
-        "pregunta": "EXAMEN - ¿Qué aplicaciones de SAP Fiori se pueden ejecutar en cualquier base de datos? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Realizar transferencias bancarias",
-          "Documento contable del cliente",
-          "Descripción general de cuentas por pagar",
-          "Administrar el plan de cuentas"
-        ],
-        "respuestas_correctas": [0, 3]
-      },
-      {
-        "pregunta": "EXAMEN - Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Un documento por principio contable",
-          "Un documento por principio contable y un documento para todos los principios contables",
-          "Documentos separados para cada principio contable",
-          "Un documento para todos los principios contables"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "EXAMEN - Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Restablecer el documento de compensación",
-          "Restablecer y revertir el documento de compensación",
-          "Revertir el documento de compensación",
-          "Volver a publicar el documento de compensación"
-        ],
-        "respuestas_correctas": [0, 1]
-      },
-      {
-        "pregunta": "EXAMEN - ¿Cuáles son las características del área de depreciación 01? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Debe definirse como un tipo de área de valoración de contabilidad de costes.",
-          "No puede asumir valores de otros",
-          "Siempre debe publicarse en tiempo real.",
-          "Debe estar vinculado al libro mayor principal 0L"
-        ],
-        "respuestas_correctas": [2, 3]
-      },
-      {
-        "pregunta": "EXAMEN - Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Un documento por principio contable",
-          "Un documento por principio contable y un documento para todos los principios contables",
-          "Documentos separados para cada principio contable",
-          "Un documento para todos los principios contables"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "EXAMEN - Está ingresando una nota de crédito en Contabilidad Financiera y se pregunta por qué se ignoran las condiciones de pago ingresadas. ¿Cuáles son los motivos? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "La fecha de vencimiento determinada en función de las condiciones de pago introducidas es cosa del pasado.",
-          "La nota de crédito se creó sin referencia a una factura.",
-          "El campo “Referencia” de la nota de crédito está en blanco.",
-          "La nota de crédito se ingresó en Contabilidad Financiera."
-        ],
-        "respuestas_correctas": [1, 3]
-      },
-      {
-        "pregunta": "EXAMEN - ¿Dónde puede ver los resultados de la herramienta de conciliación intercompañía? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "En la tabla Segmento de documento contable (BSEG)",
-          "En la tabla Diario de Consolidación (ACDOCU)",
-          "En una tabla específica de la aplicación (ICADOCM)",
-          "En la tabla del Diario Universal (ACDOCA)"
-        ],
-        "respuestas_correctas": [2]
-      },
-      {
-        "pregunta": "EXAMEN - La conciliación triple es el procedimiento estándar para contabilizar transacciones de compras en SAP S/4HANA. ¿Cómo funciona? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "El recibo de mercancías debe crearse con referencia a la orden de compra.",
-          "La orden de compra debe crearse con referencia a una solicitud de compra.",
-          "La factura debe crearse con referencia al recibo de mercancías.",
-          "Los tres pasos logísticos generan cada uno documentos financieros."
-        ],
-        "respuestas_correctas": [0]
-      },
-      {
-        "pregunta": "EXAMEN - ¿Cuándo es posible configurar el indicador de gestión de partidas abiertas en una cuenta contable? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Cuando una cuenta tiene saldo cero",
-          "Cuando una cuenta se configura como cuenta de conciliación",
-          "Cuando una cuenta se configura como un elemento de coste secundario",
-          "Cuando una cuenta se configura como cuenta de balance"
-        ],
-        "respuestas_correctas": [0, 3]
-      },
-      {
-        "pregunta": "EXAMEN - ¿Dónde se asigna el plan de cuentas del grupo?",
-        "tipo": "unica",
-        "opciones": [
-          "Código de la empresa",
-          "Plan de cuentas operativo",
-          "Compañía",
-          "Cuenta del libro mayor"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "CLEAN CORE - - ¿Cuáles son algunos de los principios rectores recomendados por SAP para lograr operaciones centrales limpias? (3 respuestas correctas).",
-        "tipo": "multiple",
-        "opciones": [
-          "Establecer una estructura organizacional, base técnica y metodología de transformación para un núcleo limpio.",
-          "Integrar prácticas de núcleo limpio en la cadena de proceso de valor de extremo a extremo.",
-          "Establecer tareas y procedimientos regulares de limpieza.",
-          "Definir roles y responsabilidades como parte de una oficina de transformación de procesos.",
-          "Establecer la gestión de versiones."
-        ],
-        "respuestas_correctas": [0, 1, 2]
-      },
-      {
-        "pregunta": "CLEAN CORE - - SAP BUSINESS NETWORK ayuda a los clientes a digitalizar los procesos de negocios interempresariales. ¿En que soluciones se basa la red? (3 respuestas correctas).",
-        "tipo": "multiple",
-        "opciones": [
-          "Gestión de capital humano",
-          "Fuerza laboral contingente",
-          "Viajar",
-          "Ventas",
-          "Obtención (compras)"
-        ],
-        "respuestas_correctas": [1, 2, 4]
-      },
-      {
-        "pregunta": "DyA - Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas correctas).",
-        "tipo": "multiple",
-        "opciones": [
-          "Restablecer el documento de compensación",
-          "Restablecer y revertir el documento de compensación",
-          "Revertir el documento de compensación",
-          "Volver a publicar el documento de compensación"
-        ],
-        "respuestas_correctas": [0, 1]
-      },
-      {
-        "pregunta": "CLEAN CORE - - ¿Cuál de los siguientes tipos de API recomienda SAP para lograr integraciones de núcleo limpias? (2 respuestas correctas).",
-        "tipo": "multiple",
-        "opciones": [
-          "OData",
-          "BRFC",
-          "IDoc",
-          "SOAP"
-        ],
-        "respuestas_correctas": [0, 3]
-      },
-      {
-        "pregunta": "INTEGRACION DE PROCESOS - ¿En qué etapa del proceso de ventas se crean documentos para la gestión de materiales y la contabilidad financiera? (1 respuesta).",
-        "tipo": "unica",
-        "opciones": [
-          "Envío – salida/retiro de mercancías",
-          "Facturación",
-          "Creación de órdenes de venta",
-          "Envío - creación de entrega"
-        ],
-        "respuestas_correctas": [0]
-      },
-      {
-        "pregunta": "¿Cómo definiría la conciliación y emparejamiento intercompañía (ICMR)? (2 respuestas correctas).",
-        "tipo": "multiple",
-        "opciones": [
-          "Es una solución que se puede integrar con Group Reporting",
-          "Es una solución que requiere la implementación paralela de SAP Group Reporting Data Collection",
-          "Es una solución que facilita el cruce de transacciones entre sistemas en Central Finance",
-          "Es una solución integrada en el núcleo de SAP S/4HANA"
-        ],
-        "respuestas_correctas": [0, 3]
-    },
-    {
-        "pregunta": "DyA - Ha llegado a un acuerdo con un cliente para garantizar un importe de 10 000 EUR. ¿Cuál es el resultado de registrar esta garantía en SAP S/4HANA? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Una partida estadística",
-          "Un elemento destacado",
-          "Dos elementos destacados",
-          "Dos partidas estadísticas"
-        ],
-        "respuestas_correctas": [3]
-      },
-      {
-        "pregunta": "DyA - Como actividad previa al cierre, los proveedores seleccionados deben confirmar sus saldos. ¿Qué procedimiento de confirmación utiliza cuando solo se espera una respuesta en caso de discrepancias? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Solicitud de saldo",
-          "Notificación de saldo",
-          "Confirmación de saldo",
-          "Estado de cuenta"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "CLEAN CORE - ¿Cuál de las siguientes opciones puedes usar para explorar las API publicadas? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Suite de integración de SAP",
-          "Marco de interfaz de aplicaciones de SAP",
-          "Centro acelerador de negocios de SAP"
-        ],
-        "respuestas_correctas": [2]
-      },
-      {
-        "pregunta": "Se quiere hacer reconciliación intersociedad, se tienen 10 sociedades en SAP S/4HANA en un mandante, y se tienen 5 que obtienen datos heredados. ¿Cuántas sociedades/compañías se tienen que dar de alta? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "1",
-          "5",
-          "10",
-          "15"
-        ],
-        "respuestas_correctas": [3]
-      },
-      {
-        "pregunta": "Hay cuatro pasos en el programa de gestión de dunning que se pueden realizar durante el procedimiento automático de dunning. Selecciona los 3 obligatorios (3 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Programar la ejecución de dunning.",
-          "Mantener los parámetros.",
-          "Iniciar la impresión de dunning.",
-          "Cambiar la propuesta de dunning.",
-          "Aprobar propuesta"
-        ],
-        "respuestas_correctas": [0, 1, 2]
-      },
-      {
-        "pregunta": "ACTIVO FIJO - ¿Qué se puede lograr con la transferencia de datos heredados en Contabilidad de Activos mediante la transacción AS91? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Contabilización de la cancelación resumida en el libro mayor",
-          "Publicación de valores de adquisición",
-          "Creación de datos maestros",
-          "Configuración del estado del código de la empresa para la transferencia de datos heredados"
-        ],
-        "respuestas_correctas": [1]
-      },
-      {
-        "pregunta": "ACTIVO FIJO - ¿Cuál de los siguientes objetos es solo una imputación estadística para contabilizaciones de costes en un activo? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Orden interna",
-          "Centro de costos",
-          "Centro de beneficios",
-          "Elemento WBS"
-        ],
-        "respuestas_correctas": [2]
-      },
-      {
-        "pregunta": "CIERRE - Está implementando el Panel de Cierre Financiero en su organización. ¿Cuáles son las ventajas de definir grupos de trabajo? (2 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "Permite la monitorización del estado de las tareas en listas de tareas cruzadas",
-          "Cubre múltiples empresas con tareas iguales o similares",
-          "Permite el mantenimiento de plantillas cruzadas",
-          "Permite la ejecución de tareas entre listas de tareas"
-        ],
-        "respuestas_correctas": [0, 1, 3]
-      },
-      {
-        "pregunta": "INTEGRACIÓN - En su sistema SAP S/4HANA, desea archivar las cuentas de mayor que no utiliza la empresa en ninguna sociedad. ¿Cuáles son los requisitos para archivar todos los datos de una cuenta de mayor? (3 respuestas)",
-        "tipo": "multiple",
-        "opciones": [
-          "La cuenta no se utiliza en ninguna determinación de cuenta automática.",
-          "No hay cifras de transacciones para la cuenta.",
-          "Establezca la bandera de eliminación en los datos del plan de cuentas de la cuenta de mayor.",
-          "Establezca el indicador de eliminación en los datos del código de empresa de la cuenta de mayor.",
-          "Las cifras de transacciones son más antiguas que una cantidad personalizable de años"
-        ],
-        "respuestas_correctas": [0, 1, 2]
-      },
-      {
-        "pregunta": "DyP - En el proceso de ventas estándar, ¿cuándo se genera la contabilización del coste de los bienes vendidos en Contabilidad Financiera? (1 respuesta)",
-        "tipo": "unica",
-        "opciones": [
-          "Crear documento de facturación",
-          "Hacer IGP (Post Emisión de Mercancías)",
-          "Emitir factura al cliente",
-          "Crear documento de entrega"
-        ],
-        "respuestas_correctas": [1]
-      }
+  {
+    "pregunta": "EXAMEN - ¿Qué componente de la Empresa Inteligente permite a los clientes descubrir e implementar soluciones verticales de SAP y sus socios? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Suite inteligente",
+      "Nube industrial",
+      "Gestión de la experiencia",
+      "Red de negocios"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "EXAMEN - Intenta asignar una cuenta alternativa a una cuenta de mayor, pero recibe un mensaje de error. ¿Cuál puede ser el motivo? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "No se ha creado la cuenta alternativa para el código de empresa",
+      "No ha asignado el plan de cuentas alternativo a su empresa",
+      "No ha asignado el plan de cuentas alternativo a su plan de cuentas operativo",
+      "La cuenta alternativa ya está asignada a otra cuenta de mayor para el código de empresa"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "EXAMEN - ¿Qué aplicaciones de SAP Fiori se pueden ejecutar en cualquier base de datos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Realizar transferencias bancarias",
+      "Documento contable del cliente",
+      "Descripción general de cuentas por pagar",
+      "Administrar el plan de cuentas"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "EXAMEN - Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "EXAMEN - Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Restablecer el documento de compensación",
+      "Restablecer y revertir el documento de compensación",
+      "Revertir el documento de compensación",
+      "Volver a publicar el documento de compensación"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "EXAMEN - ¿Cuáles son las características del área de depreciación 01? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Debe definirse como un tipo de área de valoración de contabilidad de costes.",
+      "No puede asumir valores de otros",
+      "Siempre debe publicarse en tiempo real.",
+      "Debe estar vinculado al libro mayor principal 0L"
+    ],
+    "respuestas_correctas": [2, 3]
+  },
+  {
+    "pregunta": "EXAMEN - Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "EXAMEN - Está ingresando una nota de crédito en Contabilidad Financiera y se pregunta por qué se ignoran las condiciones de pago ingresadas. ¿Cuáles son los motivos? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La fecha de vencimiento determinada en función de las condiciones de pago introducidas es cosa del pasado.",
+      "La nota de crédito se creó sin referencia a una factura.",
+      "El campo “Referencia” de la nota de crédito está en blanco.",
+      "La nota de crédito se ingresó en Contabilidad Financiera."
+    ],
+    "respuestas_correctas": [1, 3]
+  },
+  {
+    "pregunta": "EXAMEN - ¿Dónde puede ver los resultados de la herramienta de conciliación intercompañía? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "En la tabla Segmento de documento contable (BSEG)",
+      "En la tabla Diario de Consolidación (ACDOCU)",
+      "En una tabla específica de la aplicación (ICADOCM)",
+      "En la tabla del Diario Universal (ACDOCA)"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "EXAMEN - La conciliación triple es el procedimiento estándar para contabilizar transacciones de compras en SAP S/4HANA. ¿Cómo funciona? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "El recibo de mercancías debe crearse con referencia a la orden de compra.",
+      "La orden de compra debe crearse con referencia a una solicitud de compra.",
+      "La factura debe crearse con referencia al recibo de mercancías.",
+      "Los tres pasos logísticos generan cada uno documentos financieros."
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "EXAMEN - ¿Cuándo es posible configurar el indicador de gestión de partidas abiertas en una cuenta contable? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Cuando una cuenta tiene saldo cero",
+      "Cuando una cuenta se configura como cuenta de conciliación",
+      "Cuando una cuenta se configura como un elemento de coste secundario",
+      "Cuando una cuenta se configura como cuenta de balance"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "EXAMEN - ¿Dónde se asigna el plan de cuentas del grupo?",
+    "tipo": "unica",
+    "opciones": [
+      "Código de la empresa",
+      "Plan de cuentas operativo",
+      "Compañía",
+      "Cuenta del libro mayor"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "CLEAN CORE - - ¿Cuáles son algunos de los principios rectores recomendados por SAP para lograr operaciones centrales limpias? (3 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Establecer una estructura organizacional, base técnica y metodología de transformación para un núcleo limpio.",
+      "Integrar prácticas de núcleo limpio en la cadena de proceso de valor de extremo a extremo.",
+      "Establecer tareas y procedimientos regulares de limpieza.",
+      "Definir roles y responsabilidades como parte de una oficina de transformación de procesos.",
+      "Establecer la gestión de versiones."
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "CLEAN CORE - - SAP BUSINESS NETWORK ayuda a los clientes a digitalizar los procesos de negocios interempresariales. ¿En que soluciones se basa la red? (3 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Gestión de capital humano",
+      "Fuerza laboral contingente",
+      "Viajar",
+      "Ventas",
+      "Obtención (compras)"
+    ],
+    "respuestas_correctas": [1, 2, 4]
+  },
+  {
+    "pregunta": "DyA - Ha cancelado una partida pendiente de un cliente, pero desea deshacer esta acción. ¿Qué opciones tiene? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Restablecer el documento de compensación",
+      "Restablecer y revertir el documento de compensación",
+      "Revertir el documento de compensación",
+      "Volver a publicar el documento de compensación"
+    ],
+    "respuestas_correctas": [0, 1]
+  },
+  {
+    "pregunta": "CLEAN CORE - - ¿Cuál de los siguientes tipos de API recomienda SAP para lograr integraciones de núcleo limpias? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "OData",
+      "BRFC",
+      "IDoc",
+      "SOAP"
+    ],
+    "respuestas_correctas": [0, 3]
+  },
+  {
+    "pregunta": "INTEGRACION DE PROCESOS - ¿En qué etapa del proceso de ventas se crean documentos para la gestión de materiales y la contabilidad financiera? (1 respuesta).",
+    "tipo": "unica",
+    "opciones": [
+      "Envío – salida/retiro de mercancías",
+      "Facturación",
+      "Creación de órdenes de venta",
+      "Envío - creación de entrega"
+    ],
+    "respuestas_correctas": [0]
+  },
+  {
+    "pregunta": "¿Cómo definiría la conciliación y emparejamiento intercompañía (ICMR)? (2 respuestas correctas).",
+    "tipo": "multiple",
+    "opciones": [
+      "Es una solución que se puede integrar con Group Reporting",
+      "Es una solución que requiere la implementación paralela de SAP Group Reporting Data Collection",
+      "Es una solución que facilita el cruce de transacciones entre sistemas en Central Finance",
+      "Es una solución integrada en el núcleo de SAP S/4HANA"
+    ],
+    "respuestas_correctas": [0, 3]
+},
+{
+    "pregunta": "DyA - Ha llegado a un acuerdo con un cliente para garantizar un importe de 10 000 EUR. ¿Cuál es el resultado de registrar esta garantía en SAP S/4HANA? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Una partida estadística",
+      "Un elemento destacado",
+      "Dos elementos destacados",
+      "Dos partidas estadísticas"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "DyA - Como actividad previa al cierre, los proveedores seleccionados deben confirmar sus saldos. ¿Qué procedimiento de confirmación utiliza cuando solo se espera una respuesta en caso de discrepancias? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Solicitud de saldo",
+      "Notificación de saldo",
+      "Confirmación de saldo",
+      "Estado de cuenta"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "CLEAN CORE - ¿Cuál de las siguientes opciones puedes usar para explorar las API publicadas? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Suite de integración de SAP",
+      "Marco de interfaz de aplicaciones de SAP",
+      "Centro acelerador de negocios de SAP"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "Se quiere hacer reconciliación intersociedad, se tienen 10 sociedades en SAP S/4HANA en un mandante, y se tienen 5 que obtienen datos heredados. ¿Cuántas sociedades/compañías se tienen que dar de alta? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "1",
+      "5",
+      "10",
+      "15"
+    ],
+    "respuestas_correctas": [3]
+  },
+  {
+    "pregunta": "Hay cuatro pasos en el programa de gestión de dunning que se pueden realizar durante el procedimiento automático de dunning. Selecciona los 3 obligatorios (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Programar la ejecución de dunning.",
+      "Mantener los parámetros.",
+      "Iniciar la impresión de dunning.",
+      "Cambiar la propuesta de dunning.",
+      "Aprobar propuesta"
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "ACTIVO FIJO - ¿Qué se puede lograr con la transferencia de datos heredados en Contabilidad de Activos mediante la transacción AS91? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Contabilización de la cancelación resumida en el libro mayor",
+      "Publicación de valores de adquisición",
+      "Creación de datos maestros",
+      "Configuración del estado del código de la empresa para la transferencia de datos heredados"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "ACTIVO FIJO - ¿Cuál de los siguientes objetos es solo una imputación estadística para contabilizaciones de costes en un activo? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Orden interna",
+      "Centro de costos",
+      "Centro de beneficios",
+      "Elemento WBS"
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "CIERRE - Está implementando el Panel de Cierre Financiero en su organización. ¿Cuáles son las ventajas de definir grupos de trabajo? (2 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "Permite la monitorización del estado de las tareas en listas de tareas cruzadas",
+      "Cubre múltiples empresas con tareas iguales o similares",
+      "Permite el mantenimiento de plantillas cruzadas",
+      "Permite la ejecución de tareas entre listas de tareas"
+    ],
+    "respuestas_correctas": [0, 1, 3]
+  },
+  {
+    "pregunta": "INTEGRACIÓN - En su sistema SAP S/4HANA, desea archivar las cuentas de mayor que no utiliza la empresa en ninguna sociedad. ¿Cuáles son los requisitos para archivar todos los datos de una cuenta de mayor? (3 respuestas)",
+    "tipo": "multiple",
+    "opciones": [
+      "La cuenta no se utiliza en ninguna determinación de cuenta automática.",
+      "No hay cifras de transacciones para la cuenta.",
+      "Establezca la bandera de eliminación en los datos del plan de cuentas de la cuenta de mayor.",
+      "Establezca el indicador de eliminación en los datos del código de empresa de la cuenta de mayor.",
+      "Las cifras de transacciones son más antiguas que una cantidad personalizable de años"
+    ],
+    "respuestas_correctas": [0, 1, 2]
+  },
+  {
+    "pregunta": "DyP - En el proceso de ventas estándar, ¿cuándo se genera la contabilización del coste de los bienes vendidos en Contabilidad Financiera? (1 respuesta)",
+    "tipo": "unica",
+    "opciones": [
+      "Crear documento de facturación",
+      "Hacer IGP (Post Emisión de Mercancías)",
+      "Emitir factura al cliente",
+      "Crear documento de entrega"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "¿Qué hace el programa de cierre de ejercicio en Contabilidad de Activos? Error al cerrar activos fijos. A que se puede deber? (1) -ACTIVO FIJO",
+    "tipo": "multiple",
+    "opciones": [
+      "Indica si alguno de los registros maestros de activos creados contiene errores o está incompleto.",
+      "Bloquea todas las contabilizaciones en Contabilidad de activos para los ejercicios cerrados.",
+      "Liquida todos los activos en construcción con valores y reglas de liquidación mantenidas.",
+      "Contabiliza toda la depredación restante y el interés imputado.",
+      "Se verifica si la depreciación se contabiliza completamente para el ejercicio fiscal."
+    ],
+    "respuestas_correctas": [0, 4]
+  },
+  {
+    "pregunta": "Que monedas se pueden definir en un ledger especifico -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "10 (DEFECTO)",
+      "00 (DEFECTO)",
+      "30",
+      "40",
+      "20"
+    ],
+    "respuestas_correctas": [2, 3, 4]
+  },
+  {
+    "pregunta": "¿Qué campos se mantienen en el plan de cuentas de una cuenta de mayor? (3 respuestas) -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "Texto corto",
+      "Grupo de cuentas",
+      "Número de cuenta alternativo",
+      "Grupo de estado de campo",
+      "Número de cuenta de grupo"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "¿Dónde se asigna el plan de cuentas del grupo? (1 respuesta) -IMPLEMENTACION",
+    "tipo": "unica",
+    "opciones": [
+      "Código de la empresa",
+      "Plan de cuentas operativo",
+      "Compañía",
+      "Cuenta del libro mayor"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Que fecha debe determinar el sistema al ingresar una factura pendiente de pago (1 respuesta) -DyA",
+    "tipo": "unica",
+    "opciones": [
+      "Fecha de referencia",
+      "Fecha de referencia (base)",
+      "Fecha del pedido",
+      "Fecha de pago"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Cuales de las siguientes unidades organizativas forman parte de la estructura empresarial de contabilidad financiera (3 respuestas) -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "Segmento",
+      "Empresa de explotación",
+      "Planta",
+      "Área de negocios (división)",
+      "Área funcional"
+    ],
+    "respuestas_correctas": [0, 3, 4]
+  },
+  {
+    "pregunta": "Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta) -ACTIVOS FIJOS",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Desea incluir varias sociedades en una sola ejecución de pago. ¿Cuáles son los requisitos para las sociedades? (1) -AyP",
+    "tipo": "unica",
+    "opciones": [
+      "Todos deben pertenecer a la misma empresa.",
+      "Deben tener la misma configuración para las transacciones de pago.",
+      "Deben estar ubicados en el mismo país.",
+      "Deben pertenecer a la misma zona de control."
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cómo se asignan las páginas a los usuarios en SAP Fiori Launchpad? (1 respuesta) -IMPLEMENTACION",
+    "tipo": "unica",
+    "opciones": [
+      "A través de secciones asignadas a roles de negocio que se asignan a los usuarios",
+      "Directamente a los roles comerciales que se asignan a los usuarios",
+      "A través de espacios asignados a roles de negocio que se asignan a los usuarios",
+      "A través de grupos asignados a roles de negocio que se asignan a los usuarios"
+    ],
+    "respuestas_correctas": [2]
+  }
 ]

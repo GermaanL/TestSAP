@@ -5597,6 +5597,109 @@
       "Es una solución integrada en el núcleo de SAP S/4HANA"
     ],
     "respuestas_correctas": [0, 3]
-  }  
+  },
+  {
+    "pregunta": "¿Qué hace el programa de cierre de ejercicio en Contabilidad de Activos? Error al cerrar activos fijos. A que se puede deber? (1) -ACTIVO FIJO",
+    "tipo": "multiple",
+    "opciones": [
+      "Indica si alguno de los registros maestros de activos creados contiene errores o está incompleto.",
+      "Bloquea todas las contabilizaciones en Contabilidad de activos para los ejercicios cerrados.",
+      "Liquida todos los activos en construcción con valores y reglas de liquidación mantenidas.",
+      "Contabiliza toda la depredación restante y el interés imputado.",
+      "Se verifica si la depreciación se contabiliza completamente para el ejercicio fiscal."
+    ],
+    "respuestas_correctas": [0, 4]
+  },
+  {
+    "pregunta": "Que monedas se pueden definir en un ledger especifico -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "10 (DEFECTO)",
+      "00 (DEFECTO)",
+      "30",
+      "40",
+      "20"
+    ],
+    "respuestas_correctas": [2, 3, 4]
+  },
+  {
+    "pregunta": "¿Qué campos se mantienen en el plan de cuentas de una cuenta de mayor? (3 respuestas) -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "Texto corto",
+      "Grupo de cuentas",
+      "Número de cuenta alternativo",
+      "Grupo de estado de campo",
+      "Número de cuenta de grupo"
+    ],
+    "respuestas_correctas": [0, 1, 4]
+  },
+  {
+    "pregunta": "¿Dónde se asigna el plan de cuentas del grupo? (1 respuesta) -IMPLEMENTACION",
+    "tipo": "unica",
+    "opciones": [
+      "Código de la empresa",
+      "Plan de cuentas operativo",
+      "Compañía",
+      "Cuenta del libro mayor"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Que fecha debe determinar el sistema al ingresar una factura pendiente de pago (1 respuesta) -DyA",
+    "tipo": "unica",
+    "opciones": [
+      "Fecha de referencia",
+      "Fecha de referencia (base)",
+      "Fecha del pedido",
+      "Fecha de pago"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Cuales de las siguientes unidades organizativas forman parte de la estructura empresarial de contabilidad financiera (3 respuestas) -IMPLEMENTACION",
+    "tipo": "multiple",
+    "opciones": [
+      "Segmento",
+      "Empresa de explotación",
+      "Planta",
+      "Área de negocios (división)",
+      "Área funcional"
+    ],
+    "respuestas_correctas": [0, 3, 4]
+  },
+  {
+    "pregunta": "Se contabiliza una factura de proveedor para la adquisición de activos sin referencia a una orden de compra. ¿Qué documentos contables se generan? (1 respuesta) -ACTIVOS FIJOS",
+    "tipo": "unica",
+    "opciones": [
+      "Un documento por principio contable",
+      "Un documento por principio contable y un documento para todos los principios contables",
+      "Documentos separados para cada principio contable",
+      "Un documento para todos los principios contables"
+    ],
+    "respuestas_correctas": [1]
+  },
+  {
+    "pregunta": "Desea incluir varias sociedades en una sola ejecución de pago. ¿Cuáles son los requisitos para las sociedades? (1) -AyP",
+    "tipo": "unica",
+    "opciones": [
+      "Todos deben pertenecer a la misma empresa.",
+      "Deben tener la misma configuración para las transacciones de pago.",
+      "Deben estar ubicados en el mismo país.",
+      "Deben pertenecer a la misma zona de control."
+    ],
+    "respuestas_correctas": [2]
+  },
+  {
+    "pregunta": "¿Cómo se asignan las páginas a los usuarios en SAP Fiori Launchpad? (1 respuesta) -IMPLEMENTACION",
+    "tipo": "unica",
+    "opciones": [
+      "A través de secciones asignadas a roles de negocio que se asignan a los usuarios",
+      "Directamente a los roles comerciales que se asignan a los usuarios",
+      "A través de espacios asignados a roles de negocio que se asignan a los usuarios",
+      "A través de grupos asignados a roles de negocio que se asignan a los usuarios"
+    ],
+    "respuestas_correctas": [2]
+  }
 ]
   
